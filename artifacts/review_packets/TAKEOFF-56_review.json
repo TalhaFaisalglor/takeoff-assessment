@@ -1,0 +1,23 @@
+{
+  "status": "needs_review",
+  "reviewer_actions": [
+    "Confirm scope and trade split against drawings/specs",
+    "Replace proxy quantities with measured quantities",
+    "Mark missing items and delete false positives"
+  ],
+  "proposed_corrections_file": "review_packets/TAKEOFF-56_review.json",
+  "line_items_to_review": [
+    {
+      "description": "Millwork and wood trim",
+      "predicted_quantity": 8,
+      "unit": "FT",
+      "confidence": 0.2
+    },
+    {
+      "description": "Doors and hardware",
+      "predicted_quantity": 1,
+      "unit": "EA",
+      "confidence": 0.2
+    }
+  ]
+}

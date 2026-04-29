@@ -1,0 +1,101 @@
+{
+  "project_id": "TAKEOFF-42",
+  "project_name": "Lake Placid Police Station",
+  "set_name": "challenge",
+  "trade_scope": "Painting",
+  "input_files_used": [
+    "data/challenge_projects/TAKEOFF-42 - Lake Placid Police Station/Project Files/00 PROJECT SPECIFICATIONS MANUAL Lake Placid Police Station 07-15-2025.pdf",
+    "data/challenge_projects/TAKEOFF-42 - Lake Placid Police Station/Project Files/PC-975 LAKE PLACID POLICE STATION DRAWINGS.pdf",
+    "data/challenge_projects/TAKEOFF-42 - Lake Placid Police Station/Project Files/_Geotech Report.pdf"
+  ],
+  "ai_run": {
+    "run_id": "takeoff-42-baseline-v1",
+    "detected_trade_scope": "Painting",
+    "tools_or_models_used": [
+      "Python 3.13 stdlib CLI",
+      "Custom XML parsers for XLSX/DOCX",
+      "Lightweight PDF text extractor (no OCR, no external model)"
+    ],
+    "assumptions": [
+      "Some line items are trade-template fallbacks because the lightweight parser could not recover enough measurable text."
+    ],
+    "warnings": [
+      "No project area was detected in AI-visible files."
+    ],
+    "input_summary": {
+      "text_corpus_length": 12002,
+      "files_seen": 3
+    }
+  },
+  "line_items": [
+    {
+      "item_number": null,
+      "description": "Wall paint system",
+      "quantity": 100,
+      "unit": "SF",
+      "confidence": 0.2,
+      "source_reference": "00 PROJECT SPECIFICATIONS MANUAL Lake Placid Police Station 07-15-2025.pdf, PC-975 LAKE PLACID POLICE STATION DRAWINGS.pdf, _Geotech Report.pdf",
+      "drawing_reference": null,
+      "section_reference": null,
+      "division": null,
+      "category": "painting",
+      "raw_quantity": null,
+      "wastage": null,
+      "quantity_with_wastage": null,
+      "notes": [
+        "Fallback line item because no reliable structured extraction was found."
+      ]
+    },
+    {
+      "item_number": null,
+      "description": "Ceiling paint system",
+      "quantity": 100,
+      "unit": "SF",
+      "confidence": 0.2,
+      "source_reference": "00 PROJECT SPECIFICATIONS MANUAL Lake Placid Police Station 07-15-2025.pdf, PC-975 LAKE PLACID POLICE STATION DRAWINGS.pdf, _Geotech Report.pdf",
+      "drawing_reference": null,
+      "section_reference": null,
+      "division": null,
+      "category": "painting",
+      "raw_quantity": null,
+      "wastage": null,
+      "quantity_with_wastage": null,
+      "notes": [
+        "Fallback line item because no reliable structured extraction was found."
+      ]
+    }
+  ],
+  "evaluation_when_gold_available": {
+    "matched_items": 0,
+    "missing_items": [],
+    "extra_items": [],
+    "quantity_differences": [],
+    "precision": 0.0,
+    "recall": 0.0,
+    "overall_notes": "No gold output available for challenge projects."
+  },
+  "human_review_stub": {
+    "status": "needs_review",
+    "reviewer_actions": [
+      "Confirm scope and trade split against drawings/specs",
+      "Replace proxy quantities with measured quantities",
+      "Mark missing items and delete false positives"
+    ],
+    "proposed_corrections_file": "review_packets/TAKEOFF-42_review.json",
+    "line_items_to_review": [
+      {
+        "description": "Wall paint system",
+        "predicted_quantity": 100,
+        "unit": "SF",
+        "confidence": 0.2
+      },
+      {
+        "description": "Ceiling paint system",
+        "predicted_quantity": 100,
+        "unit": "SF",
+        "confidence": 0.2
+      }
+    ]
+  },
+  "project_manifest_path": "manifests/TAKEOFF-42.json"
+}

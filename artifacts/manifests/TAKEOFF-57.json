@@ -1,0 +1,130 @@
+{
+  "set_name": "challenge",
+  "takeoff_id": "TAKEOFF-57",
+  "project_name": "TAKE 5 OIL CHANGE - COLLEGE STATION, TX",
+  "root_dirs": [
+    "data/challenge_projects/TAKEOFF-57 - TAKE 5 OIL CHANGE - COLLEGE STATION, TX"
+  ],
+  "metadata": {
+    "set": "challenge",
+    "takeoff_id": "TAKEOFF-57",
+    "project_name": "TAKE 5 OIL CHANGE - COLLEGE STATION, TX",
+    "client_services": "",
+    "input_file_count": "8",
+    "expected_output_visible": "no"
+  },
+  "warnings": [],
+  "input_files": [
+    {
+      "path": "data/challenge_projects/TAKEOFF-57 - TAKE 5 OIL CHANGE - COLLEGE STATION, TX/Project Files/25-0140_1644 GREENS PRAIRIE ROAD (ALTA)-Layout1.pdf",
+      "relative_path": "data/challenge_projects/TAKEOFF-57 - TAKE 5 OIL CHANGE - COLLEGE STATION, TX/Project Files/25-0140_1644 GREENS PRAIRIE ROAD (ALTA)-Layout1.pdf",
+      "role": "input",
+      "extension": "pdf",
+      "size_bytes": 1055126,
+      "source_bucket": "challenge",
+      "duplicate_group": null,
+      "notes": [
+        "No text extracted with lightweight parser"
+      ],
+      "extracted_text_preview": "",
+      "page_count": 1,
+      "nested_files": []
+    },
+    {
+      "path": "data/challenge_projects/TAKEOFF-57 - TAKE 5 OIL CHANGE - COLLEGE STATION, TX/Project Files/3. T5O COLLEGE STATION, TX SIR.pdf",
+      "relative_path": "data/challenge_projects/TAKEOFF-57 - TAKE 5 OIL CHANGE - COLLEGE STATION, TX/Project Files/3. T5O COLLEGE STATION, TX SIR.pdf",
+      "role": "input",
+      "extension": "pdf",
+      "size_bytes": 24628400,
+      "source_bucket": "challenge",
+      "duplicate_group": null,
+      "notes": [],
+      "extracted_text_preview": "DATE: 3/10/25\nSITE INVESTIGATION REPORT\nPROJECT NAME\nTAKE 5 OIL CH ANGE \u0096 COL LEGE STATIO N , TX\nPROJECT ADDR ESS\n1644 GREEN S PRA I R I E RD C O LLEGE STATI ON, TX 77845\nDevel opment Type:\nNew De velopmen t\nLease\nBuild ing Type:\nNew Freestan ding Oil Chan ge\nPrototype Versio n:\n3-bay pro t o t yp e with waiting roo m\nBuild ing Square Feet:\n1,682 SF\nPSP Scheme\n#25.10 60 Prelimin ary Si t e Pl an dated 02/05/25\nSite Area\n\u00b11.15 AC\nPlat Record ation\nCity of Colle ge Station, T X\nPropose d Easements\nUtili t y Easeme nts. Per the pre-d evelopme nt mee t i ng, t he re are severa l e asements that may effect de velopmen t\n# Employe e Parking Stalls\n8 Total\n# Cars in qu eue possibl e\n9 Cars\nSUMMAR Y OF REQUIRED SUBMITTALS A ND TI MEFRA MES:\nINCLUDE FIRST REVIEW , SECOND REVIEW TI MEFRA ME A ND IF AN Y REVIEWS HAVE AN INTAKE PERIOD\nDevel oper Revie w\nYes, 10 days\nCond itional Use Permi t\nSite Plan Re view\n21 days ea ch round, account for 3 (review ed admini st ra t i vely)\nEngin eering Re view\nInclude d in site plan revie w\nBuild ing Permit Revie w\n21 days ea ch round, account for 3\nFire Depa rt me nt R eview\nInclude d in the main buil ding permit review time .\nDOT Review\nN/A\nN/A\nEasemen t s: Are there ea sements/utility encroach ment with our site pl an? If yes, ple ase explain\nNorth cross access ea sement\nUtili t i es: at the prope rt y li ne or thru accessible ea sements?\nUtili t y ease ments i n place\nOther\n3 months- TLDR\nNRA (Non R esidential A r chitectural Revie w): 30 d ays e ach round\n30 days: ARC\nExpedi t e d Review Avai lable?\nTotal:\n8-9 months\nAre civil dra wings requ ired to have appro val f ro m Plann ing or Engin eering prio r to sub mitt i ng f o r a buil ding permi t ?\nYes N o\nCan the revi ews run concurrently?\nYes No(Yes, but separa t e )\nDo they have to run con currently?\nYes No\nList out Revie w/ Sub mitt a l Process\nNRA/revie w applica t i on prior to submitting devel opment site plan , then sub mit concurre ntly f o r b oth civil and bui lding revi ew. ARC submi t tal re viewed sep arately\nTABLE OF CONTENTS\n\u00fe\u00ff \"\nProject\nContacts\n\u00fe\u00ff \"\nUtili t y Provid er Contacts\n\u00fe\u00ff \"\nSummary of Important Issues\n\u00fe\u00ff \"\nPermitting Summa ry\n\u00fe\u00ff \"\nProject Sched ule\n\u00fe\u00ff \"\nDevel oper /Landl ord Require ments\n\u00fe\u00ff \"\nPlann ing and Zoni ng Require ments\n\u00fe\u00ff \"\nSigna ge Requir ements\n\u00fe\u00ff \"\nBuild ing Depa rt me nt Re quiremen t s\n\u00fe\u00ff \"\nFire Depa rt me nt R equireme nt s\n\u00fe\u00ff \"\nEngin eering De partment Require ments and Site Conditio ns\n\u00fe\u00ff \"\nUtili t y Provid er Requireme nts\n\u0095\nStorm Drain\n\u0095\nWater\n\u0095\nElectric\n\u0095 Teleph one\n\u0095 Gas\n\u0095 Solid Waste Man agement\n\u00fe\u00ff \"\nPrelimi nary Site Plan\n\u00fe\u00ff \"\nExterior Eleva t i on Renderi ngs\n\u00fe\u00ff \"\nPhotogra phs\n\u00fe\u00ff \"\nExhibi t A: Requ ired Utilities\n\u00fe\u00ff \"\nExhibi t B: FEMA F l ood Map\n\u00fe\u00ff \"\nExhibi t C: Zonin g Map\nOWNER\n(MAIN CONTACT)\nDriven Bra nds\n440 Sou t h C hurch St.\nSte. 700\nCharl ott e , NC 28 202\nContact: Cristian Agu irre\nTitle: Project Manag er\nPh: 830-33 5-0214\nEmail: Cristian J. Ag uirreMuril lo@drive nbrands. com\nDeve l oper/ Landlo r d\nGuseman Group LL C\n101 Nu rsery LN STE 105 Fort Worth, T X 7611 4\nContact: Jeremy Richmo nd\nTitle: Managi ng Director\nPh: 979-07 7-6096\nEmail: jeremy.rich mond@ol dhamgood win.com\nPlanni ng & Zoni ng\nCity of Colle ge Station, TX\n1101 Texa s Ave. Coll ege Station, TX 7784 2\nContact: Jeff Howell\nTitle: Senior Pla nner\nPh: 9 79.764.367 4\nEmail: jhowe ll@cstx.gov\nSignag e A u thority\nCity of Colle ge Station, TX\n1101 Texa s Ave. Coll ege Station, TX 7784 2\nContact: Jeff Howell\nTitle: Senior Pla nner\nPh: 9 79.764.367 4\nEmail: jhowe ll@cstx.gov\nEngin ee rin g Departm ent\nCity of Colle ge Station, TX\n1101 Texa s Ave. Coll ege Station, TX 7784 2\nContact: Carol Co t ter\nTitle: City Engine er\nPh: 9 79-764-3 570\nEmail: ccotter@cstx.gov\nBuildi ng Departme n t\nCity of Colle ge Station, TX\n1101 Texa s Ave. Coll ege Station, TX 7784 2\nContact: Brian Bin f or d\nTitle: Buildi ng Of fici al\nPh: 9 79-764-3 570\nEmail: bbin f o rd@cstx.gov\nFire Departme n t\nCity of Colle ge Station, TX\n300 Kren ek T a p R oad, ",
+      "page_count": 34,
+      "nested_files": []
+    },
+    {
+      "path": "data/challenge_projects/TAKEOFF-57 - TAKE 5 OIL CHANGE - COLLEGE STATION, TX/Project Files/3300rse ( Take 5 Oil Change - College Station) - Geo Report.pdf",
+      "relative_path": "data/challenge_projects/TAKEOFF-57 - TAKE 5 OIL CHANGE - COLLEGE STATION, TX/Project Files/3300rse ( Take 5 Oil Change - College Station) - Geo Report.pdf",
+      "role": "input",
+      "extension": "pdf",
+      "size_bytes": 4109895,
+      "source_bucket": "challenge",
+      "duplicate_group": null,
+      "notes": [
+        "No text extracted with lightweight parser"
+      ],
+      "extracted_text_preview": "",
+      "page_count": 46,
+      "nested_files": []
+    },
+    {
+      "path": "data/challenge_projects/TAKEOFF-57 - TAKE 5 OIL CHANGE - COLLEGE STATION, TX/Project Files/51-4694 Proposed Take 5 College Station ESA.pdf",
+      "relative_path": "data/challenge_projects/TAKEOFF-57 - TAKE 5 OIL CHANGE - COLLEGE STATION, TX/Project Files/51-4694 Proposed Take 5 College Station ESA.pdf",
+      "role": "input",
+      "extension": "pdf",
+      "size_bytes": 36533983,
+      "source_bucket": "challenge",
+      "duplicate_group": null,
+      "notes": [],
+      "extracted_text_preview": "FORM-LBC-GON\n\u00ae k c e h C o e G h t i w t r o p e R \u0099 p a M s u i d a R R D E e h T 6 Armstrong Road, 4th floor Shelton, CT 06484 Toll Free: 800.352.0050 www.edrnet.com\nProposed Take 5 College Station 1644 Greens Prairie Road College Station, TX 77845 Inquiry Number: 7910507.2s February 27, 2025\nT A B L E O F C O N T E N T S\nSECTION PAGE\nExecutive Summary ES1\nOverview Map 2\nDetail Map 3\nMap Findings Summary 4\nMap Findings 9\nOrphan Summary 79\nGovernment Records Searched/Data Currency Tracking GR-1\nGEOCHECK ADDENDUM\nPhysical Setting Source Addendum A-1\nPhysical Setting Source Summary A-2\nPhysical Setting SSURGO Soil Map A-5\nPhysical Setting Source Map A-9\nPhysical Setting Source Map Findings A-11\nPhysical Setting Source Records Searched PSGR-1\nThank you for your business. Please contact EDR at 1-800-352-0050 with any questions or comments. Disclaimer - Copyright and Trademark Notice This Report contains certain information obtained from a variety of public and other sources reasonably available to Environmen tal Data Resources, LLC. It cannot be concluded from this Report that coverage information for the target and surrounding properties do es not exist from other sources. This Report is provided on an \"AS IS\", \"AS AVAILABLE\" basis. NO WARRANTY EXPRESS OR IMPLIED IS MADE WHATSOEVER IN CONNECTION WITH THIS REPORT. ENVIRONMENTAL DATA RESOURCES, LLC AND ITS SUBSIDIARIES, AFFILIATES AND THIRD PARTY SUPPLIERS DISCLAIM ALL WARRANTIES, OF ANY KIND OR NATURE, EXPRESS OR IMPLIED, ARISING OUT OF OR RELATED TO THIS REPORT OR ANY OF THE DATA AND INFORMATION PROVIDED IN THIS REPORT,\nTC7910507.2s Page 1\nEXECUTIVE SUMMARY TC7910507.2s EXECUTIVE SUMMARY 1 A search of available environmental records was conducted by Environmental Data Resources, Inc (EDR). The report was designed to assist parties seeking to meet the search requirements of EPA\u0092s Standards and Practices for All Appropriate Inquiries (40 CFR Part 312), the ASTM Standard Practice for Environmental Site Assessments (E1527 - 21), the ASTM Standard Practice for Environmental Site Assessments for Forestland or Rural Property (E2247 - 16), the ASTM Standard Practice for Limited Environmental Due Diligence: Transaction Screen Process (E1528 - 22) or custom requirements developed for the evaluation of environmental risk associated with a parcel of real estate.\nADDRESS\n1644 GREENS PRAIRIE ROAD COLLEGE STATION, TX 77845 COORDINATES\n30.5558150 - 30\u001d 33\u0092 20.93\u0092\u0092 Latitude (North): 96.2608070 - 96\u001d 15\u0092 38.90\u0092\u0092 Longitude (West): Zone 14 Universal Tranverse Mercator: 762758.3 UTM X (Meters): 3383389.2 UTM Y (Meters): 317 ft. above sea level Elevation:\n50019990 WELLBORN, TX Target Property Map: 2022 Version Date: 50019936 FERGUSON CROSSING, TX East Map: 2022 Version Date: AERIAL PHOTOGRAPHY IN THIS REPORT\n20200611 Portions of Photo from: USDA Source:\n7910507.2s Page 2 C8 COLLEGE STATION SPRI 1605 GREENS PRAIRIE LPST, UST, ENF, Financial Assurance Lower 1421, 0.269, SW C7 SPRING CREEK EXCH BL 1605 GREENS PRAIRIE UST FINDER RELEASE Lower 1421, 0.269, SW B6 HEB 619 945 WILLIAM D FITCH UST, Financial Assurance, CENTRAL REGISTRY Lower 1216, 0.230, North B5 H-E-B 949 WILLIAM D. FITCH E MANIFEST Lower 1155, 0.219, North 4 WALGREEN 998 WILLIAM D FITCH E MANIFEST Higher 759, 0.144, NNE 3 AGGIELAND READY MIX 1391 ARRINGTON RD, C SPILLS, AST, ENF, COMP HIST, COMPLAINTS Lower 751, 0.142, ESE A2 HEB 619 945 WILLIAM D FITCH UST FINDER Higher 548, 0.104, NNE A1 PRO CLEANERS AND ALT 850 WILLIAM D FITCH DRYCLEANERS Higher 378, 0.072, North\nMAPPED SITES SUMMARY Target Property Address:\n1644 GREENS PRAIRIE ROAD COLLEGE STATION, TX 77845 Click on Map ID to see full detail. MAP RELATIVE DIST (ft. & mi.) ID DATABASE ACRONYMS ELEVATION DIRECTION SITE NAME ADDRESS\nEXECUTIVE SUMMARY TC7910507.2s EXECUTIVE SUMMARY 3\nThe target property was not listed in any of the databases searched by EDR. DATABASES WITH NO MAPPED SITES\nNo mapped sites were found in EDR\u0092s search of available (\"reasonably ascertainable \") government record",
+      "page_count": 268,
+      "nested_files": []
+    },
+    {
+      "path": "data/challenge_projects/TAKEOFF-57 - TAKE 5 OIL CHANGE - COLLEGE STATION, TX/Project Files/DB25-002_T5O COLLEGE STATION, TX - ISSUE FOR BID _07-16-2025_.pdf",
+      "relative_path": "data/challenge_projects/TAKEOFF-57 - TAKE 5 OIL CHANGE - COLLEGE STATION, TX/Project Files/DB25-002_T5O COLLEGE STATION, TX - ISSUE FOR BID _07-16-2025_.pdf",
+      "role": "input",
+      "extension": "pdf",
+      "size_bytes": 73468435,
+      "source_bucket": "challenge",
+      "duplicate_group": null,
+      "notes": [],
+      "extracted_text_preview": "<?xml version=\"1.0\"?><body xmlns:xfa=\"http://www.xfa.org/schema/xfa-data/1.0/\" xfa:contentType=\"text/html\" xfa:APIVersion=\"BluebeamPDFRevu:2018\" xfa:spec=\"2.2.0\" xmlns=\"http://www.w3.org/1999/xhtml\"><p>STM</p></body> AutoCAD SHX Text STM D:20250716172409-05'00' UAZBODYVTFFYGEPO <?xml version=\"1.0\"?><body xmlns:xfa=\"http://www.xfa.org/schema/xfa-data/1.0/\" xfa:contentType=\"text/html\" xfa:APIVersion=\"BluebeamPDFRevu:2018\" xfa:spec=\"2.2.0\" xmlns=\"http://www.w3.org/1999/xhtml\"><p>STM</p></body> AutoCAD SHX Text STM D:20250716172410-05'00' RXQDJBKVLPQULLCT <?xml version=\"1.0\"?><body xmlns:xfa=\"http://www.xfa.org/schema/xfa-data/1.0/\" xfa:contentType=\"text/html\" xfa:APIVersion=\"BluebeamPDFRevu:2018\" xfa:spec=\"2.2.0\" xmlns=\"http://www.w3.org/1999/xhtml\"><p>STM</p></body> AutoCAD SHX Text TRANSFORMER D:20250716172410-05'00' ECHHDOSUARIKSCRR <?xml version=\"1.0\"?><body xmlns:xfa=\"http://www.xfa.org/schema/xfa-data/1.0/\" xfa:contentType=\"text/html\" xfa:APIVersion=\"BluebeamPDFRevu:2018\" xfa:spec=\"2.2.0\" xmlns=\"http://www.w3.org/1999/xhtml\"><p>TRANSFORMER</p></body> AutoCAD SHX Text ~ D:20250716172410-05'00' AHNBCBBGISZLAMUZ <?xml version=\"1.0\"?><body xmlns:xfa=\"http://www.xfa.org/schema/xfa-data/1.0/\" xfa:contentType=\"text/html\" xfa:APIVersion=\"BluebeamPDFRevu:2018\" xfa:spec=\"2.2.0\" xmlns=\"http://www.w3.org/1999/xhtml\"><p>~</p></body> AutoCAD SHX Text SAN D:20250716172410-05'00' BFWPCOTIDGBPWAOR <?xml version=\"1.0\"?><body xmlns:xfa=\"http://www.xfa.org/schema/xfa-data/1.0/\" xfa:contentType=\"text/html\" xfa:APIVersion=\"BluebeamPDFRevu:2018\" xfa:spec=\"2.2.0\" xmlns=\"http://www.w3.org/1999/xhtml\"><p>SAN</p></body> AutoCAD SHX Text ~ D:20250716172410-05'00' YQXXFCPUTAXTAZTJ <?xml version=\"1.0\"?><body xmlns:xfa=\"http://www.xfa.org/schema/xfa-data/1.0/\" xfa:contentType=\"text/html\" xfa:APIVersion=\"BluebeamPDFRevu:2018\" xfa:spec=\"2.2.0\" xmlns=\"http://www.w3.org/1999/xhtml\"><p>~</p></body> AutoCAD SHX Text 8\" GAS D:20250716172410-05'00' ADQWIMFSDGRVADOW <?xml version=\"1.0\"?><body xmlns:xfa=\"http://www.xfa.org/schema/xfa-data/1.0/\" xfa:contentType=\"text/html\" xfa:APIVersion=\"BluebeamPDFRevu:2018\" xfa:spec=\"2.2.0\" xmlns=\"http://www.w3.org/1999/xhtml\"><p>8\" GAS</p></body> AutoCAD SHX Text CAP D:20250716172410-05'00' CPSVUXIKBGAXTWGI <?xml version=\"1.0\"?><body xmlns:xfa=\"http://www.xfa.org/schema/xfa-data/1.0/\" xfa:contentType=\"text/html\" xfa:APIVersion=\"BluebeamPDFRevu:2018\" xfa:spec=\"2.2.0\" xmlns=\"http://www.w3.org/1999/xhtml\"><p>CAP</p></body> AutoCAD SHX Text UNDERGROUND D:20250716172410-05'00' YOPUDOTTZBWXLVZZ <?xml version=\"1.0\"?><body xmlns:xfa=\"http://www.xfa.org/schema/xfa-data/1.0/\" xfa:contentType=\"text/html\" xfa:APIVersion=\"BluebeamPDFRevu:2018\" xfa:spec=\"2.2.0\" xmlns=\"http://www.w3.org/1999/xhtml\"><p>UNDERGROUND</p></body> AutoCAD SHX Text SANITARY LINE D:20250716172410-05'00' NSLCSWKIALQWZRKV <?xml version=\"1.0\"?><body xmlns:xfa=\"http://www.xfa.org/schema/xfa-data/1.0/\" xfa:contentType=\"text/html\" xfa:APIVersion=\"BluebeamPDFRevu:2018\" xfa:spec=\"2.2.0\" xmlns=\"http://www.w3.org/1999/xhtml\"><p>SANITARY LINE</p></body> AutoCAD SHX Text (MARKED BY GPRS, INC.) D:20250716172410-05'00' CWUVSUAMTZBQLNXG <?xml version=\"1.0\"?><body xmlns:xfa=\"http://www.xfa.org/schema/xfa-data/1.0/\" xfa:contentType=\"text/html\" xfa:APIVersion=\"BluebeamPDFRevu:2018\" xfa:spec=\"2.2.0\" xmlns=\"http://www.w3.org/1999/xhtml\"><p>(MARKED BY GPRS, INC.)</p></body> AutoCAD SHX Text GREEN D:20250716172410-05'00' MQJZVQOEHVWLCBJE <?xml version=\"1.0\"?><body xmlns:xfa=\"http://www.xfa.org/schema/xfa-data/1.0/\" xfa:contentType=\"text/html\" xfa:APIVersion=\"BluebeamPDFRevu:2018\" xfa:spec=\"2.2.0\" xmlns=\"http://www.w3.org/1999/xhtml\"><p>GREEN</p></body> AutoCAD SHX Text GREEN D:20250716172410-05'00' TQAGEIBSOUVWXYNV <?xml version=\"1.0\"?><body xmlns:xfa=\"http://www.xfa.org/schema/xfa-data/1.0/\" xfa:contentType=\"text/html\" xfa:APIVersion=\"BluebeamPDFRevu:2018\" xfa:spec=\"2.2.0\" xmlns=\"http://www.w3.org/1999/xhtml\"><p>GREEN</p></body> AutoCAD SHX Text GREEN D:20250716172410-05'00'\n<?xml version",
+      "page_count": 68,
+      "nested_files": []
+    },
+    {
+      "path": "data/challenge_projects/TAKEOFF-57 - TAKE 5 OIL CHANGE - COLLEGE STATION, TX/Project Files/Low Voltage Bulletin - 11.21.23.pdf",
+      "relative_path": "data/challenge_projects/TAKEOFF-57 - TAKE 5 OIL CHANGE - COLLEGE STATION, TX/Project Files/Low Voltage Bulletin - 11.21.23.pdf",
+      "role": "input",
+      "extension": "pdf",
+      "size_bytes": 952339,
+      "source_bucket": "challenge",
+      "duplicate_group": null,
+      "notes": [],
+      "extracted_text_preview": "Each workstation receives 2 CAT6 cables. Duplex RJ45 outlets.\nAll 6 cables to terminate into office. 6x RJ45 outlets. Can be above desk to allow for modem and switch to be installed.",
+      "page_count": 2,
+      "nested_files": []
+    },
+    {
+      "path": "data/challenge_projects/TAKEOFF-57 - TAKE 5 OIL CHANGE - COLLEGE STATION, TX/Project Files/Madewell RFP - Take 5 Oil Change - College Station, TX.pdf",
+      "relative_path": "data/challenge_projects/TAKEOFF-57 - TAKE 5 OIL CHANGE - COLLEGE STATION, TX/Project Files/Madewell RFP - Take 5 Oil Change - College Station, TX.pdf",
+      "role": "input",
+      "extension": "pdf",
+      "size_bytes": 278352,
+      "source_bucket": "challenge",
+      "duplicate_group": null,
+      "notes": [
+        "No text extracted with lightweight parser"
+      ],
+      "extracted_text_preview": "",
+      "page_count": 1,
+      "nested_files": []
+    },
+    {
+      "path": "data/challenge_projects/TAKEOFF-57 - TAKE 5 OIL CHANGE - COLLEGE STATION, TX/Project Files/T5OC - Standard 3-Bay Layout - 011224.pdf",
+      "relative_path": "data/challenge_projects/TAKEOFF-57 - TAKE 5 OIL CHANGE - COLLEGE STATION, TX/Project Files/T5OC - Standard 3-Bay Layout - 011224.pdf",
+      "role": "input",
+      "extension": "pdf",
+      "size_bytes": 849521,
+      "source_bucket": "challenge",
+      "duplicate_group": null,
+      "notes": [],
+      "extracted_text_preview": "1852990827,1;1953259888,1; 1852990827,1;1953259888,1; 1852990827,1;1953259888,1; 1852990827,1;1953259888,1;\n1852990827,1;1953259888,1;\n1852990827,1;1953259888,1;\n1852990827,1;1953259888,1;\n1852990827,1;1953259888,1;\n1852990827,1;1953259888,1;\n1852990827,1;1953259888,1;\n1852990827,1;1953259888,1; 1852990827,1;1953259888,1; 1852990827,1;1953259888,1;\n1852990827,1;1953259888,1;\n1852990827,1;1953259888,1; 1852990827,1;1953259888,1; 1852990827,1;1953259888,1; 1852990827,1;1953259888,1; 1852990827,1;1953259888,1; 1852990827,1;1953259888,1; 1852990827,1;1953259888,1;\n1852990827,1;1953259888,1; 1852990827,1;1953259888,1; 1852990827,1;1953259888,1; 1852990827,1;1953259888,1; 1852990827,1;1953259888,1;\n1852990827,1;1953259888,1;\n1852990827,1;1953259888,1;\n1852990827,1;1953259888,1;\n1852990827,1;1953259888,1;\n1852990827,1;1953259888,1; 1852990827,1;1953259888,1; 1852990827,1;1953259888,1; 1852990827,1;1953259888,1; 1852990827,1;1953259888,1; 1852990827,1;1953259888,1; 1852990827,1;1953259888,1; 1852990827,1;1953259888,1; 1852990827,1;1953259888,1; 1852990827,1;1953259888,1;\n1852990827,1;1953259888,1;\n1852990827,1;1953259888,1;\n1852990827,1;1953259888,1; 1852990827,1;1953259888,1; 1852990827,1;1953259888,1; 1852990827,1;1953259888,1; 1852990827,1;1953259888,1; 1852990827,1;1953259888,1; 1852990827,1;1953259888,1;\n1852990827,1;1953259888,1; 1852990827,1;1953259888,1;\n1852990827,1;1953259888,1; 1852990827,1;1953259888,1; 1852990827,1;1953259888,1; 1852990827,1;1953259888,1; 1852990827,1;1953259888,1; 1852990827,1;1953259888,1; 1852990827,1;1953259888,1; 1852990827,1;1953259888,1; 1852990827,1;1953259888,1; 1852990827,1;1953259888,1;\n1852990827,1;1953259888,1;\n1852990827,1;1953259888,1;\n1852990827,1;1953259888,1;\n1852990827,1;1953259888,1;\n1852990827,1;1953259888,1;\n1852990827,1;1953259888,1; 1852990827,1;1953259888,1; 1852990827,1;1953259888,1;\n1852990827,1;1953259888,1; 1852990827,1;1953259888,1; 1852990827,1;1953259888,1; 1852990827,1;1953259888,1; 1852990827,1;1953259888,1; 1852990827,1;1953259888,1; 1852990827,1;1953259888,1; 1852990827,1;1953259888,1; 1852990827,1;1953259888,1; 1852990827,1;1953259888,1; 1852990827,1;1953259888,1; 1852990827,1;1953259888,1; 1852990827,1;1953259888,1; 1852990827,1;1953259888,1; 1852990827,1;1953259888,1; 1852990827,1;1953259888,1; 1852990827,1;1953259888,1; 1852990827,1;1953259888,1; 1852990827,1;1953259888,1; 1852990827,1;1953259888,1;\n1852990827,1;1953259888,1; 1852990827,1;1953259888,1; 1852990827,1;1953259888,1; 1852990827,1;1953259888,1; 1852990827,1;1953259888,1;\n1852990827,1;1953259888,1;\n1852990827,1;1953259888,1;\n1852990827,1;1953259888,1; 1852990827,1;1953259888,1;\n1852990827,1;1634167148,1;1953259888,1; 1852990827,1;1634167148,1;1953259888,1;\n1852990827,1;1953259888,1; 1852990827,1;1953259888,1; 1852990827,1;1953259888,1;\n1852990827,1;1953259888,1;\n1852990827,1;1953259888,1;\n1852990827,1;1953259888,1;\n1852990827,1;1953259888,1;\n1852990827,1;1953259888,1;\n1852990827,1;1953259888,1;\n1852990827,1;1953259888,1;\n1852990827,1;1953259888,1;\n1852990827,1;1953259888,1;\n1852990827,1;1953259888,1;\n1852990827,1;1953259888,1;\n1852990827,1;1953259888,1;\n1852990827,1;1953259888,1; 1852990827,1;1953259888,1;\n1852990827,1;1953259888,1;\n1852990827,1;1953259888,1;\n1852990827,1;1953259888,1; 1852990827,1;1953259888,1;\n1852990827,1;1953259888,1;\n1852990827,1;1953259888,1;\n1852990827,1;1634167148,1;1953259888,1; 1852990827,1;1634167148,1;1953259888,1;\n\u0000\u00e9\u00002\u0000\u00e3\u0000;\u0000\u00dd\u0000D\u0000\u00d8\u0000K\u0000\u00d3\u0000Q\u0000\u00d0\u0000X\u0000\u00cd\u0000]\u0000\u00cb\u0000c\u0000\u00c9\u0000h\u0000\u00c6\u0000o\u0000\u00c4\u0000v\u0000\u00c2\u0000~\u0000\u00bf\u0000\u0087\u0000\u00bc\u0000\u0092\u0000\u00ba\u0000\u009f\u0000\u00b7\u0000\u00ad\u0000\u00b5\u0000\u00c1\u0000\u00b2\u0000\u00e4\u0000\u00b1\u0000\u00fd\u0000\u00af\u0000\u00ff\u0000\u00ac\u0000\u00ff\u0000\u00a5\u0000\u00ff\u0000\u00a0\u0000\u00ff\u0000\u009c\u0000\u00ff\u0000\u00ff\u0000\u0000\u0000\u00ff\u0000\u0000\u0000\u00fb\u0000\u0000\u0000\u00ee\u0000\u0000\u0000\u00e4\u0000\u0000\u0000\u00dc\u0000\b\u0000\u00d3\u0000\u0010\u0000\u00cf\u0000\u0018\u0000\u00cb\u0000\"\u0000\u00c9\u0000+\u0000\u00c6\u00004\u0000\u00c1\u0000=\u0000\u00bd\u0000D\u0000\u00ba\u0000K\u0000\u00b7\u0000Q\u0000\u00b5\u0000V\u0000\u00b2\u0000\\\u0000\u00b0\u0000a\u0000\u00ae\u0000g\u0000\u00ac\u0000n\u0000\u00aa\u0000v\u0000\u00a8\u0000\u007f\u0000\u00a6\u0000\u008a\u0000\u00a3\u0000\u0096\u0000\u00a1\u0000\u00a5\u0000\u009f\u0000\u00b6\u0000\u009d\u0000\u00d1\u0000\u009c\u0000\u00f3\u0000\u009b\u0000\u00ff\u0000\u009c\u0000\u00ff\u0000\u0096\u0000\u00ff\u0000\u0093\u0000\u00ff\u0000\u0090\u0000\u00ff\u0000\u00ff\u0000\u0000\u0000\u00f6\u0000\u0000\u0000\u00e7\u0000\u0000\u0000\u00d3\u0000\u0000\u0000\u00c6\u0000\u0000\u0000\u00bd\u0000\u0003\u0000\u00b8\u0000\r\u0000\u00b3\u0000\u0013\u0000\u00b1\u0000\u001c\u0000\u00af\u0000%\u0000\u00ae\u0000.\u0000\u00a9\u00006\u0000\u00a6\u0000=\u0000\u00a3\u0000D\u0000\u00a1\u0000J\u0000\u009f\u0000O\u0000\u009d\u0000U\u0000\u009b\u0000Z\u0000\u009a\u0000`\u0000\u0098\u0000f\u0000\u0096\u0000n\u0000\u0094\u0000w\u0000\u0092\u0000\u0081\u0000\u0090\u0000\u008e\u0000\u008e\u0000\u009c\u0000\u008c\u0000\u00ad\u0000\u008a\u0000\u00c3\u0000\u0089\u0000\u00e8\u0000\u0088\u0000\u00ff\u0000\u0089\u0000\u00ff\u0000\u0087\u0000\u00ff\u0000\u0085\u0000\u00ff\u0000\u0082\u0000\u00ff\u0000\u00f3\u0000\u0000\u0000\u00e3\u0000\u0000\u0000\u00cc\u0000\u0000\u0000\u00bc\u0000\u0000\u0000\u00b0\u0000\u0000\u0000\u00a7\u0000\u0000\u0000\u00a1\u0000\b\u0000\u009e\u0000\u000f\u0000\u009b\u0000\u0016\u0000\u0099\u0000\u001f\u0000\u0098\u0000'\u0000\u0096\u0000/\u0000\u0093\u00007\u0000\u0091\u0000=\u0000\u008e\u0000C\u0000\u008c\u0000I\u0000\u008b\u0000N\u0000\u0089\u0000T\u0000\u0087\u0000Y\u0000\u0085\u0000`\u0000\u0084\u0000g\u0000\u0082\u0000o\u0000\u0080\u0000z\u0000~\u0000\u0086\u0000|\u0000\u0094\u0000z\u0000\u00a4\u0000y\u0000\u00b8\u0000x\u0000\u00d8\u0000w\u0000\u00f7\u0000x\u0000\u00ff\u0000x\u0000\u00ff\u0000w\u0000\u00ff\u0000u\u0000\u00ff\u0000\u00e6\u0000\u0000\u0000\u00cb\u0000\u0000\u0000\u00b7\u0000\u0000\u0000\u00a8\u0000\u0000\u0000\u009e\u0000\u0000\u0000\u0096\u0000\u0000\u0000\u008f\u0000\u0004\u0000\u008b\u0000\f\u0000\u0088\u0000\u0012\u0000\u0087\u0000\u0019\u0000\u0085\u0000!\u0000\u0084\u0000 \u0000@\u000e.\u0000?\u000e5\u0000>\u000f<\u0000=\u000fC\u0000;\u0010K\u0000:\u0010T\u00008\u0010^\u00006\u0010k\u0000",
+      "page_count": 4,
+      "nested_files": []
+    }
+  ],
+  "gold_files": []
+}

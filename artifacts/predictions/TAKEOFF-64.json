@@ -1,0 +1,100 @@
+{
+  "project_id": "TAKEOFF-64",
+  "project_name": "Paradies- Beltline Market _ Village Retail- ATL Airport",
+  "set_name": "challenge",
+  "trade_scope": "Plumbing",
+  "input_files_used": [
+    "data/challenge_projects/TAKEOFF-64 - Paradies- Beltline Market _ Village Retail- ATL Airport/Project Files/ATL BeltlineFinalSub 8.7.25.pdf",
+    "data/challenge_projects/TAKEOFF-64 - Paradies- Beltline Market _ Village Retail- ATL Airport/Project Files/ATL TheVillage Final 8.6.25.pdf"
+  ],
+  "ai_run": {
+    "run_id": "takeoff-64-baseline-v1",
+    "detected_trade_scope": "Plumbing",
+    "tools_or_models_used": [
+      "Python 3.13 stdlib CLI",
+      "Custom XML parsers for XLSX/DOCX",
+      "Lightweight PDF text extractor (no OCR, no external model)"
+    ],
+    "assumptions": [
+      "Some line items are trade-template fallbacks because the lightweight parser could not recover enough measurable text."
+    ],
+    "warnings": [
+      "No project area was detected in AI-visible files."
+    ],
+    "input_summary": {
+      "text_corpus_length": 8001,
+      "files_seen": 2
+    }
+  },
+  "line_items": [
+    {
+      "item_number": null,
+      "description": "Plumbing fixtures",
+      "quantity": 1,
+      "unit": "EA",
+      "confidence": 0.2,
+      "source_reference": "ATL BeltlineFinalSub 8.7.25.pdf, ATL TheVillage Final 8.6.25.pdf",
+      "drawing_reference": null,
+      "section_reference": null,
+      "division": null,
+      "category": "plumbing",
+      "raw_quantity": null,
+      "wastage": null,
+      "quantity_with_wastage": null,
+      "notes": [
+        "Fallback line item because no reliable structured extraction was found."
+      ]
+    },
+    {
+      "item_number": null,
+      "description": "Plumbing piping and drains",
+      "quantity": 8,
+      "unit": "FT",
+      "confidence": 0.2,
+      "source_reference": "ATL BeltlineFinalSub 8.7.25.pdf, ATL TheVillage Final 8.6.25.pdf",
+      "drawing_reference": null,
+      "section_reference": null,
+      "division": null,
+      "category": "plumbing",
+      "raw_quantity": null,
+      "wastage": null,
+      "quantity_with_wastage": null,
+      "notes": [
+        "Fallback line item because no reliable structured extraction was found."
+      ]
+    }
+  ],
+  "evaluation_when_gold_available": {
+    "matched_items": 0,
+    "missing_items": [],
+    "extra_items": [],
+    "quantity_differences": [],
+    "precision": 0.0,
+    "recall": 0.0,
+    "overall_notes": "No gold output available for challenge projects."
+  },
+  "human_review_stub": {
+    "status": "needs_review",
+    "reviewer_actions": [
+      "Confirm scope and trade split against drawings/specs",
+      "Replace proxy quantities with measured quantities",
+      "Mark missing items and delete false positives"
+    ],
+    "proposed_corrections_file": "review_packets/TAKEOFF-64_review.json",
+    "line_items_to_review": [
+      {
+        "description": "Plumbing fixtures",
+        "predicted_quantity": 1,
+        "unit": "EA",
+        "confidence": 0.2
+      },
+      {
+        "description": "Plumbing piping and drains",
+        "predicted_quantity": 8,
+        "unit": "FT",
+        "confidence": 0.2
+      }
+    ]
+  },
+  "project_manifest_path": "manifests/TAKEOFF-64.json"
+}

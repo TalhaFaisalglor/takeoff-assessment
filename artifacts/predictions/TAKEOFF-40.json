@@ -1,0 +1,80 @@
+{
+  "project_id": "TAKEOFF-40",
+  "project_name": "TPS Rm 203 ETVS Renovation",
+  "set_name": "challenge",
+  "trade_scope": "Unknown",
+  "input_files_used": [
+    "data/challenge_projects/TAKEOFF-40 - TPS Rm 203 ETVS Renovation/Project Files/25-028537 TPS Rm203ETVS-Construction Drawing Set.pdf",
+    "data/challenge_projects/TAKEOFF-40 - TPS Rm 203 ETVS Renovation/Project Files/Selective Demolition/25-028537 TPS Rm203ETVS-Construction Drawing Set.pdf",
+    "data/challenge_projects/TAKEOFF-40 - TPS Rm 203 ETVS Renovation/Project Files/Selective Demolition/TORFP.pdf",
+    "data/challenge_projects/TAKEOFF-40 - TPS Rm 203 ETVS Renovation/Project Files/TORFP.pdf"
+  ],
+  "ai_run": {
+    "run_id": "takeoff-40-baseline-v1",
+    "detected_trade_scope": "Unknown",
+    "tools_or_models_used": [
+      "Python 3.13 stdlib CLI",
+      "Custom XML parsers for XLSX/DOCX",
+      "Lightweight PDF text extractor (no OCR, no external model)"
+    ],
+    "assumptions": [
+      "No structured quantity signals were extracted; fallback items are based on file names and declared scope.",
+      "Some line items are trade-template fallbacks because the lightweight parser could not recover enough measurable text."
+    ],
+    "warnings": [
+      "Manifest input_file_count=2 differs from discovered input files=4.",
+      "No project area was detected in AI-visible files."
+    ],
+    "input_summary": {
+      "text_corpus_length": 16003,
+      "files_seen": 4
+    }
+  },
+  "line_items": [
+    {
+      "item_number": null,
+      "description": "TPS Rm 203 ETVS Renovation scope review allowance",
+      "quantity": 1,
+      "unit": "LS",
+      "confidence": 0.2,
+      "source_reference": "25-028537 TPS Rm203ETVS-Construction Drawing Set.pdf, 25-028537 TPS Rm203ETVS-Construction Drawing Set.pdf, TORFP.pdf",
+      "drawing_reference": null,
+      "section_reference": null,
+      "division": null,
+      "category": "unknown",
+      "raw_quantity": null,
+      "wastage": null,
+      "quantity_with_wastage": null,
+      "notes": [
+        "Fallback line item because no reliable structured extraction was found."
+      ]
+    }
+  ],
+  "evaluation_when_gold_available": {
+    "matched_items": 0,
+    "missing_items": [],
+    "extra_items": [],
+    "quantity_differences": [],
+    "precision": 0.0,
+    "recall": 0.0,
+    "overall_notes": "No gold output available for challenge projects."
+  },
+  "human_review_stub": {
+    "status": "needs_review",
+    "reviewer_actions": [
+      "Confirm scope and trade split against drawings/specs",
+      "Replace proxy quantities with measured quantities",
+      "Mark missing items and delete false positives"
+    ],
+    "proposed_corrections_file": "review_packets/TAKEOFF-40_review.json",
+    "line_items_to_review": [
+      {
+        "description": "TPS Rm 203 ETVS Renovation scope review allowance",
+        "predicted_quantity": 1,
+        "unit": "LS",
+        "confidence": 0.2
+      }
+    ]
+  },
+  "project_manifest_path": "manifests/TAKEOFF-40.json"
+}

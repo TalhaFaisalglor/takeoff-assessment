@@ -1,0 +1,41 @@
+{
+  "status": "needs_review",
+  "reviewer_actions": [
+    "Confirm scope and trade split against drawings/specs",
+    "Replace proxy quantities with measured quantities",
+    "Mark missing items and delete false positives"
+  ],
+  "proposed_corrections_file": "review_packets/TAKEOFF-39_review.json",
+  "line_items_to_review": [
+    {
+      "description": "Wall paint",
+      "predicted_quantity": 6892,
+      "unit": "SF",
+      "confidence": 0.82
+    },
+    {
+      "description": "Wall base paint",
+      "predicted_quantity": 501,
+      "unit": "FT",
+      "confidence": 0.82
+    },
+    {
+      "description": "Wall trim paint",
+      "predicted_quantity": 614,
+      "unit": "FT",
+      "confidence": 0.82
+    },
+    {
+      "description": "Door paint",
+      "predicted_quantity": 379,
+      "unit": "SF",
+      "confidence": 0.82
+    },
+    {
+      "description": "Door frame paint",
+      "predicted_quantity": 151,
+      "unit": "FT",
+      "confidence": 0.82
+    }
+  ]
+}

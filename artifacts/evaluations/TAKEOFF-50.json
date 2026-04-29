@@ -1,0 +1,21 @@
+{
+  "matched_items": 0,
+  "missing_items": [
+    "Management & Supervision (Weeks)",
+    "Documentation & Shop Drawings",
+    "QT-01: Quarry Tile\n-Mfg: Daltile\n-Collection: Quarry Tile\n-Product: Paver\n-Color: OQ-92\n-Name: Gray\n-Size: 6\"x6\"",
+    "PT-01: Porcelain Tile\n-Mfg: Daltile\n-Collection: Volume 1.0\n-Product: Glazed Porcelain w/ Stepwise Technology\n-Color: VL74\n-Size: 6\"x6\"",
+    "Vinyl to Quarry Tile Transition",
+    "Vinyl to Porcelain Transition",
+    "PT-02: Porcelain Wall Tile (8'-0\" High)\n-Mfg: Daltile\n-Collection: Colored Wheel\n-Product: Classic Color\n-Color: 0790\n-Name: Matte Arctic White\n-Size/Profile: 6\"x6\"\n-Color: VL74\n-Size: 6\"x6\""
+  ],
+  "extra_items": [
+    "Tile flooring",
+    "Floor transitions",
+    "Wall tile"
+  ],
+  "quantity_differences": [],
+  "precision": 0.0,
+  "recall": 0.0,
+  "overall_notes": "Exact description matching with quantity comparison tolerance of 5%."
+}

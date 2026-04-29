@@ -1,0 +1,35 @@
+{
+  "status": "needs_review",
+  "reviewer_actions": [
+    "Confirm scope and trade split against drawings/specs",
+    "Replace proxy quantities with measured quantities",
+    "Mark missing items and delete false positives"
+  ],
+  "proposed_corrections_file": "review_packets/TAKEOFF-35_review.json",
+  "line_items_to_review": [
+    {
+      "description": "Total New Wall",
+      "predicted_quantity": 14.3,
+      "unit": "FT",
+      "confidence": 0.82
+    },
+    {
+      "description": "Soffit Dropdown",
+      "predicted_quantity": 25.4,
+      "unit": "FT",
+      "confidence": 0.82
+    },
+    {
+      "description": "Gypsum board wall system",
+      "predicted_quantity": 2860,
+      "unit": "SF",
+      "confidence": 0.2
+    },
+    {
+      "description": "Metal stud framing",
+      "predicted_quantity": 2860,
+      "unit": "SF",
+      "confidence": 0.2
+    }
+  ]
+}

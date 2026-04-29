@@ -1,0 +1,407 @@
+:root {
+  --bg: #f3efe7;
+  --panel: #fbf8f2;
+  --panel-strong: #fffdf9;
+  --ink: #1f231d;
+  --muted: #62685d;
+  --line: #d8d0bf;
+  --accent: #1f5f4b;
+  --accent-2: #8b4d2f;
+  --accent-soft: #dcebe6;
+  --alert-soft: #f0dfd5;
+  --radius: 20px;
+  --shadow: 0 20px 48px rgba(30, 31, 28, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Iowan Old Style", "Palatino Linotype", serif;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at top left, rgba(31, 95, 75, 0.08), transparent 25%),
+    radial-gradient(circle at bottom right, rgba(139, 77, 47, 0.08), transparent 22%),
+    var(--bg);
+}
+
+.appShell {
+  display: grid;
+  grid-template-columns: 360px 1fr;
+  min-height: 100vh;
+}
+
+.sidebar {
+  padding: 26px 22px;
+  border-right: 1px solid var(--line);
+  background: rgba(251, 248, 242, 0.84);
+  backdrop-filter: blur(12px);
+  overflow: auto;
+}
+
+.workspace {
+  padding: 30px;
+  overflow: auto;
+}
+
+.brand h1,
+.workspaceHeader h2,
+.heroCard h3,
+.emptyState h3 {
+  margin: 0;
+}
+
+.eyebrow {
+  margin: 0 0 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.74rem;
+  color: var(--accent);
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.compact {
+  font-size: 0.85rem;
+}
+
+.commandBar,
+.summaryGrid,
+.briefCard,
+.filters,
+.projectList,
+.heroCard,
+.card,
+.emptyState,
+.overviewCard {
+  margin-top: 18px;
+}
+
+.summaryGrid,
+.briefCard,
+.filters,
+.projectList,
+.heroCard,
+.card,
+.emptyState,
+.overviewCard {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.commandBar {
+  display: grid;
+  gap: 8px;
+}
+
+.commandActions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.primaryButton {
+  border: 0;
+  border-radius: 14px;
+  padding: 12px 16px;
+  background: linear-gradient(135deg, var(--accent), #3b7f67);
+  color: white;
+  font: inherit;
+  cursor: pointer;
+}
+
+.primaryButton:hover {
+  filter: brightness(1.03);
+}
+
+.primaryButton:disabled {
+  cursor: wait;
+  opacity: 0.76;
+  filter: none;
+}
+
+.statusBadge {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  padding: 8px 12px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 0.82rem;
+}
+
+.statusBadge.isRunning {
+  background: rgba(31, 95, 75, 0.12);
+}
+
+.statusBadge.isError {
+  background: var(--alert-soft);
+  color: var(--accent-2);
+}
+
+.summaryGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 12px;
+}
+
+.summaryCard {
+  padding: 12px;
+  border-radius: 16px;
+  background: linear-gradient(180deg, rgba(31, 95, 75, 0.11), rgba(255, 255, 255, 0.6));
+}
+
+.summaryCard strong {
+  display: block;
+  font-size: 1.5rem;
+}
+
+.briefCard {
+  padding: 16px;
+}
+
+.filters {
+  padding: 12px;
+  display: grid;
+  gap: 12px;
+}
+
+label span {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 10px 12px;
+  background: var(--panel-strong);
+  color: var(--ink);
+  font: inherit;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.projectList {
+  padding: 8px;
+  display: grid;
+  gap: 8px;
+}
+
+.projectButton {
+  width: 100%;
+  padding: 14px;
+  border-radius: 14px;
+  border: 1px solid transparent;
+  background: transparent;
+  text-align: left;
+  color: inherit;
+  cursor: pointer;
+}
+
+.projectButton:hover,
+.projectButton.active {
+  background: var(--accent-soft);
+  border-color: rgba(31, 95, 75, 0.2);
+}
+
+.projectButton small {
+  display: block;
+  color: var(--muted);
+}
+
+.workspaceHeader {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  align-items: start;
+}
+
+.workspaceOverview {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 18px;
+}
+
+.overviewCard {
+  padding: 18px;
+}
+
+.overviewCard strong {
+  display: block;
+  font-size: 1rem;
+}
+
+.docLinks {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.docLinks a,
+.linkList a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.docLinks a:hover,
+.linkList a:hover {
+  text-decoration: underline;
+}
+
+.emptyState,
+.heroCard,
+.card {
+  padding: 20px;
+}
+
+.heroCard {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  align-items: start;
+}
+
+.pillRow {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.pill {
+  border-radius: 999px;
+  padding: 8px 12px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 0.85rem;
+}
+
+.grid {
+  display: grid;
+  gap: 18px;
+  margin-top: 18px;
+}
+
+.twoCol {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.docsGrid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.metaList {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 10px 14px;
+  margin: 0;
+}
+
+.metaList dt {
+  color: var(--muted);
+}
+
+.metaList dd {
+  margin: 0;
+}
+
+.tableWrap {
+  overflow: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px 8px;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+  text-align: left;
+}
+
+.plainList {
+  margin: 0;
+  padding-left: 18px;
+  display: grid;
+  gap: 8px;
+}
+
+.compactList {
+  gap: 10px;
+}
+
+.reviewForm {
+  display: grid;
+  gap: 12px;
+}
+
+.reviewActions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.sectionHeader {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+}
+
+.callout {
+  margin-top: 14px;
+  padding: 12px;
+  border-radius: 14px;
+  background: var(--alert-soft);
+  color: var(--accent-2);
+}
+
+.docBlock {
+  margin: 0;
+  white-space: pre-wrap;
+  font-family: "SFMono-Regular", "Menlo", monospace;
+  font-size: 0.83rem;
+  max-height: 320px;
+  overflow: auto;
+}
+
+.hidden {
+  display: none;
+}
+
+@media (max-width: 1100px) {
+  .appShell {
+    grid-template-columns: 1fr;
+  }
+
+  .workspaceOverview,
+  .summaryGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .workspaceHeader,
+  .heroCard,
+  .twoCol,
+  .docsGrid {
+    grid-template-columns: 1fr;
+    display: grid;
+  }
+}

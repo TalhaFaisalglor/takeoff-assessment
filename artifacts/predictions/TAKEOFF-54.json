@@ -1,0 +1,81 @@
+{
+  "project_id": "TAKEOFF-54",
+  "project_name": "TAKE 5 OIL CHANGE MASONRY",
+  "set_name": "challenge",
+  "trade_scope": "Masonry",
+  "input_files_used": [
+    "data/challenge_projects/TAKEOFF-54 - TAKE 5 OIL CHANGE MASONRY/Project Files/25-0140_1644 GREENS PRAIRIE ROAD (ALTA)-Layout1.pdf",
+    "data/challenge_projects/TAKEOFF-54 - TAKE 5 OIL CHANGE MASONRY/Project Files/3. T5O COLLEGE STATION, TX SIR.pdf",
+    "data/challenge_projects/TAKEOFF-54 - TAKE 5 OIL CHANGE MASONRY/Project Files/3300rse ( Take 5 Oil Change - College Station) - Geo Report.pdf",
+    "data/challenge_projects/TAKEOFF-54 - TAKE 5 OIL CHANGE MASONRY/Project Files/51-4694 Proposed Take 5 College Station ESA.pdf",
+    "data/challenge_projects/TAKEOFF-54 - TAKE 5 OIL CHANGE MASONRY/Project Files/DB25-002_T5O COLLEGE STATION, TX - ISSUE FOR BID _07-16-2025_.pdf",
+    "data/challenge_projects/TAKEOFF-54 - TAKE 5 OIL CHANGE MASONRY/Project Files/Low Voltage Bulletin - 11.21.23.pdf",
+    "data/challenge_projects/TAKEOFF-54 - TAKE 5 OIL CHANGE MASONRY/Project Files/Madewell RFP - Take 5 Oil Change - College Station, TX.pdf",
+    "data/challenge_projects/TAKEOFF-54 - TAKE 5 OIL CHANGE MASONRY/Project Files/T5OC - Standard 3-Bay Layout - 011224.pdf"
+  ],
+  "ai_run": {
+    "run_id": "takeoff-54-baseline-v1",
+    "detected_trade_scope": "Masonry",
+    "tools_or_models_used": [
+      "Python 3.13 stdlib CLI",
+      "Custom XML parsers for XLSX/DOCX",
+      "Lightweight PDF text extractor (no OCR, no external model)"
+    ],
+    "assumptions": [
+      "Detected project area from source material: 1682 SF.",
+      "Some line items are trade-template fallbacks because the lightweight parser could not recover enough measurable text."
+    ],
+    "warnings": [],
+    "input_summary": {
+      "text_corpus_length": 16361,
+      "files_seen": 8
+    }
+  },
+  "line_items": [
+    {
+      "item_number": null,
+      "description": "Masonry wall system",
+      "quantity": 1682,
+      "unit": "SF",
+      "confidence": 0.2,
+      "source_reference": "25-0140_1644 GREENS PRAIRIE ROAD (ALTA)-Layout1.pdf, 3. T5O COLLEGE STATION, TX SIR.pdf, 3300rse ( Take 5 Oil Change - College Station) - Geo Report.pdf",
+      "drawing_reference": null,
+      "section_reference": null,
+      "division": null,
+      "category": "masonry",
+      "raw_quantity": null,
+      "wastage": null,
+      "quantity_with_wastage": null,
+      "notes": [
+        "Fallback line item because no reliable structured extraction was found."
+      ]
+    }
+  ],
+  "evaluation_when_gold_available": {
+    "matched_items": 0,
+    "missing_items": [],
+    "extra_items": [],
+    "quantity_differences": [],
+    "precision": 0.0,
+    "recall": 0.0,
+    "overall_notes": "No gold output available for challenge projects."
+  },
+  "human_review_stub": {
+    "status": "needs_review",
+    "reviewer_actions": [
+      "Confirm scope and trade split against drawings/specs",
+      "Replace proxy quantities with measured quantities",
+      "Mark missing items and delete false positives"
+    ],
+    "proposed_corrections_file": "review_packets/TAKEOFF-54_review.json",
+    "line_items_to_review": [
+      {
+        "description": "Masonry wall system",
+        "predicted_quantity": 1682,
+        "unit": "SF",
+        "confidence": 0.2
+      }
+    ]
+  },
+  "project_manifest_path": "manifests/TAKEOFF-54.json"
+}

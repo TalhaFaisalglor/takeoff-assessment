@@ -1,0 +1,17 @@
+{
+  "status": "needs_review",
+  "reviewer_actions": [
+    "Confirm scope and trade split against drawings/specs",
+    "Replace proxy quantities with measured quantities",
+    "Mark missing items and delete false positives"
+  ],
+  "proposed_corrections_file": "review_packets/TAKEOFF-40_review.json",
+  "line_items_to_review": [
+    {
+      "description": "TPS Rm 203 ETVS Renovation scope review allowance",
+      "predicted_quantity": 1,
+      "unit": "LS",
+      "confidence": 0.2
+    }
+  ]
+}

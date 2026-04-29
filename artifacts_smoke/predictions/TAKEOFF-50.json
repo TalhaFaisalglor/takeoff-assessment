@@ -1,0 +1,167 @@
+{
+  "project_id": "TAKEOFF-50",
+  "project_name": "Portland VA Surgical Center Rehabilitation",
+  "set_name": "sample",
+  "trade_scope": "Ceramic; Tile",
+  "input_files_used": [
+    "data/sample_projects/TAKEOFF-50 - Portland VA Surgical Center Rehabilitation/Project Files/Addendums/Amendment 1 - 36C77625B0017 0001 7-10-25.pdf",
+    "data/sample_projects/TAKEOFF-50 - Portland VA Surgical Center Rehabilitation/Project Files/Addendums/Amendment 2 - 36C77625B0017 0001 7-21-25.pdf",
+    "data/sample_projects/TAKEOFF-50 - Portland VA Surgical Center Rehabilitation/Project Files/Addendums/Amendment 3 - 36C77625B0017 0001 7-30-25.pdf",
+    "data/sample_projects/TAKEOFF-50 - Portland VA Surgical Center Rehabilitation/Project Files/Addendums/Amendment 4 - 36C77625B0017 0001 8-7-25.pdf",
+    "data/sample_projects/TAKEOFF-50 - Portland VA Surgical Center Rehabilitation/Project Files/Addendums/Amendment 5 - 36C77625B0017 0001 8-11-25.pdf",
+    "data/sample_projects/TAKEOFF-50 - Portland VA Surgical Center Rehabilitation/Project Files/Addendums/Amendment 6 - 36C77625B0017 0001 8-12-25.pdf",
+    "data/sample_projects/TAKEOFF-50 - Portland VA Surgical Center Rehabilitation/Project Files/Amendment 1 - 36C77625B0017 0001 7-10-25.pdf",
+    "data/sample_projects/TAKEOFF-50 - Portland VA Surgical Center Rehabilitation/Project Files/Amendment 2 - 36C77625B0017 0001 7-21-25.pdf",
+    "data/sample_projects/TAKEOFF-50 - Portland VA Surgical Center Rehabilitation/Project Files/Amendment 3 - 36C77625B0017 0001 7-30-25.pdf",
+    "data/sample_projects/TAKEOFF-50 - Portland VA Surgical Center Rehabilitation/Project Files/Amendment 4 - 36C77625B0017 0001 8-7-25.pdf",
+    "data/sample_projects/TAKEOFF-50 - Portland VA Surgical Center Rehabilitation/Project Files/Amendment 5 - 36C77625B0017 0001 8-11-25.pdf",
+    "data/sample_projects/TAKEOFF-50 - Portland VA Surgical Center Rehabilitation/Project Files/Amendment 6 - 36C77625B0017 0001 8-12-25.pdf",
+    "data/sample_projects/TAKEOFF-50 - Portland VA Surgical Center Rehabilitation/Project Files/Attachment 11 - Brand Name Justification - Portland_Redacted.pdf",
+    "data/sample_projects/TAKEOFF-50 - Portland VA Surgical Center Rehabilitation/Project Files/Attachment 13 - PreConstruction Risk Assessment - PCRA 648-349.pdf",
+    "data/sample_projects/TAKEOFF-50 - Portland VA Surgical Center Rehabilitation/Project Files/Attachment 14 - Infection Control Risk Assessement - ICRA 648-349.pdf",
+    "data/sample_projects/TAKEOFF-50 - Portland VA Surgical Center Rehabilitation/Project Files/Drawings/VAPHCS - Architectural Drawings.pdf",
+    "data/sample_projects/TAKEOFF-50 - Portland VA Surgical Center Rehabilitation/Project Files/Drawings/VAPHCS - Electrical Drawings.pdf",
+    "data/sample_projects/TAKEOFF-50 - Portland VA Surgical Center Rehabilitation/Project Files/Drawings/VAPHCS - Fire Alarm Drawings.pdf",
+    "data/sample_projects/TAKEOFF-50 - Portland VA Surgical Center Rehabilitation/Project Files/Drawings/VAPHCS - General Information Drawings.pdf",
+    "data/sample_projects/TAKEOFF-50 - Portland VA Surgical Center Rehabilitation/Project Files/Drawings/VAPHCS - Mechanical Drawings.pdf",
+    "data/sample_projects/TAKEOFF-50 - Portland VA Surgical Center Rehabilitation/Project Files/Drawings/VAPHCS - Plumbing Drawings.pdf",
+    "data/sample_projects/TAKEOFF-50 - Portland VA Surgical Center Rehabilitation/Project Files/Drawings/VAPHCS - Structural Drawings.pdf",
+    "data/sample_projects/TAKEOFF-50 - Portland VA Surgical Center Rehabilitation/Project Files/Specifications/VAPHCS Specs 100Pct BID Set REV 3.pdf",
+    "data/sample_projects/TAKEOFF-50 - Portland VA Surgical Center Rehabilitation/Project Files/VAPHCS - Architectural Drawings.pdf",
+    "data/sample_projects/TAKEOFF-50 - Portland VA Surgical Center Rehabilitation/Project Files/VAPHCS - Electrical Drawings.pdf",
+    "data/sample_projects/TAKEOFF-50 - Portland VA Surgical Center Rehabilitation/Project Files/VAPHCS - Fire Alarm Drawings.pdf",
+    "data/sample_projects/TAKEOFF-50 - Portland VA Surgical Center Rehabilitation/Project Files/VAPHCS - General Information Drawings.pdf",
+    "data/sample_projects/TAKEOFF-50 - Portland VA Surgical Center Rehabilitation/Project Files/VAPHCS - Mechanical Drawings.pdf",
+    "data/sample_projects/TAKEOFF-50 - Portland VA Surgical Center Rehabilitation/Project Files/VAPHCS - Plumbing Drawings.pdf",
+    "data/sample_projects/TAKEOFF-50 - Portland VA Surgical Center Rehabilitation/Project Files/VAPHCS - Structural Drawings.pdf",
+    "data/sample_projects/TAKEOFF-50 - Portland VA Surgical Center Rehabilitation/Project Files/VAPHCS Specs 100Pct BID Set REV 3.pdf",
+    "data/sample_projects/TAKEOFF-50 - Portland VA Surgical Center Rehabilitation/Project Files/Wage rates Multnomah 7-4-2025.pdf"
+  ],
+  "ai_run": {
+    "run_id": "takeoff-50-baseline-v1",
+    "detected_trade_scope": "Ceramic; Tile",
+    "tools_or_models_used": [
+      "Python 3.13 stdlib CLI",
+      "Custom XML parsers for XLSX/DOCX",
+      "Lightweight PDF text extractor"
+    ],
+    "assumptions": [
+      "Some line items are trade-template fallbacks because the lightweight parser could not recover enough measurable text."
+    ],
+    "warnings": [
+      "Manifest input_file_count=18 differs from discovered input files=32.",
+      "No project area was detected in AI-visible files."
+    ],
+    "input_summary": {
+      "text_corpus_length": 92332,
+      "files_seen": 32
+    }
+  },
+  "line_items": [
+    {
+      "item_number": null,
+      "description": "Tile flooring",
+      "quantity": 100,
+      "unit": "SF",
+      "confidence": 0.2,
+      "source_reference": "Amendment 1 - 36C77625B0017 0001 7-10-25.pdf, Amendment 2 - 36C77625B0017 0001 7-21-25.pdf, Amendment 3 - 36C77625B0017 0001 7-30-25.pdf",
+      "drawing_reference": null,
+      "section_reference": null,
+      "division": null,
+      "category": "flooring",
+      "raw_quantity": null,
+      "wastage": null,
+      "quantity_with_wastage": null,
+      "notes": [
+        "Fallback line item because no reliable structured extraction was found."
+      ]
+    },
+    {
+      "item_number": null,
+      "description": "Floor transitions",
+      "quantity": 8,
+      "unit": "FT",
+      "confidence": 0.2,
+      "source_reference": "Amendment 1 - 36C77625B0017 0001 7-10-25.pdf, Amendment 2 - 36C77625B0017 0001 7-21-25.pdf, Amendment 3 - 36C77625B0017 0001 7-30-25.pdf",
+      "drawing_reference": null,
+      "section_reference": null,
+      "division": null,
+      "category": "flooring",
+      "raw_quantity": null,
+      "wastage": null,
+      "quantity_with_wastage": null,
+      "notes": [
+        "Fallback line item because no reliable structured extraction was found."
+      ]
+    },
+    {
+      "item_number": null,
+      "description": "Wall tile",
+      "quantity": 100,
+      "unit": "SF",
+      "confidence": 0.2,
+      "source_reference": "Amendment 1 - 36C77625B0017 0001 7-10-25.pdf, Amendment 2 - 36C77625B0017 0001 7-21-25.pdf, Amendment 3 - 36C77625B0017 0001 7-30-25.pdf",
+      "drawing_reference": null,
+      "section_reference": null,
+      "division": null,
+      "category": "flooring",
+      "raw_quantity": null,
+      "wastage": null,
+      "quantity_with_wastage": null,
+      "notes": [
+        "Fallback line item because no reliable structured extraction was found."
+      ]
+    }
+  ],
+  "evaluation_when_gold_available": {
+    "matched_items": 0,
+    "missing_items": [
+      "Management & Supervision (Weeks)",
+      "Documentation & Shop Drawings",
+      "QT-01: Quarry Tile\n-Mfg: Daltile\n-Collection: Quarry Tile\n-Product: Paver\n-Color: OQ-92\n-Name: Gray\n-Size: 6\"x6\"",
+      "PT-01: Porcelain Tile\n-Mfg: Daltile\n-Collection: Volume 1.0\n-Product: Glazed Porcelain w/ Stepwise Technology\n-Color: VL74\n-Size: 6\"x6\"",
+      "Vinyl to Quarry Tile Transition",
+      "Vinyl to Porcelain Transition",
+      "PT-02: Porcelain Wall Tile (8'-0\" High)\n-Mfg: Daltile\n-Collection: Colored Wheel\n-Product: Classic Color\n-Color: 0790\n-Name: Matte Arctic White\n-Size/Profile: 6\"x6\"\n-Color: VL74\n-Size: 6\"x6\""
+    ],
+    "extra_items": [
+      "Tile flooring",
+      "Floor transitions",
+      "Wall tile"
+    ],
+    "quantity_differences": [],
+    "precision": 0.0,
+    "recall": 0.0,
+    "overall_notes": "Exact description matching with quantity comparison tolerance of 5%."
+  },
+  "human_review_stub": {
+    "status": "needs_review",
+    "reviewer_actions": [
+      "Confirm scope and trade split against drawings/specs",
+      "Replace proxy quantities with measured quantities",
+      "Mark missing items and delete false positives"
+    ],
+    "proposed_corrections_file": "review_packets/TAKEOFF-50_review.json",
+    "line_items_to_review": [
+      {
+        "description": "Tile flooring",
+        "predicted_quantity": 100,
+        "unit": "SF",
+        "confidence": 0.2
+      },
+      {
+        "description": "Floor transitions",
+        "predicted_quantity": 8,
+        "unit": "FT",
+        "confidence": 0.2
+      },
+      {
+        "description": "Wall tile",
+        "predicted_quantity": 100,
+        "unit": "SF",
+        "confidence": 0.2
+      }
+    ]
+  },
+  "project_manifest_path": "manifests/TAKEOFF-50.json"
+}

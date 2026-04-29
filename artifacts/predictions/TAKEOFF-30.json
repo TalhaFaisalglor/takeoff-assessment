@@ -1,0 +1,125 @@
+{
+  "project_id": "TAKEOFF-30",
+  "project_name": "FRESENIUS NORTH DALLAS",
+  "set_name": "challenge",
+  "trade_scope": "Drywall And Framing",
+  "input_files_used": [
+    "data/challenge_projects/TAKEOFF-30 - FRESENIUS NORTH DALLAS/Project Files/Fresenius North Dallas Bid Set - 7.23.25.pdf",
+    "data/challenge_projects/TAKEOFF-30 - FRESENIUS NORTH DALLAS/Project Files/Fresenius North Dallas Spec Book.pdf",
+    "data/challenge_projects/TAKEOFF-30 - FRESENIUS NORTH DALLAS/Project Files/Project Description.txt"
+  ],
+  "ai_run": {
+    "run_id": "takeoff-30-baseline-v1",
+    "detected_trade_scope": "Drywall And Framing",
+    "tools_or_models_used": [
+      "Python 3.13 stdlib CLI",
+      "Custom XML parsers for XLSX/DOCX",
+      "Lightweight PDF text extractor (no OCR, no external model)"
+    ],
+    "assumptions": [
+      "Detected project area from source material: 17393 SF.",
+      "Used explicit quantity statements recovered from project description text where available.",
+      "Some line items are trade-template fallbacks because the lightweight parser could not recover enough measurable text."
+    ],
+    "warnings": [],
+    "input_summary": {
+      "text_corpus_length": 8195,
+      "files_seen": 3
+    }
+  },
+  "line_items": [
+    {
+      "item_number": null,
+      "description": "Wall area",
+      "quantity": 17393,
+      "unit": "SF",
+      "confidence": 0.82,
+      "source_reference": "data/challenge_projects/TAKEOFF-30 - FRESENIUS NORTH DALLAS/Project Files/Project Description.txt",
+      "drawing_reference": null,
+      "section_reference": null,
+      "division": null,
+      "category": "drywall and framing",
+      "raw_quantity": null,
+      "wastage": null,
+      "quantity_with_wastage": null,
+      "notes": [
+        "Recovered from explicit quantity statement in project description text."
+      ]
+    },
+    {
+      "item_number": null,
+      "description": "Gypsum board wall system",
+      "quantity": 17393,
+      "unit": "SF",
+      "confidence": 0.2,
+      "source_reference": "Fresenius North Dallas Bid Set - 7.23.25.pdf, Fresenius North Dallas Spec Book.pdf, Project Description.txt",
+      "drawing_reference": null,
+      "section_reference": null,
+      "division": null,
+      "category": "drywall/framing",
+      "raw_quantity": null,
+      "wastage": null,
+      "quantity_with_wastage": null,
+      "notes": [
+        "Fallback line item because no reliable structured extraction was found."
+      ]
+    },
+    {
+      "item_number": null,
+      "description": "Metal stud framing",
+      "quantity": 17393,
+      "unit": "SF",
+      "confidence": 0.2,
+      "source_reference": "Fresenius North Dallas Bid Set - 7.23.25.pdf, Fresenius North Dallas Spec Book.pdf, Project Description.txt",
+      "drawing_reference": null,
+      "section_reference": null,
+      "division": null,
+      "category": "drywall/framing",
+      "raw_quantity": null,
+      "wastage": null,
+      "quantity_with_wastage": null,
+      "notes": [
+        "Fallback line item because no reliable structured extraction was found."
+      ]
+    }
+  ],
+  "evaluation_when_gold_available": {
+    "matched_items": 0,
+    "missing_items": [],
+    "extra_items": [],
+    "quantity_differences": [],
+    "precision": 0.0,
+    "recall": 0.0,
+    "overall_notes": "No gold output available for challenge projects."
+  },
+  "human_review_stub": {
+    "status": "needs_review",
+    "reviewer_actions": [
+      "Confirm scope and trade split against drawings/specs",
+      "Replace proxy quantities with measured quantities",
+      "Mark missing items and delete false positives"
+    ],
+    "proposed_corrections_file": "review_packets/TAKEOFF-30_review.json",
+    "line_items_to_review": [
+      {
+        "description": "Wall area",
+        "predicted_quantity": 17393,
+        "unit": "SF",
+        "confidence": 0.82
+      },
+      {
+        "description": "Gypsum board wall system",
+        "predicted_quantity": 17393,
+        "unit": "SF",
+        "confidence": 0.2
+      },
+      {
+        "description": "Metal stud framing",
+        "predicted_quantity": 17393,
+        "unit": "SF",
+        "confidence": 0.2
+      }
+    ]
+  },
+  "project_manifest_path": "manifests/TAKEOFF-30.json"
+}

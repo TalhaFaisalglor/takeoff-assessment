@@ -1,0 +1,41 @@
+{
+  "status": "needs_review",
+  "reviewer_actions": [
+    "Confirm scope and trade split against drawings/specs",
+    "Replace proxy quantities with measured quantities",
+    "Mark missing items and delete false positives"
+  ],
+  "proposed_corrections_file": "review_packets/TAKEOFF-28_review.json",
+  "line_items_to_review": [
+    {
+      "description": "Distribution equipment",
+      "predicted_quantity": 1,
+      "unit": "EA",
+      "confidence": 0.43
+    },
+    {
+      "description": "Branch wiring and conduit",
+      "predicted_quantity": 100,
+      "unit": "SF",
+      "confidence": 0.43
+    },
+    {
+      "description": "Sheet metal ductwork",
+      "predicted_quantity": 16,
+      "unit": "FT",
+      "confidence": 0.51
+    },
+    {
+      "description": "Wall paint system",
+      "predicted_quantity": 100,
+      "unit": "SF",
+      "confidence": 0.2
+    },
+    {
+      "description": "Ceiling paint system",
+      "predicted_quantity": 100,
+      "unit": "SF",
+      "confidence": 0.2
+    }
+  ]
+}

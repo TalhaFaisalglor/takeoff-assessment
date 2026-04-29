@@ -1,0 +1,77 @@
+{
+  "project_id": "TAKEOFF-49",
+  "project_name": "Maintenance Building, Gator Blvd & Main Street",
+  "set_name": "challenge",
+  "trade_scope": "Unknown",
+  "input_files_used": [
+    "data/challenge_projects/TAKEOFF-49 - Maintenance Building, Gator Blvd & Main Street/Project Files/07-2025_exhibit_a_civil_specifications.pdf",
+    "data/challenge_projects/TAKEOFF-49 - Maintenance Building, Gator Blvd & Main Street/Project Files/07-2025_exhibit_b_civil-landscape_planset.pdf"
+  ],
+  "ai_run": {
+    "run_id": "takeoff-49-baseline-v1",
+    "detected_trade_scope": "Unknown",
+    "tools_or_models_used": [
+      "Python 3.13 stdlib CLI",
+      "Custom XML parsers for XLSX/DOCX",
+      "Lightweight PDF text extractor (no OCR, no external model)"
+    ],
+    "assumptions": [
+      "No structured quantity signals were extracted; fallback items are based on file names and declared scope.",
+      "Some line items are trade-template fallbacks because the lightweight parser could not recover enough measurable text."
+    ],
+    "warnings": [
+      "No project area was detected in AI-visible files."
+    ],
+    "input_summary": {
+      "text_corpus_length": 8001,
+      "files_seen": 2
+    }
+  },
+  "line_items": [
+    {
+      "item_number": null,
+      "description": "Maintenance Building, Gator Blvd & Main Street scope review allowance",
+      "quantity": 1,
+      "unit": "LS",
+      "confidence": 0.2,
+      "source_reference": "07-2025_exhibit_a_civil_specifications.pdf, 07-2025_exhibit_b_civil-landscape_planset.pdf",
+      "drawing_reference": null,
+      "section_reference": null,
+      "division": null,
+      "category": "unknown",
+      "raw_quantity": null,
+      "wastage": null,
+      "quantity_with_wastage": null,
+      "notes": [
+        "Fallback line item because no reliable structured extraction was found."
+      ]
+    }
+  ],
+  "evaluation_when_gold_available": {
+    "matched_items": 0,
+    "missing_items": [],
+    "extra_items": [],
+    "quantity_differences": [],
+    "precision": 0.0,
+    "recall": 0.0,
+    "overall_notes": "No gold output available for challenge projects."
+  },
+  "human_review_stub": {
+    "status": "needs_review",
+    "reviewer_actions": [
+      "Confirm scope and trade split against drawings/specs",
+      "Replace proxy quantities with measured quantities",
+      "Mark missing items and delete false positives"
+    ],
+    "proposed_corrections_file": "review_packets/TAKEOFF-49_review.json",
+    "line_items_to_review": [
+      {
+        "description": "Maintenance Building, Gator Blvd & Main Street scope review allowance",
+        "predicted_quantity": 1,
+        "unit": "LS",
+        "confidence": 0.2
+      }
+    ]
+  },
+  "project_manifest_path": "manifests/TAKEOFF-49.json"
+}

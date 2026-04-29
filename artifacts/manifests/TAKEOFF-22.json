@@ -1,0 +1,170 @@
+{
+  "set_name": "challenge",
+  "takeoff_id": "TAKEOFF-22",
+  "project_name": "AUTOZONE #10016",
+  "root_dirs": [
+    "data/challenge_projects/TAKEOFF-22 - AUTOZONE #10016"
+  ],
+  "metadata": {
+    "set": "challenge",
+    "takeoff_id": "TAKEOFF-22",
+    "project_name": "AUTOZONE #10016",
+    "client_services": "",
+    "input_file_count": "10",
+    "expected_output_visible": "no"
+  },
+  "warnings": [],
+  "input_files": [
+    {
+      "path": "data/challenge_projects/TAKEOFF-22 - AUTOZONE #10016/Project Files/A0.pdf",
+      "relative_path": "data/challenge_projects/TAKEOFF-22 - AUTOZONE #10016/Project Files/A0.pdf",
+      "role": "input",
+      "extension": "pdf",
+      "size_bytes": 461683,
+      "source_bucket": "challenge",
+      "duplicate_group": null,
+      "notes": [
+        "No text extracted with lightweight parser"
+      ],
+      "extracted_text_preview": "",
+      "page_count": 1,
+      "nested_files": []
+    },
+    {
+      "path": "data/challenge_projects/TAKEOFF-22 - AUTOZONE #10016/Project Files/A1.1.pdf",
+      "relative_path": "data/challenge_projects/TAKEOFF-22 - AUTOZONE #10016/Project Files/A1.1.pdf",
+      "role": "input",
+      "extension": "pdf",
+      "size_bytes": 312421,
+      "source_bucket": "challenge",
+      "duplicate_group": null,
+      "notes": [
+        "No text extracted with lightweight parser"
+      ],
+      "extracted_text_preview": "",
+      "page_count": 1,
+      "nested_files": []
+    },
+    {
+      "path": "data/challenge_projects/TAKEOFF-22 - AUTOZONE #10016/Project Files/A1.pdf",
+      "relative_path": "data/challenge_projects/TAKEOFF-22 - AUTOZONE #10016/Project Files/A1.pdf",
+      "role": "input",
+      "extension": "pdf",
+      "size_bytes": 1027840,
+      "source_bucket": "challenge",
+      "duplicate_group": null,
+      "notes": [
+        "No text extracted with lightweight parser"
+      ],
+      "extracted_text_preview": "",
+      "page_count": 1,
+      "nested_files": []
+    },
+    {
+      "path": "data/challenge_projects/TAKEOFF-22 - AUTOZONE #10016/Project Files/A2.pdf",
+      "relative_path": "data/challenge_projects/TAKEOFF-22 - AUTOZONE #10016/Project Files/A2.pdf",
+      "role": "input",
+      "extension": "pdf",
+      "size_bytes": 1289063,
+      "source_bucket": "challenge",
+      "duplicate_group": null,
+      "notes": [
+        "No text extracted with lightweight parser"
+      ],
+      "extracted_text_preview": "",
+      "page_count": 1,
+      "nested_files": []
+    },
+    {
+      "path": "data/challenge_projects/TAKEOFF-22 - AUTOZONE #10016/Project Files/A3.1.pdf",
+      "relative_path": "data/challenge_projects/TAKEOFF-22 - AUTOZONE #10016/Project Files/A3.1.pdf",
+      "role": "input",
+      "extension": "pdf",
+      "size_bytes": 550324,
+      "source_bucket": "challenge",
+      "duplicate_group": null,
+      "notes": [
+        "No text extracted with lightweight parser"
+      ],
+      "extracted_text_preview": "",
+      "page_count": 1,
+      "nested_files": []
+    },
+    {
+      "path": "data/challenge_projects/TAKEOFF-22 - AUTOZONE #10016/Project Files/A3.2.pdf",
+      "relative_path": "data/challenge_projects/TAKEOFF-22 - AUTOZONE #10016/Project Files/A3.2.pdf",
+      "role": "input",
+      "extension": "pdf",
+      "size_bytes": 271020,
+      "source_bucket": "challenge",
+      "duplicate_group": null,
+      "notes": [
+        "No text extracted with lightweight parser"
+      ],
+      "extracted_text_preview": "",
+      "page_count": 1,
+      "nested_files": []
+    },
+    {
+      "path": "data/challenge_projects/TAKEOFF-22 - AUTOZONE #10016/Project Files/A3.pdf",
+      "relative_path": "data/challenge_projects/TAKEOFF-22 - AUTOZONE #10016/Project Files/A3.pdf",
+      "role": "input",
+      "extension": "pdf",
+      "size_bytes": 533743,
+      "source_bucket": "challenge",
+      "duplicate_group": null,
+      "notes": [
+        "No text extracted with lightweight parser"
+      ],
+      "extracted_text_preview": "",
+      "page_count": 1,
+      "nested_files": []
+    },
+    {
+      "path": "data/challenge_projects/TAKEOFF-22 - AUTOZONE #10016/Project Files/A4.pdf",
+      "relative_path": "data/challenge_projects/TAKEOFF-22 - AUTOZONE #10016/Project Files/A4.pdf",
+      "role": "input",
+      "extension": "pdf",
+      "size_bytes": 462398,
+      "source_bucket": "challenge",
+      "duplicate_group": null,
+      "notes": [
+        "No text extracted with lightweight parser"
+      ],
+      "extracted_text_preview": "",
+      "page_count": 1,
+      "nested_files": []
+    },
+    {
+      "path": "data/challenge_projects/TAKEOFF-22 - AUTOZONE #10016/Project Files/A5.pdf",
+      "relative_path": "data/challenge_projects/TAKEOFF-22 - AUTOZONE #10016/Project Files/A5.pdf",
+      "role": "input",
+      "extension": "pdf",
+      "size_bytes": 527619,
+      "source_bucket": "challenge",
+      "duplicate_group": null,
+      "notes": [
+        "No text extracted with lightweight parser"
+      ],
+      "extracted_text_preview": "",
+      "page_count": 1,
+      "nested_files": []
+    },
+    {
+      "path": "data/challenge_projects/TAKEOFF-22 - AUTOZONE #10016/Project Files/A6.pdf",
+      "relative_path": "data/challenge_projects/TAKEOFF-22 - AUTOZONE #10016/Project Files/A6.pdf",
+      "role": "input",
+      "extension": "pdf",
+      "size_bytes": 381161,
+      "source_bucket": "challenge",
+      "duplicate_group": null,
+      "notes": [
+        "No text extracted with lightweight parser"
+      ],
+      "extracted_text_preview": "",
+      "page_count": 1,
+      "nested_files": []
+    }
+  ],
+  "gold_files": []
+}

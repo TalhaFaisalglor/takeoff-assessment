@@ -1,0 +1,29 @@
+{
+  "status": "needs_review",
+  "reviewer_actions": [
+    "Confirm scope and trade split against drawings/specs",
+    "Replace proxy quantities with measured quantities",
+    "Mark missing items and delete false positives"
+  ],
+  "proposed_corrections_file": "review_packets/TAKEOFF-30_review.json",
+  "line_items_to_review": [
+    {
+      "description": "Wall area",
+      "predicted_quantity": 17393,
+      "unit": "SF",
+      "confidence": 0.82
+    },
+    {
+      "description": "Gypsum board wall system",
+      "predicted_quantity": 17393,
+      "unit": "SF",
+      "confidence": 0.2
+    },
+    {
+      "description": "Metal stud framing",
+      "predicted_quantity": 17393,
+      "unit": "SF",
+      "confidence": 0.2
+    }
+  ]
+}

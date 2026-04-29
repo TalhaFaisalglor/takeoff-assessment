@@ -1,0 +1,117 @@
+{
+  "project_id": "TAKEOFF-32",
+  "project_name": "APU Military and Veterans  Azusa",
+  "set_name": "challenge",
+  "trade_scope": "Carpentry/Gabinets",
+  "input_files_used": [
+    "data/challenge_projects/TAKEOFF-32 - APU Military and Veterans Azusa/Project Files/01.Subcontractor Documents/General Insurance Requirements Standard  2021-Ca.pdf",
+    "data/challenge_projects/TAKEOFF-32 - APU Military and Veterans Azusa/Project Files/01.Subcontractor Documents/Subcontract Agreement-California.pdf",
+    "data/challenge_projects/TAKEOFF-32 - APU Military and Veterans Azusa/Project Files/01.Subcontractor Documents/Terms and Conditions - California.pdf",
+    "data/challenge_projects/TAKEOFF-32 - APU Military and Veterans Azusa/Project Files/02.Subcontractor Resources/4 Fast FAQs about TheoBuild_VCC.pdf",
+    "data/challenge_projects/TAKEOFF-32 - APU Military and Veterans Azusa/Project Files/02.Subcontractor Resources/DigiProcure Correspondence.docx",
+    "data/challenge_projects/TAKEOFF-32 - APU Military and Veterans Azusa/Project Files/02.Subcontractor Resources/DigiProcure.pdf",
+    "data/challenge_projects/TAKEOFF-32 - APU Military and Veterans Azusa/Project Files/03.Bid Issue/2025-02-11 Campus Standards Handbook.pdf",
+    "data/challenge_projects/TAKEOFF-32 - APU Military and Veterans Azusa/Project Files/2025-02-11 Campus Standards Handbook.pdf",
+    "data/challenge_projects/TAKEOFF-32 - APU Military and Veterans Azusa/Project Files/2025-07-18 Military_Veterans Center-2nd City Submittal Bid.pdf",
+    "data/challenge_projects/TAKEOFF-32 - APU Military and Veterans Azusa/Project Files/4 Fast FAQs about TheoBuild_VCC.pdf",
+    "data/challenge_projects/TAKEOFF-32 - APU Military and Veterans Azusa/Project Files/DigiProcure Correspondence.docx",
+    "data/challenge_projects/TAKEOFF-32 - APU Military and Veterans Azusa/Project Files/DigiProcure.pdf",
+    "data/challenge_projects/TAKEOFF-32 - APU Military and Veterans Azusa/Project Files/General Insurance Requirements Standard  2021-Ca.pdf",
+    "data/challenge_projects/TAKEOFF-32 - APU Military and Veterans Azusa/Project Files/Project Description.txt",
+    "data/challenge_projects/TAKEOFF-32 - APU Military and Veterans Azusa/Project Files/Subcontract Agreement-California.pdf",
+    "data/challenge_projects/TAKEOFF-32 - APU Military and Veterans Azusa/Project Files/Terms and Conditions - California.pdf",
+    "data/challenge_projects_supplemental/TAKEOFF-32 - APU Military and Veterans Azusa/Project Files/03.Bid Issue/2025-07-18 Military_Veterans Center-2nd City Submittal Bid.pdf"
+  ],
+  "ai_run": {
+    "run_id": "takeoff-32-baseline-v1",
+    "detected_trade_scope": "Carpentry/Gabinets",
+    "tools_or_models_used": [
+      "Python 3.13 stdlib CLI",
+      "Custom XML parsers for XLSX/DOCX",
+      "Lightweight PDF text extractor (no OCR, no external model)"
+    ],
+    "assumptions": [
+      "Some line items are trade-template fallbacks because the lightweight parser could not recover enough measurable text."
+    ],
+    "warnings": [
+      "Manifest input_file_count=9 differs from discovered input files=17.",
+      "Project was discovered in multiple dataset folders and merged into one manifest.",
+      "No project area was detected in AI-visible files."
+    ],
+    "input_summary": {
+      "text_corpus_length": 34109,
+      "files_seen": 17
+    }
+  },
+  "line_items": [
+    {
+      "item_number": null,
+      "description": "Millwork and wood trim",
+      "quantity": 8,
+      "unit": "FT",
+      "confidence": 0.2,
+      "source_reference": "General Insurance Requirements Standard  2021-Ca.pdf, Subcontract Agreement-California.pdf, Terms and Conditions - California.pdf",
+      "drawing_reference": null,
+      "section_reference": null,
+      "division": null,
+      "category": "carpentry/gabinets",
+      "raw_quantity": null,
+      "wastage": null,
+      "quantity_with_wastage": null,
+      "notes": [
+        "Fallback line item because no reliable structured extraction was found."
+      ]
+    },
+    {
+      "item_number": null,
+      "description": "Doors and hardware",
+      "quantity": 1,
+      "unit": "EA",
+      "confidence": 0.2,
+      "source_reference": "General Insurance Requirements Standard  2021-Ca.pdf, Subcontract Agreement-California.pdf, Terms and Conditions - California.pdf",
+      "drawing_reference": null,
+      "section_reference": null,
+      "division": null,
+      "category": "carpentry/gabinets",
+      "raw_quantity": null,
+      "wastage": null,
+      "quantity_with_wastage": null,
+      "notes": [
+        "Fallback line item because no reliable structured extraction was found."
+      ]
+    }
+  ],
+  "evaluation_when_gold_available": {
+    "matched_items": 0,
+    "missing_items": [],
+    "extra_items": [],
+    "quantity_differences": [],
+    "precision": 0.0,
+    "recall": 0.0,
+    "overall_notes": "No gold output available for challenge projects."
+  },
+  "human_review_stub": {
+    "status": "needs_review",
+    "reviewer_actions": [
+      "Confirm scope and trade split against drawings/specs",
+      "Replace proxy quantities with measured quantities",
+      "Mark missing items and delete false positives"
+    ],
+    "proposed_corrections_file": "review_packets/TAKEOFF-32_review.json",
+    "line_items_to_review": [
+      {
+        "description": "Millwork and wood trim",
+        "predicted_quantity": 8,
+        "unit": "FT",
+        "confidence": 0.2
+      },
+      {
+        "description": "Doors and hardware",
+        "predicted_quantity": 1,
+        "unit": "EA",
+        "confidence": 0.2
+      }
+    ]
+  },
+  "project_manifest_path": "manifests/TAKEOFF-32.json"
+}

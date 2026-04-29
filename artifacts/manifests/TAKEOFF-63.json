@@ -1,0 +1,59 @@
+{
+  "set_name": "challenge",
+  "takeoff_id": "TAKEOFF-63",
+  "project_name": "LEHI HIPPO VET CLINIC",
+  "root_dirs": [
+    "data/challenge_projects/TAKEOFF-63 - LEHI HIPPO VET CLINIC"
+  ],
+  "metadata": {
+    "set": "challenge",
+    "takeoff_id": "TAKEOFF-63",
+    "project_name": "LEHI HIPPO VET CLINIC",
+    "client_services": "Landscaping",
+    "input_file_count": "3",
+    "expected_output_visible": "no"
+  },
+  "warnings": [],
+  "input_files": [
+    {
+      "path": "data/challenge_projects/TAKEOFF-63 - LEHI HIPPO VET CLINIC/Project Files/LP-100-LANDSCAPE-OVERALL-PLAN-Rev.BID.pdf",
+      "relative_path": "data/challenge_projects/TAKEOFF-63 - LEHI HIPPO VET CLINIC/Project Files/LP-100-LANDSCAPE-OVERALL-PLAN-Rev.BID.pdf",
+      "role": "input",
+      "extension": "pdf",
+      "size_bytes": 2151324,
+      "source_bucket": "challenge",
+      "duplicate_group": null,
+      "notes": [],
+      "extracted_text_preview": "07/24/2025",
+      "page_count": 1,
+      "nested_files": []
+    },
+    {
+      "path": "data/challenge_projects/TAKEOFF-63 - LEHI HIPPO VET CLINIC/Project Files/LP-101-LANDSCAPE-COVER-Rev.BID.pdf",
+      "relative_path": "data/challenge_projects/TAKEOFF-63 - LEHI HIPPO VET CLINIC/Project Files/LP-101-LANDSCAPE-COVER-Rev.BID.pdf",
+      "role": "input",
+      "extension": "pdf",
+      "size_bytes": 5100056,
+      "source_bucket": "challenge",
+      "duplicate_group": null,
+      "notes": [],
+      "extracted_text_preview": "07/24/2025",
+      "page_count": 1,
+      "nested_files": []
+    },
+    {
+      "path": "data/challenge_projects/TAKEOFF-63 - LEHI HIPPO VET CLINIC/Project Files/LP-501-LANDSCAPE-DETAILS-Rev.BID.pdf",
+      "relative_path": "data/challenge_projects/TAKEOFF-63 - LEHI HIPPO VET CLINIC/Project Files/LP-501-LANDSCAPE-DETAILS-Rev.BID.pdf",
+      "role": "input",
+      "extension": "pdf",
+      "size_bytes": 1821593,
+      "source_bucket": "challenge",
+      "duplicate_group": null,
+      "notes": [],
+      "extracted_text_preview": "07/24/2025\nIdentity Adobe Swis721 BT",
+      "page_count": 1,
+      "nested_files": []
+    }
+  ],
+  "gold_files": []
+}

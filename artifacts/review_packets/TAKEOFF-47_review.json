@@ -1,0 +1,29 @@
+{
+  "status": "needs_review",
+  "reviewer_actions": [
+    "Confirm scope and trade split against drawings/specs",
+    "Replace proxy quantities with measured quantities",
+    "Mark missing items and delete false positives"
+  ],
+  "proposed_corrections_file": "review_packets/TAKEOFF-47_review.json",
+  "line_items_to_review": [
+    {
+      "description": "Wall paint",
+      "predicted_quantity": 2000,
+      "unit": "SF",
+      "confidence": 0.82
+    },
+    {
+      "description": "Door paint",
+      "predicted_quantity": 167,
+      "unit": "SF",
+      "confidence": 0.82
+    },
+    {
+      "description": "Door frame paint",
+      "predicted_quantity": 124,
+      "unit": "SF",
+      "confidence": 0.82
+    }
+  ]
+}

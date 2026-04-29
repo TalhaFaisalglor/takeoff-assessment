@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Takeoff Studio</title>
+    <link rel="stylesheet" href="/assets/styles.css" />
+  </head>
+  <body>
+    <div class="appShell">
+      <aside class="sidebar">
+        <div class="brand">
+          <p class="eyebrow">Assessment Build</p>
+          <h1>Takeoff Studio</h1>
+          <p class="muted">A unified workspace for ingestion, scoring, outputs, and estimator review.</p>
+        </div>
+
+        <div class="commandBar">
+          <label>
+            <span>Build Profile</span>
+            <select id="buildProfile">
+              <option value="full">Full dataset</option>
+              <option value="minimum">Minimum acceptable submission</option>
+              <option value="samples">Samples only</option>
+            </select>
+          </label>
+          <div class="commandActions">
+            <button id="rebuildButton" class="primaryButton">Run Build</button>
+            <span id="buildStateBadge" class="statusBadge">Idle</span>
+          </div>
+          <p id="profileDescription" class="muted compact"></p>
+          <p id="commandStatus" class="muted compact" aria-live="polite"></p>
+        </div>
+
+        <div class="summaryGrid" id="summaryGrid"></div>
+
+        <section class="briefCard">
+          <div class="sectionHeader">
+            <h3>Assessment Targets</h3>
+            <a href="/artifacts/run_summary.json" target="_blank" rel="noreferrer">Current run</a>
+          </div>
+          <ul class="plainList compactList">
+            <li>Ingest the provided project structure without leaking gold/reference files into prediction logic.</li>
+            <li>Produce structured takeoff outputs with quantities, units, source references, assumptions, and warnings.</li>
+            <li>Score the 3 sample projects deterministically and preserve a reviewer correction loop.</li>
+            <li>Prioritize the complete system over pretending every challenge project is solved perfectly.</li>
+          </ul>
+        </section>
+
+        <div class="filters">
+          <label>
+            <span>Search</span>
+            <input id="searchInput" type="search" placeholder="TAKEOFF-36, painting, Portland..." />
+          </label>
+          <label>
+            <span>Set</span>
+            <select id="setFilter">
+              <option value="all">All projects</option>
+              <option value="sample">Sample</option>
+              <option value="challenge">Challenge</option>
+            </select>
+          </label>
+          <label>
+            <span>Scored</span>
+            <select id="scoreFilter">
+              <option value="all">All</option>
+              <option value="true">Scored</option>
+              <option value="false">Unscored</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="projectList" id="projectList"></div>
+      </aside>
+
+      <main class="workspace">
+        <header class="workspaceHeader">
+          <div>
+            <p class="eyebrow">Reviewer Workspace</p>
+            <h2 id="workspaceTitle">Select a project</h2>
+            <p id="workspaceSubtitle" class="muted">Review predictions, compare scoring, inspect artifacts, and save reviewer corrections.</p>
+          </div>
+
+          <nav class="docLinks">
+            <a href="/artifacts/run_summary.json" target="_blank" rel="noreferrer">Run Summary</a>
+            <a href="/artifacts/dashboard_data.json" target="_blank" rel="noreferrer">Dashboard Data</a>
+            <a href="/artifacts/reviews.db" target="_blank" rel="noreferrer">Review DB</a>
+          </nav>
+        </header>
+
+        <section class="workspaceOverview">
+          <div class="overviewCard">
+            <p class="eyebrow">Build State</p>
+            <strong id="overviewBuildState">Not built</strong>
+            <p id="overviewBuildMeta" class="muted compact">The workspace can start empty and build from the UI.</p>
+          </div>
+          <div class="overviewCard">
+            <p class="eyebrow">Profile</p>
+            <strong id="overviewProfile">Not selected</strong>
+            <p id="overviewProfileDescription" class="muted compact">Choose the scope that matches the submission goal.</p>
+          </div>
+          <div class="overviewCard">
+            <p class="eyebrow">Storage</p>
+            <strong id="overviewOutputPath">artifacts</strong>
+            <p id="overviewRootPath" class="muted compact">Root and output paths are surfaced so the app stays explainable.</p>
+          </div>
+        </section>
+
+        <section id="emptyState" class="emptyState">
+          <h3>Build the workspace or choose a project</h3>
+          <p id="emptyStateText" class="muted">The app loads project manifests, prediction outputs, review records, and sample scoring through the backend API.</p>
+        </section>
+
+        <section id="projectPane" class="hidden">
+          <div class="heroCard">
+            <div>
+              <p id="detailSet" class="eyebrow"></p>
+              <h3 id="detailTitle"></h3>
+              <p id="detailTrade" class="muted"></p>
+            </div>
+            <div class="pillRow" id="pillRow"></div>
+          </div>
+
+          <div class="grid twoCol">
+            <section class="card">
+              <h4>Project Snapshot</h4>
+              <dl id="snapshotList" class="metaList"></dl>
+            </section>
+
+            <section class="card">
+              <h4>Artifacts</h4>
+              <div id="artifactLinks" class="linkList"></div>
+            </section>
+          </div>
+
+          <div class="grid twoCol">
+            <section class="card">
+              <div class="sectionHeader">
+                <h4>Predicted Line Items</h4>
+                <span id="predictedCount" class="muted compact"></span>
+              </div>
+              <div class="tableWrap">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Description</th>
+                      <th>Qty</th>
+                      <th>Unit</th>
+                      <th>Confidence</th>
+                    </tr>
+                  </thead>
+                  <tbody id="predictedItemsTable"></tbody>
+                </table>
+              </div>
+            </section>
+
+            <section class="card">
+              <h4>Evaluation Summary</h4>
+              <dl id="evaluationList" class="metaList"></dl>
+              <div class="callout" id="evaluationCallout"></div>
+            </section>
+          </div>
+
+          <div class="grid twoCol">
+            <section class="card">
+              <h4>Input Files Preview</h4>
+              <ul id="inputFilesList" class="plainList"></ul>
+            </section>
+
+            <section class="card">
+              <h4>Reviewer Record</h4>
+              <form id="reviewForm" class="reviewForm">
+                <label>
+                  <span>Status</span>
+                  <select id="reviewStatus">
+                    <option value="not_started">Not started</option>
+                    <option value="in_review">In review</option>
+                    <option value="approved_with_edits">Approved with edits</option>
+                    <option value="needs_rework">Needs rework</option>
+                  </select>
+                </label>
+                <label>
+                  <span>Reviewer</span>
+                  <input id="reviewerName" type="text" placeholder="Estimator name" />
+                </label>
+                <label>
+                  <span>Correction Notes</span>
+                  <textarea id="reviewNotes" rows="8" placeholder="What changed? What was wrong? What should improve next run?"></textarea>
+                </label>
+                <label>
+                  <span>Corrected Items JSON</span>
+                  <textarea id="correctedItems" rows="10" spellcheck="false"></textarea>
+                </label>
+                <div class="reviewActions">
+                  <button class="primaryButton" type="submit">Save Review</button>
+                  <span id="reviewSaveState" class="muted compact"></span>
+                </div>
+              </form>
+            </section>
+          </div>
+
+          <div class="grid docsGrid">
+            <section class="card">
+              <h4>README</h4>
+              <pre id="docReadme" class="docBlock"></pre>
+            </section>
+            <section class="card">
+              <h4>Architecture</h4>
+              <pre id="docArchitecture" class="docBlock"></pre>
+            </section>
+            <section class="card">
+              <h4>Review Packet</h4>
+              <pre id="docPacket" class="docBlock"></pre>
+            </section>
+            <section class="card">
+              <h4>30-Day Plan</h4>
+              <pre id="docPlan" class="docBlock"></pre>
+            </section>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="/assets/app.js"></script>
+  </body>
+  </html>

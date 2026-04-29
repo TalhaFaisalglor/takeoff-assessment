@@ -1,0 +1,2646 @@
+{
+  "summary": {
+    "profile": "full",
+    "profile_label": "Full dataset",
+    "built_at_utc": "2026-04-29T21:14:03.004077+00:00",
+    "project_count": 28,
+    "sample_project_count": 3,
+    "challenge_project_count": 25,
+    "processed_projects": [
+      {
+        "takeoff_id": "TAKEOFF-16",
+        "project_name": "Sephora (Surprise, AZ)",
+        "set_name": "challenge",
+        "input_file_count": 1,
+        "gold_file_count": 0,
+        "predicted_item_count": 4,
+        "scored": false
+      },
+      {
+        "takeoff_id": "TAKEOFF-22",
+        "project_name": "AUTOZONE #10016",
+        "set_name": "challenge",
+        "input_file_count": 10,
+        "gold_file_count": 0,
+        "predicted_item_count": 1,
+        "scored": false
+      },
+      {
+        "takeoff_id": "TAKEOFF-30",
+        "project_name": "FRESENIUS NORTH DALLAS",
+        "set_name": "challenge",
+        "input_file_count": 3,
+        "gold_file_count": 0,
+        "predicted_item_count": 3,
+        "scored": false
+      },
+      {
+        "takeoff_id": "TAKEOFF-31",
+        "project_name": "WALMART 1783",
+        "set_name": "challenge",
+        "input_file_count": 236,
+        "gold_file_count": 0,
+        "predicted_item_count": 3,
+        "scored": false
+      },
+      {
+        "takeoff_id": "TAKEOFF-32",
+        "project_name": "APU Military and Veterans  Azusa",
+        "set_name": "challenge",
+        "input_file_count": 17,
+        "gold_file_count": 0,
+        "predicted_item_count": 2,
+        "scored": false
+      },
+      {
+        "takeoff_id": "TAKEOFF-33",
+        "project_name": "Foot Locker - Vintage Fair Mall Modesto",
+        "set_name": "challenge",
+        "input_file_count": 1,
+        "gold_file_count": 0,
+        "predicted_item_count": 1,
+        "scored": false
+      },
+      {
+        "takeoff_id": "TAKEOFF-35",
+        "project_name": "RACETRAC Palm Coast",
+        "set_name": "challenge",
+        "input_file_count": 3,
+        "gold_file_count": 0,
+        "predicted_item_count": 4,
+        "scored": false
+      },
+      {
+        "takeoff_id": "TAKEOFF-36",
+        "project_name": "Gucci Perm - Cherry Creek Shopping Center",
+        "set_name": "challenge",
+        "input_file_count": 150,
+        "gold_file_count": 0,
+        "predicted_item_count": 4,
+        "scored": false
+      },
+      {
+        "takeoff_id": "TAKEOFF-37",
+        "project_name": "TAKE 5 OIL CHANGE, SHEFFIELD OH",
+        "set_name": "challenge",
+        "input_file_count": 4,
+        "gold_file_count": 0,
+        "predicted_item_count": 1,
+        "scored": false
+      },
+      {
+        "takeoff_id": "TAKEOFF-39",
+        "project_name": "Nuuvi Modern Med Spa - Wayne, PA",
+        "set_name": "challenge",
+        "input_file_count": 132,
+        "gold_file_count": 0,
+        "predicted_item_count": 5,
+        "scored": false
+      },
+      {
+        "takeoff_id": "TAKEOFF-40",
+        "project_name": "TPS Rm 203 ETVS Renovation",
+        "set_name": "challenge",
+        "input_file_count": 4,
+        "gold_file_count": 0,
+        "predicted_item_count": 1,
+        "scored": false
+      },
+      {
+        "takeoff_id": "TAKEOFF-42",
+        "project_name": "Lake Placid Police Station",
+        "set_name": "challenge",
+        "input_file_count": 3,
+        "gold_file_count": 0,
+        "predicted_item_count": 2,
+        "scored": false
+      },
+      {
+        "takeoff_id": "TAKEOFF-45",
+        "project_name": "Ground Up Maverik Fuel Center Calexico",
+        "set_name": "challenge",
+        "input_file_count": 6,
+        "gold_file_count": 0,
+        "predicted_item_count": 1,
+        "scored": false
+      },
+      {
+        "takeoff_id": "TAKEOFF-47",
+        "project_name": "Woof Gang",
+        "set_name": "challenge",
+        "input_file_count": 109,
+        "gold_file_count": 0,
+        "predicted_item_count": 3,
+        "scored": false
+      },
+      {
+        "takeoff_id": "TAKEOFF-48",
+        "project_name": "MATTRESS FIRM - MERCED MALL",
+        "set_name": "challenge",
+        "input_file_count": 1,
+        "gold_file_count": 0,
+        "predicted_item_count": 1,
+        "scored": false
+      },
+      {
+        "takeoff_id": "TAKEOFF-49",
+        "project_name": "Maintenance Building, Gator Blvd & Main Street",
+        "set_name": "challenge",
+        "input_file_count": 2,
+        "gold_file_count": 0,
+        "predicted_item_count": 1,
+        "scored": false
+      },
+      {
+        "takeoff_id": "TAKEOFF-52",
+        "project_name": "LOVESAC CORNER SHOPPES AT STADIUM",
+        "set_name": "challenge",
+        "input_file_count": 2,
+        "gold_file_count": 0,
+        "predicted_item_count": 3,
+        "scored": false
+      },
+      {
+        "takeoff_id": "TAKEOFF-54",
+        "project_name": "TAKE 5 OIL CHANGE MASONRY",
+        "set_name": "challenge",
+        "input_file_count": 8,
+        "gold_file_count": 0,
+        "predicted_item_count": 1,
+        "scored": false
+      },
+      {
+        "takeoff_id": "TAKEOFF-55",
+        "project_name": "Coach House Renovation",
+        "set_name": "challenge",
+        "input_file_count": 2,
+        "gold_file_count": 0,
+        "predicted_item_count": 1,
+        "scored": false
+      },
+      {
+        "takeoff_id": "TAKEOFF-57",
+        "project_name": "TAKE 5 OIL CHANGE - COLLEGE STATION, TX",
+        "set_name": "challenge",
+        "input_file_count": 8,
+        "gold_file_count": 0,
+        "predicted_item_count": 1,
+        "scored": false
+      },
+      {
+        "takeoff_id": "TAKEOFF-58",
+        "project_name": "HMSL Employee Fitness",
+        "set_name": "challenge",
+        "input_file_count": 6,
+        "gold_file_count": 0,
+        "predicted_item_count": 2,
+        "scored": false
+      },
+      {
+        "takeoff_id": "TAKEOFF-60",
+        "project_name": "NW WTP OPERATORS BUILDING",
+        "set_name": "challenge",
+        "input_file_count": 8,
+        "gold_file_count": 0,
+        "predicted_item_count": 4,
+        "scored": false
+      },
+      {
+        "takeoff_id": "TAKEOFF-61",
+        "project_name": "KEDPLASMA UNIVERSAL CITY, TX",
+        "set_name": "challenge",
+        "input_file_count": 1,
+        "gold_file_count": 0,
+        "predicted_item_count": 2,
+        "scored": false
+      },
+      {
+        "takeoff_id": "TAKEOFF-63",
+        "project_name": "LEHI HIPPO VET CLINIC",
+        "set_name": "challenge",
+        "input_file_count": 3,
+        "gold_file_count": 0,
+        "predicted_item_count": 2,
+        "scored": false
+      },
+      {
+        "takeoff_id": "TAKEOFF-64",
+        "project_name": "Paradies- Beltline Market _ Village Retail- ATL Airport",
+        "set_name": "challenge",
+        "input_file_count": 2,
+        "gold_file_count": 0,
+        "predicted_item_count": 2,
+        "scored": false
+      },
+      {
+        "takeoff_id": "TAKEOFF-28",
+        "project_name": "Maryland Vision Institute",
+        "set_name": "sample",
+        "input_file_count": 6,
+        "gold_file_count": 2,
+        "predicted_item_count": 5,
+        "scored": true
+      },
+      {
+        "takeoff_id": "TAKEOFF-50",
+        "project_name": "Portland VA Surgical Center Rehabilitation",
+        "set_name": "sample",
+        "input_file_count": 32,
+        "gold_file_count": 2,
+        "predicted_item_count": 3,
+        "scored": true
+      },
+      {
+        "takeoff_id": "TAKEOFF-56",
+        "project_name": "JACK & JONES STATEN ISLAND, NY",
+        "set_name": "sample",
+        "input_file_count": 115,
+        "gold_file_count": 2,
+        "predicted_item_count": 2,
+        "scored": true
+      }
+    ],
+    "available_profiles": {
+      "full": {
+        "label": "Full dataset",
+        "description": "Process all 3 sample projects and all 25 challenge projects.",
+        "challenge_takeoff_ids": null
+      },
+      "minimum": {
+        "label": "Minimum acceptable submission",
+        "description": "Process all 3 sample projects and 5 challenge projects end-to-end.",
+        "challenge_takeoff_ids": [
+          "TAKEOFF-30",
+          "TAKEOFF-36",
+          "TAKEOFF-39",
+          "TAKEOFF-47",
+          "TAKEOFF-55"
+        ]
+      },
+      "samples": {
+        "label": "Samples only",
+        "description": "Process only the 3 sample projects with visible gold outputs.",
+        "challenge_takeoff_ids": []
+      }
+    }
+  },
+  "projects": [
+    {
+      "takeoff_id": "TAKEOFF-16",
+      "project_name": "Sephora (Surprise, AZ)",
+      "set_name": "challenge",
+      "trade_scope": "Painting; Plumbing",
+      "input_file_count": 1,
+      "gold_file_count": 0,
+      "predicted_item_count": 4,
+      "scored": false,
+      "warnings": [],
+      "artifact_paths": {
+        "manifest": "manifests/TAKEOFF-16.json",
+        "prediction": "predictions/TAKEOFF-16.json",
+        "review_packet": "review_packets/TAKEOFF-16_review.json",
+        "gold": null,
+        "evaluation": null
+      },
+      "prediction_preview": [
+        {
+          "item_number": null,
+          "description": "Wall paint system",
+          "quantity": 100,
+          "unit": "SF",
+          "confidence": 0.2,
+          "source_reference": "PRASADA NORTH_2412_NEW_250624_PERMIT.pdf",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "painting",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Fallback line item because no reliable structured extraction was found."
+          ]
+        },
+        {
+          "item_number": null,
+          "description": "Ceiling paint system",
+          "quantity": 100,
+          "unit": "SF",
+          "confidence": 0.2,
+          "source_reference": "PRASADA NORTH_2412_NEW_250624_PERMIT.pdf",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "painting",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Fallback line item because no reliable structured extraction was found."
+          ]
+        },
+        {
+          "item_number": null,
+          "description": "Plumbing fixtures",
+          "quantity": 1,
+          "unit": "EA",
+          "confidence": 0.2,
+          "source_reference": "PRASADA NORTH_2412_NEW_250624_PERMIT.pdf",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "plumbing",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Fallback line item because no reliable structured extraction was found."
+          ]
+        },
+        {
+          "item_number": null,
+          "description": "Plumbing piping and drains",
+          "quantity": 8,
+          "unit": "FT",
+          "confidence": 0.2,
+          "source_reference": "PRASADA NORTH_2412_NEW_250624_PERMIT.pdf",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "plumbing",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Fallback line item because no reliable structured extraction was found."
+          ]
+        }
+      ],
+      "evaluation_summary": {
+        "matched_items": 0,
+        "missing_items": [],
+        "extra_items": [],
+        "quantity_differences": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "overall_notes": "No gold output available for challenge projects."
+      },
+      "input_files_preview": [
+        "data/challenge_projects/TAKEOFF-16 - Sephora (Surprise, AZ)/Project Files/PRASADA NORTH_2412_NEW_250624_PERMIT.pdf"
+      ]
+    },
+    {
+      "takeoff_id": "TAKEOFF-22",
+      "project_name": "AUTOZONE #10016",
+      "set_name": "challenge",
+      "trade_scope": "Unknown",
+      "input_file_count": 10,
+      "gold_file_count": 0,
+      "predicted_item_count": 1,
+      "scored": false,
+      "warnings": [],
+      "artifact_paths": {
+        "manifest": "manifests/TAKEOFF-22.json",
+        "prediction": "predictions/TAKEOFF-22.json",
+        "review_packet": "review_packets/TAKEOFF-22_review.json",
+        "gold": null,
+        "evaluation": null
+      },
+      "prediction_preview": [
+        {
+          "item_number": null,
+          "description": "AUTOZONE #10016 scope review allowance",
+          "quantity": 1,
+          "unit": "LS",
+          "confidence": 0.2,
+          "source_reference": "A0.pdf, A1.1.pdf, A1.pdf",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "unknown",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Fallback line item because no reliable structured extraction was found."
+          ]
+        }
+      ],
+      "evaluation_summary": {
+        "matched_items": 0,
+        "missing_items": [],
+        "extra_items": [],
+        "quantity_differences": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "overall_notes": "No gold output available for challenge projects."
+      },
+      "input_files_preview": [
+        "data/challenge_projects/TAKEOFF-22 - AUTOZONE #10016/Project Files/A0.pdf",
+        "data/challenge_projects/TAKEOFF-22 - AUTOZONE #10016/Project Files/A1.1.pdf",
+        "data/challenge_projects/TAKEOFF-22 - AUTOZONE #10016/Project Files/A1.pdf",
+        "data/challenge_projects/TAKEOFF-22 - AUTOZONE #10016/Project Files/A2.pdf",
+        "data/challenge_projects/TAKEOFF-22 - AUTOZONE #10016/Project Files/A3.1.pdf",
+        "data/challenge_projects/TAKEOFF-22 - AUTOZONE #10016/Project Files/A3.2.pdf",
+        "data/challenge_projects/TAKEOFF-22 - AUTOZONE #10016/Project Files/A3.pdf",
+        "data/challenge_projects/TAKEOFF-22 - AUTOZONE #10016/Project Files/A4.pdf"
+      ]
+    },
+    {
+      "takeoff_id": "TAKEOFF-30",
+      "project_name": "FRESENIUS NORTH DALLAS",
+      "set_name": "challenge",
+      "trade_scope": "Drywall And Framing",
+      "input_file_count": 3,
+      "gold_file_count": 0,
+      "predicted_item_count": 3,
+      "scored": false,
+      "warnings": [],
+      "artifact_paths": {
+        "manifest": "manifests/TAKEOFF-30.json",
+        "prediction": "predictions/TAKEOFF-30.json",
+        "review_packet": "review_packets/TAKEOFF-30_review.json",
+        "gold": null,
+        "evaluation": null
+      },
+      "prediction_preview": [
+        {
+          "item_number": null,
+          "description": "Wall area",
+          "quantity": 17393,
+          "unit": "SF",
+          "confidence": 0.82,
+          "source_reference": "data/challenge_projects/TAKEOFF-30 - FRESENIUS NORTH DALLAS/Project Files/Project Description.txt",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "drywall and framing",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Recovered from explicit quantity statement in project description text."
+          ]
+        },
+        {
+          "item_number": null,
+          "description": "Gypsum board wall system",
+          "quantity": 17393,
+          "unit": "SF",
+          "confidence": 0.2,
+          "source_reference": "Fresenius North Dallas Bid Set - 7.23.25.pdf, Fresenius North Dallas Spec Book.pdf, Project Description.txt",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "drywall/framing",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Fallback line item because no reliable structured extraction was found."
+          ]
+        },
+        {
+          "item_number": null,
+          "description": "Metal stud framing",
+          "quantity": 17393,
+          "unit": "SF",
+          "confidence": 0.2,
+          "source_reference": "Fresenius North Dallas Bid Set - 7.23.25.pdf, Fresenius North Dallas Spec Book.pdf, Project Description.txt",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "drywall/framing",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Fallback line item because no reliable structured extraction was found."
+          ]
+        }
+      ],
+      "evaluation_summary": {
+        "matched_items": 0,
+        "missing_items": [],
+        "extra_items": [],
+        "quantity_differences": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "overall_notes": "No gold output available for challenge projects."
+      },
+      "input_files_preview": [
+        "data/challenge_projects/TAKEOFF-30 - FRESENIUS NORTH DALLAS/Project Files/Fresenius North Dallas Bid Set - 7.23.25.pdf",
+        "data/challenge_projects/TAKEOFF-30 - FRESENIUS NORTH DALLAS/Project Files/Fresenius North Dallas Spec Book.pdf",
+        "data/challenge_projects/TAKEOFF-30 - FRESENIUS NORTH DALLAS/Project Files/Project Description.txt"
+      ]
+    },
+    {
+      "takeoff_id": "TAKEOFF-31",
+      "project_name": "WALMART 1783",
+      "set_name": "challenge",
+      "trade_scope": "Painting",
+      "input_file_count": 236,
+      "gold_file_count": 0,
+      "predicted_item_count": 3,
+      "scored": false,
+      "warnings": [
+        "Manifest input_file_count=3 differs from discovered input files=236."
+      ],
+      "artifact_paths": {
+        "manifest": "manifests/TAKEOFF-31.json",
+        "prediction": "predictions/TAKEOFF-31.json",
+        "review_packet": "review_packets/TAKEOFF-31_review.json",
+        "gold": null,
+        "evaluation": null
+      },
+      "prediction_preview": [
+        {
+          "item_number": null,
+          "description": "Interior Walls",
+          "quantity": 927,
+          "unit": "SF",
+          "confidence": 0.82,
+          "source_reference": "data/challenge_projects/TAKEOFF-31 - WALMART 1783/Project Files/09900-FS-01783(Version_1).pdf",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "painting",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Recovered from explicit quantity statement in project description text."
+          ]
+        },
+        {
+          "item_number": null,
+          "description": "Restroom Ceilings",
+          "quantity": 117,
+          "unit": "SF",
+          "confidence": 0.82,
+          "source_reference": "data/challenge_projects/TAKEOFF-31 - WALMART 1783/Project Files/09900-FS-01783(Version_1).pdf",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "painting",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Recovered from explicit quantity statement in project description text."
+          ]
+        },
+        {
+          "item_number": null,
+          "description": "Exposed Equipment & Storage Room Deck And Structure",
+          "quantity": 1060,
+          "unit": "SF",
+          "confidence": 0.82,
+          "source_reference": "data/challenge_projects/TAKEOFF-31 - WALMART 1783/Project Files/09900-FS-01783(Version_1).pdf",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "painting",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Recovered from explicit quantity statement in project description text."
+          ]
+        }
+      ],
+      "evaluation_summary": {
+        "matched_items": 0,
+        "missing_items": [],
+        "extra_items": [],
+        "quantity_differences": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "overall_notes": "No gold output available for challenge projects."
+      },
+      "input_files_preview": [
+        "data/challenge_projects/TAKEOFF-31 - WALMART 1783/Project Files/09900-FS-01783(Version_1).pdf",
+        "data/challenge_projects/TAKEOFF-31 - WALMART 1783/Project Files/22009 - CACS-COVER SHEET- 01783(Version_1).pdf",
+        "data/challenge_projects/TAKEOFF-31 - WALMART 1783/Project Files/22009 - CAS1-INSTALL SHEET-CAS1 - 01783(Version_1).pdf",
+        "data/challenge_projects/TAKEOFF-31 - WALMART 1783/Project Files/22009 - CAS2-ELEVATION VIEW-CAS2 - 01783(Version_1).pdf",
+        "data/challenge_projects/TAKEOFF-31 - WALMART 1783/Project Files/22009 - CAS4-LIGHT LAYOUT- 01783(Version_1).pdf",
+        "data/challenge_projects/TAKEOFF-31 - WALMART 1783/Project Files/6010 - TITLE - 01783(Version_1).pdf",
+        "data/challenge_projects/TAKEOFF-31 - WALMART 1783/Project Files/6020 - ALTA SURVEY - 01783(Version_1).pdf",
+        "data/challenge_projects/TAKEOFF-31 - WALMART 1783/Project Files/6030 - OVERALL SITE PLAN - 01783(Version_1).pdf"
+      ]
+    },
+    {
+      "takeoff_id": "TAKEOFF-32",
+      "project_name": "APU Military and Veterans  Azusa",
+      "set_name": "challenge",
+      "trade_scope": "Carpentry/Gabinets",
+      "input_file_count": 17,
+      "gold_file_count": 0,
+      "predicted_item_count": 2,
+      "scored": false,
+      "warnings": [
+        "Manifest input_file_count=9 differs from discovered input files=17.",
+        "Project was discovered in multiple dataset folders and merged into one manifest."
+      ],
+      "artifact_paths": {
+        "manifest": "manifests/TAKEOFF-32.json",
+        "prediction": "predictions/TAKEOFF-32.json",
+        "review_packet": "review_packets/TAKEOFF-32_review.json",
+        "gold": null,
+        "evaluation": null
+      },
+      "prediction_preview": [
+        {
+          "item_number": null,
+          "description": "Millwork and wood trim",
+          "quantity": 8,
+          "unit": "FT",
+          "confidence": 0.2,
+          "source_reference": "General Insurance Requirements Standard  2021-Ca.pdf, Subcontract Agreement-California.pdf, Terms and Conditions - California.pdf",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "carpentry/gabinets",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Fallback line item because no reliable structured extraction was found."
+          ]
+        },
+        {
+          "item_number": null,
+          "description": "Doors and hardware",
+          "quantity": 1,
+          "unit": "EA",
+          "confidence": 0.2,
+          "source_reference": "General Insurance Requirements Standard  2021-Ca.pdf, Subcontract Agreement-California.pdf, Terms and Conditions - California.pdf",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "carpentry/gabinets",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Fallback line item because no reliable structured extraction was found."
+          ]
+        }
+      ],
+      "evaluation_summary": {
+        "matched_items": 0,
+        "missing_items": [],
+        "extra_items": [],
+        "quantity_differences": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "overall_notes": "No gold output available for challenge projects."
+      },
+      "input_files_preview": [
+        "data/challenge_projects/TAKEOFF-32 - APU Military and Veterans Azusa/Project Files/01.Subcontractor Documents/General Insurance Requirements Standard  2021-Ca.pdf",
+        "data/challenge_projects/TAKEOFF-32 - APU Military and Veterans Azusa/Project Files/01.Subcontractor Documents/Subcontract Agreement-California.pdf",
+        "data/challenge_projects/TAKEOFF-32 - APU Military and Veterans Azusa/Project Files/01.Subcontractor Documents/Terms and Conditions - California.pdf",
+        "data/challenge_projects/TAKEOFF-32 - APU Military and Veterans Azusa/Project Files/02.Subcontractor Resources/4 Fast FAQs about TheoBuild_VCC.pdf",
+        "data/challenge_projects/TAKEOFF-32 - APU Military and Veterans Azusa/Project Files/02.Subcontractor Resources/DigiProcure Correspondence.docx",
+        "data/challenge_projects/TAKEOFF-32 - APU Military and Veterans Azusa/Project Files/02.Subcontractor Resources/DigiProcure.pdf",
+        "data/challenge_projects/TAKEOFF-32 - APU Military and Veterans Azusa/Project Files/03.Bid Issue/2025-02-11 Campus Standards Handbook.pdf",
+        "data/challenge_projects/TAKEOFF-32 - APU Military and Veterans Azusa/Project Files/2025-02-11 Campus Standards Handbook.pdf"
+      ]
+    },
+    {
+      "takeoff_id": "TAKEOFF-33",
+      "project_name": "Foot Locker - Vintage Fair Mall Modesto",
+      "set_name": "challenge",
+      "trade_scope": "Unknown",
+      "input_file_count": 1,
+      "gold_file_count": 0,
+      "predicted_item_count": 1,
+      "scored": false,
+      "warnings": [],
+      "artifact_paths": {
+        "manifest": "manifests/TAKEOFF-33.json",
+        "prediction": "predictions/TAKEOFF-33.json",
+        "review_packet": "review_packets/TAKEOFF-33_review.json",
+        "gold": null,
+        "evaluation": null
+      },
+      "prediction_preview": [
+        {
+          "item_number": null,
+          "description": "Foot Locker - Vintage Fair Mall Modesto scope review allowance",
+          "quantity": 1,
+          "unit": "LS",
+          "confidence": 0.2,
+          "source_reference": "IFP and Rev 1 Set Combined.pdf",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "unknown",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Fallback line item because no reliable structured extraction was found."
+          ]
+        }
+      ],
+      "evaluation_summary": {
+        "matched_items": 0,
+        "missing_items": [],
+        "extra_items": [],
+        "quantity_differences": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "overall_notes": "No gold output available for challenge projects."
+      },
+      "input_files_preview": [
+        "data/challenge_projects/TAKEOFF-33 - Foot Locker - Vintage Fair Mall Modesto/Project Files/IFP and Rev 1 Set Combined.pdf"
+      ]
+    },
+    {
+      "takeoff_id": "TAKEOFF-35",
+      "project_name": "RACETRAC Palm Coast",
+      "set_name": "challenge",
+      "trade_scope": "Drywall and Framing",
+      "input_file_count": 3,
+      "gold_file_count": 0,
+      "predicted_item_count": 4,
+      "scored": false,
+      "warnings": [],
+      "artifact_paths": {
+        "manifest": "manifests/TAKEOFF-35.json",
+        "prediction": "predictions/TAKEOFF-35.json",
+        "review_packet": "review_packets/TAKEOFF-35_review.json",
+        "gold": null,
+        "evaluation": null
+      },
+      "prediction_preview": [
+        {
+          "item_number": null,
+          "description": "Total New Wall",
+          "quantity": 14.3,
+          "unit": "FT",
+          "confidence": 0.82,
+          "source_reference": "data/challenge_projects/TAKEOFF-35 - RACETRAC Palm Coast/Project Files/Project Description.txt",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "drywall and framing",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Recovered from explicit quantity statement in project description text."
+          ]
+        },
+        {
+          "item_number": null,
+          "description": "Soffit Dropdown",
+          "quantity": 25.4,
+          "unit": "FT",
+          "confidence": 0.82,
+          "source_reference": "data/challenge_projects/TAKEOFF-35 - RACETRAC Palm Coast/Project Files/Project Description.txt",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "drywall and framing",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Recovered from explicit quantity statement in project description text."
+          ]
+        },
+        {
+          "item_number": null,
+          "description": "Gypsum board wall system",
+          "quantity": 2860,
+          "unit": "SF",
+          "confidence": 0.2,
+          "source_reference": "Project Description.txt, RT2419 Seminole Woods  PreBid Notes.pdf, _2419 SEMINOLE 6KR 2.0 Field Use Set _3.pdf",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "drywall/framing",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Fallback line item because no reliable structured extraction was found."
+          ]
+        },
+        {
+          "item_number": null,
+          "description": "Metal stud framing",
+          "quantity": 2860,
+          "unit": "SF",
+          "confidence": 0.2,
+          "source_reference": "Project Description.txt, RT2419 Seminole Woods  PreBid Notes.pdf, _2419 SEMINOLE 6KR 2.0 Field Use Set _3.pdf",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "drywall/framing",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Fallback line item because no reliable structured extraction was found."
+          ]
+        }
+      ],
+      "evaluation_summary": {
+        "matched_items": 0,
+        "missing_items": [],
+        "extra_items": [],
+        "quantity_differences": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "overall_notes": "No gold output available for challenge projects."
+      },
+      "input_files_preview": [
+        "data/challenge_projects/TAKEOFF-35 - RACETRAC Palm Coast/Project Files/Project Description.txt",
+        "data/challenge_projects/TAKEOFF-35 - RACETRAC Palm Coast/Project Files/RT2419 Seminole Woods  PreBid Notes.pdf",
+        "data/challenge_projects/TAKEOFF-35 - RACETRAC Palm Coast/Project Files/_2419 SEMINOLE 6KR 2.0 Field Use Set _3.pdf"
+      ]
+    },
+    {
+      "takeoff_id": "TAKEOFF-36",
+      "project_name": "Gucci Perm - Cherry Creek Shopping Center",
+      "set_name": "challenge",
+      "trade_scope": "Painting",
+      "input_file_count": 150,
+      "gold_file_count": 0,
+      "predicted_item_count": 4,
+      "scored": false,
+      "warnings": [
+        "Manifest input_file_count=40 differs from discovered input files=150."
+      ],
+      "artifact_paths": {
+        "manifest": "manifests/TAKEOFF-36.json",
+        "prediction": "predictions/TAKEOFF-36.json",
+        "review_packet": "review_packets/TAKEOFF-36_review.json",
+        "gold": null,
+        "evaluation": null
+      },
+      "prediction_preview": [
+        {
+          "item_number": null,
+          "description": "Wall paint",
+          "quantity": 4100,
+          "unit": "SF",
+          "confidence": 0.82,
+          "source_reference": "data/challenge_projects/TAKEOFF-36 - Gucci Perm - Cherry Creek Shopping Center/Project Files/Project Description.txt",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "painting",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Recovered from explicit quantity statement in project description text."
+          ]
+        },
+        {
+          "item_number": null,
+          "description": "Ceiling paint",
+          "quantity": 3287,
+          "unit": "SF",
+          "confidence": 0.82,
+          "source_reference": "data/challenge_projects/TAKEOFF-36 - Gucci Perm - Cherry Creek Shopping Center/Project Files/Project Description.txt",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "painting",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Recovered from explicit quantity statement in project description text."
+          ]
+        },
+        {
+          "item_number": null,
+          "description": "Door paint",
+          "quantity": 148,
+          "unit": "SF",
+          "confidence": 0.82,
+          "source_reference": "data/challenge_projects/TAKEOFF-36 - Gucci Perm - Cherry Creek Shopping Center/Project Files/Project Description.txt",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "painting",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Recovered from explicit quantity statement in project description text."
+          ]
+        },
+        {
+          "item_number": null,
+          "description": "Door frame paint",
+          "quantity": 109,
+          "unit": "FT",
+          "confidence": 0.82,
+          "source_reference": "data/challenge_projects/TAKEOFF-36 - Gucci Perm - Cherry Creek Shopping Center/Project Files/Project Description.txt",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "painting",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Recovered from explicit quantity statement in project description text."
+          ]
+        }
+      ],
+      "evaluation_summary": {
+        "matched_items": 0,
+        "missing_items": [],
+        "extra_items": [],
+        "quantity_differences": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "overall_notes": "No gold output available for challenge projects."
+      },
+      "input_files_preview": [
+        "data/challenge_projects/TAKEOFF-36 - Gucci Perm - Cherry Creek Shopping Center/Project Files/1 - Trade Partner Subcontract Forms/1.  Trade Partner Subcontract Agreement.pdf",
+        "data/challenge_projects/TAKEOFF-36 - Gucci Perm - Cherry Creek Shopping Center/Project Files/1 - Trade Partner Subcontract Forms/2. Professional Services Agreement.pdf",
+        "data/challenge_projects/TAKEOFF-36 - Gucci Perm - Cherry Creek Shopping Center/Project Files/1 - Trade Partner Subcontract Forms/3. Purchase Order Agreement.pdf",
+        "data/challenge_projects/TAKEOFF-36 - Gucci Perm - Cherry Creek Shopping Center/Project Files/1 - Trade Partner Subcontract Forms/4. Bare Rental Agreement.pdf",
+        "data/challenge_projects/TAKEOFF-36 - Gucci Perm - Cherry Creek Shopping Center/Project Files/1 - Trade Partner Subcontract Forms/5. Dumpster Agreement.pdf",
+        "data/challenge_projects/TAKEOFF-36 - Gucci Perm - Cherry Creek Shopping Center/Project Files/1.  Trade Partner Subcontract Agreement.pdf",
+        "data/challenge_projects/TAKEOFF-36 - Gucci Perm - Cherry Creek Shopping Center/Project Files/1. Sachse Front End Documents/1 - Trade Partner Subcontract Forms/1.  Trade Partner Subcontract Agreement.pdf",
+        "data/challenge_projects/TAKEOFF-36 - Gucci Perm - Cherry Creek Shopping Center/Project Files/1. Sachse Front End Documents/1 - Trade Partner Subcontract Forms/2. Professional Services Agreement.pdf"
+      ]
+    },
+    {
+      "takeoff_id": "TAKEOFF-37",
+      "project_name": "TAKE 5 OIL CHANGE, SHEFFIELD OH",
+      "set_name": "challenge",
+      "trade_scope": "Unknown",
+      "input_file_count": 4,
+      "gold_file_count": 0,
+      "predicted_item_count": 1,
+      "scored": false,
+      "warnings": [
+        "Manifest input_file_count=2 differs from discovered input files=4."
+      ],
+      "artifact_paths": {
+        "manifest": "manifests/TAKEOFF-37.json",
+        "prediction": "predictions/TAKEOFF-37.json",
+        "review_packet": "review_packets/TAKEOFF-37_review.json",
+        "gold": null,
+        "evaluation": null
+      },
+      "prediction_preview": [
+        {
+          "item_number": null,
+          "description": "TAKE 5 OIL CHANGE, SHEFFIELD OH scope review allowance",
+          "quantity": 1,
+          "unit": "LS",
+          "confidence": 0.2,
+          "source_reference": "Landscvape Sheet L-1.pdf, Landscvape Sheet L-1.pdf, Take 5 OC Sheffield OH Rev. E 05.30.2025.pdf",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "unknown",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Fallback line item because no reliable structured extraction was found."
+          ]
+        }
+      ],
+      "evaluation_summary": {
+        "matched_items": 0,
+        "missing_items": [],
+        "extra_items": [],
+        "quantity_differences": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "overall_notes": "No gold output available for challenge projects."
+      },
+      "input_files_preview": [
+        "data/challenge_projects/TAKEOFF-37 - TAKE 5 OIL CHANGE, SHEFFIELD OH/Project Files/Landscvape Sheet L-1.pdf",
+        "data/challenge_projects/TAKEOFF-37 - TAKE 5 OIL CHANGE, SHEFFIELD OH/Project Files/T5- Plans/Landscvape Sheet L-1.pdf",
+        "data/challenge_projects/TAKEOFF-37 - TAKE 5 OIL CHANGE, SHEFFIELD OH/Project Files/T5- Plans/Take 5 OC Sheffield OH Rev. E 05.30.2025.pdf",
+        "data/challenge_projects/TAKEOFF-37 - TAKE 5 OIL CHANGE, SHEFFIELD OH/Project Files/Take 5 OC Sheffield OH Rev. E 05.30.2025.pdf"
+      ]
+    },
+    {
+      "takeoff_id": "TAKEOFF-39",
+      "project_name": "Nuuvi Modern Med Spa - Wayne, PA",
+      "set_name": "challenge",
+      "trade_scope": "Painting",
+      "input_file_count": 132,
+      "gold_file_count": 0,
+      "predicted_item_count": 5,
+      "scored": false,
+      "warnings": [
+        "Manifest input_file_count=69 differs from discovered input files=132."
+      ],
+      "artifact_paths": {
+        "manifest": "manifests/TAKEOFF-39.json",
+        "prediction": "predictions/TAKEOFF-39.json",
+        "review_packet": "review_packets/TAKEOFF-39_review.json",
+        "gold": null,
+        "evaluation": null
+      },
+      "prediction_preview": [
+        {
+          "item_number": null,
+          "description": "Wall paint",
+          "quantity": 6892,
+          "unit": "SF",
+          "confidence": 0.82,
+          "source_reference": "data/challenge_projects/TAKEOFF-39 - Nuuvi Modern Med Spa - Wayne, PA/Project Files/Project Description.txt",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "painting",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Recovered from explicit quantity statement in project description text."
+          ]
+        },
+        {
+          "item_number": null,
+          "description": "Wall base paint",
+          "quantity": 501,
+          "unit": "FT",
+          "confidence": 0.82,
+          "source_reference": "data/challenge_projects/TAKEOFF-39 - Nuuvi Modern Med Spa - Wayne, PA/Project Files/Project Description.txt",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "painting",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Recovered from explicit quantity statement in project description text."
+          ]
+        },
+        {
+          "item_number": null,
+          "description": "Wall trim paint",
+          "quantity": 614,
+          "unit": "FT",
+          "confidence": 0.82,
+          "source_reference": "data/challenge_projects/TAKEOFF-39 - Nuuvi Modern Med Spa - Wayne, PA/Project Files/Project Description.txt",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "painting",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Recovered from explicit quantity statement in project description text."
+          ]
+        },
+        {
+          "item_number": null,
+          "description": "Door paint",
+          "quantity": 379,
+          "unit": "SF",
+          "confidence": 0.82,
+          "source_reference": "data/challenge_projects/TAKEOFF-39 - Nuuvi Modern Med Spa - Wayne, PA/Project Files/Project Description.txt",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "painting",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Recovered from explicit quantity statement in project description text."
+          ]
+        },
+        {
+          "item_number": null,
+          "description": "Door frame paint",
+          "quantity": 151,
+          "unit": "FT",
+          "confidence": 0.82,
+          "source_reference": "data/challenge_projects/TAKEOFF-39 - Nuuvi Modern Med Spa - Wayne, PA/Project Files/Project Description.txt",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "painting",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Recovered from explicit quantity statement in project description text."
+          ]
+        }
+      ],
+      "evaluation_summary": {
+        "matched_items": 0,
+        "missing_items": [],
+        "extra_items": [],
+        "quantity_differences": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "overall_notes": "No gold output available for challenge projects."
+      },
+      "input_files_preview": [
+        "data/challenge_projects/TAKEOFF-39 - Nuuvi Modern Med Spa - Wayne, PA/Project Files/562950255820891_1E6B10F4-B2DF-4325-91B3-16F1BBEF835B.jpeg",
+        "data/challenge_projects/TAKEOFF-39 - Nuuvi Modern Med Spa - Wayne, PA/Project Files/562950255820909_DA9053A7-8607-4C8B-B52C-3ABA037C9728.jpeg",
+        "data/challenge_projects/TAKEOFF-39 - Nuuvi Modern Med Spa - Wayne, PA/Project Files/562950255820944_1B87C35D-5D1F-4500-8A0F-853AAB441303.jpeg",
+        "data/challenge_projects/TAKEOFF-39 - Nuuvi Modern Med Spa - Wayne, PA/Project Files/562950255820964_F314BB6F-6D4A-484F-A253-A5CF81D6BE32.jpeg",
+        "data/challenge_projects/TAKEOFF-39 - Nuuvi Modern Med Spa - Wayne, PA/Project Files/562950255820980_CA4478AE-9BC4-4CCF-9811-AAAA76D2C27C.jpeg",
+        "data/challenge_projects/TAKEOFF-39 - Nuuvi Modern Med Spa - Wayne, PA/Project Files/562950255820996_3EAF79AA-E977-4E42-B709-02292A0B225E.jpeg",
+        "data/challenge_projects/TAKEOFF-39 - Nuuvi Modern Med Spa - Wayne, PA/Project Files/562950255821027_B9D7F87E-540C-4F5E-97BE-32C147CDCAD7.jpeg",
+        "data/challenge_projects/TAKEOFF-39 - Nuuvi Modern Med Spa - Wayne, PA/Project Files/562950255821046_501966DC-C165-4EC1-9273-C2C0BC837F20.jpeg"
+      ]
+    },
+    {
+      "takeoff_id": "TAKEOFF-40",
+      "project_name": "TPS Rm 203 ETVS Renovation",
+      "set_name": "challenge",
+      "trade_scope": "Unknown",
+      "input_file_count": 4,
+      "gold_file_count": 0,
+      "predicted_item_count": 1,
+      "scored": false,
+      "warnings": [
+        "Manifest input_file_count=2 differs from discovered input files=4."
+      ],
+      "artifact_paths": {
+        "manifest": "manifests/TAKEOFF-40.json",
+        "prediction": "predictions/TAKEOFF-40.json",
+        "review_packet": "review_packets/TAKEOFF-40_review.json",
+        "gold": null,
+        "evaluation": null
+      },
+      "prediction_preview": [
+        {
+          "item_number": null,
+          "description": "TPS Rm 203 ETVS Renovation scope review allowance",
+          "quantity": 1,
+          "unit": "LS",
+          "confidence": 0.2,
+          "source_reference": "25-028537 TPS Rm203ETVS-Construction Drawing Set.pdf, 25-028537 TPS Rm203ETVS-Construction Drawing Set.pdf, TORFP.pdf",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "unknown",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Fallback line item because no reliable structured extraction was found."
+          ]
+        }
+      ],
+      "evaluation_summary": {
+        "matched_items": 0,
+        "missing_items": [],
+        "extra_items": [],
+        "quantity_differences": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "overall_notes": "No gold output available for challenge projects."
+      },
+      "input_files_preview": [
+        "data/challenge_projects/TAKEOFF-40 - TPS Rm 203 ETVS Renovation/Project Files/25-028537 TPS Rm203ETVS-Construction Drawing Set.pdf",
+        "data/challenge_projects/TAKEOFF-40 - TPS Rm 203 ETVS Renovation/Project Files/Selective Demolition/25-028537 TPS Rm203ETVS-Construction Drawing Set.pdf",
+        "data/challenge_projects/TAKEOFF-40 - TPS Rm 203 ETVS Renovation/Project Files/Selective Demolition/TORFP.pdf",
+        "data/challenge_projects/TAKEOFF-40 - TPS Rm 203 ETVS Renovation/Project Files/TORFP.pdf"
+      ]
+    },
+    {
+      "takeoff_id": "TAKEOFF-42",
+      "project_name": "Lake Placid Police Station",
+      "set_name": "challenge",
+      "trade_scope": "Painting",
+      "input_file_count": 3,
+      "gold_file_count": 0,
+      "predicted_item_count": 2,
+      "scored": false,
+      "warnings": [],
+      "artifact_paths": {
+        "manifest": "manifests/TAKEOFF-42.json",
+        "prediction": "predictions/TAKEOFF-42.json",
+        "review_packet": "review_packets/TAKEOFF-42_review.json",
+        "gold": null,
+        "evaluation": null
+      },
+      "prediction_preview": [
+        {
+          "item_number": null,
+          "description": "Wall paint system",
+          "quantity": 100,
+          "unit": "SF",
+          "confidence": 0.2,
+          "source_reference": "00 PROJECT SPECIFICATIONS MANUAL Lake Placid Police Station 07-15-2025.pdf, PC-975 LAKE PLACID POLICE STATION DRAWINGS.pdf, _Geotech Report.pdf",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "painting",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Fallback line item because no reliable structured extraction was found."
+          ]
+        },
+        {
+          "item_number": null,
+          "description": "Ceiling paint system",
+          "quantity": 100,
+          "unit": "SF",
+          "confidence": 0.2,
+          "source_reference": "00 PROJECT SPECIFICATIONS MANUAL Lake Placid Police Station 07-15-2025.pdf, PC-975 LAKE PLACID POLICE STATION DRAWINGS.pdf, _Geotech Report.pdf",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "painting",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Fallback line item because no reliable structured extraction was found."
+          ]
+        }
+      ],
+      "evaluation_summary": {
+        "matched_items": 0,
+        "missing_items": [],
+        "extra_items": [],
+        "quantity_differences": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "overall_notes": "No gold output available for challenge projects."
+      },
+      "input_files_preview": [
+        "data/challenge_projects/TAKEOFF-42 - Lake Placid Police Station/Project Files/00 PROJECT SPECIFICATIONS MANUAL Lake Placid Police Station 07-15-2025.pdf",
+        "data/challenge_projects/TAKEOFF-42 - Lake Placid Police Station/Project Files/PC-975 LAKE PLACID POLICE STATION DRAWINGS.pdf",
+        "data/challenge_projects/TAKEOFF-42 - Lake Placid Police Station/Project Files/_Geotech Report.pdf"
+      ]
+    },
+    {
+      "takeoff_id": "TAKEOFF-45",
+      "project_name": "Ground Up Maverik Fuel Center Calexico",
+      "set_name": "challenge",
+      "trade_scope": "Unknown",
+      "input_file_count": 6,
+      "gold_file_count": 0,
+      "predicted_item_count": 1,
+      "scored": false,
+      "warnings": [
+        "Manifest input_file_count=2 differs from discovered input files=6.",
+        "Project was discovered in multiple dataset folders and merged into one manifest."
+      ],
+      "artifact_paths": {
+        "manifest": "manifests/TAKEOFF-45.json",
+        "prediction": "predictions/TAKEOFF-45.json",
+        "review_packet": "review_packets/TAKEOFF-45_review.json",
+        "gold": null,
+        "evaluation": null
+      },
+      "prediction_preview": [
+        {
+          "item_number": null,
+          "description": "Ground Up Maverik Fuel Center Calexico scope review allowance",
+          "quantity": 1,
+          "unit": "LS",
+          "confidence": 0.2,
+          "source_reference": "CA-777 - CONFORMED SET - BID SET - 06.12.25.pdf, CA-777 - CONFORMED SET - BID SET - 06.12.25.pdf, CA-777 - SPECIFICATION - BID SET - 06.12.25.pdf",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "unknown",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Fallback line item because no reliable structured extraction was found."
+          ]
+        }
+      ],
+      "evaluation_summary": {
+        "matched_items": 0,
+        "missing_items": [],
+        "extra_items": [],
+        "quantity_differences": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "overall_notes": "No gold output available for challenge projects."
+      },
+      "input_files_preview": [
+        "data/challenge_projects/TAKEOFF-45 - Ground Up Maverik Fuel Center Calexico/Project Files/Bid Set Plans Complete/CA-777 - CONFORMED SET - BID SET - 06.12.25.pdf",
+        "data/challenge_projects/TAKEOFF-45 - Ground Up Maverik Fuel Center Calexico/Project Files/CA-777 - CONFORMED SET - BID SET - 06.12.25.pdf",
+        "data/challenge_projects/TAKEOFF-45 - Ground Up Maverik Fuel Center Calexico/Project Files/CA-777 - SPECIFICATION - BID SET - 06.12.25.pdf",
+        "data/challenge_projects/TAKEOFF-45 - Ground Up Maverik Fuel Center Calexico/Project Files/Maverik _777.zip",
+        "data/challenge_projects/TAKEOFF-45 - Ground Up Maverik Fuel Center Calexico/Project Files/Spec Book/CA-777 - SPECIFICATION - BID SET - 06.12.25.pdf",
+        "data/challenge_projects_supplemental/TAKEOFF-45 - Ground Up Maverik Fuel Center Calexico/Project Files/Specs/Spec Book/CA-777 - SPECIFICATION - BID SET - 06.12.25.pdf"
+      ]
+    },
+    {
+      "takeoff_id": "TAKEOFF-47",
+      "project_name": "Woof Gang",
+      "set_name": "challenge",
+      "trade_scope": "Painting",
+      "input_file_count": 109,
+      "gold_file_count": 0,
+      "predicted_item_count": 3,
+      "scored": false,
+      "warnings": [
+        "Manifest input_file_count=1 differs from discovered input files=109."
+      ],
+      "artifact_paths": {
+        "manifest": "manifests/TAKEOFF-47.json",
+        "prediction": "predictions/TAKEOFF-47.json",
+        "review_packet": "review_packets/TAKEOFF-47_review.json",
+        "gold": null,
+        "evaluation": null
+      },
+      "prediction_preview": [
+        {
+          "item_number": null,
+          "description": "Wall paint",
+          "quantity": 2000,
+          "unit": "SF",
+          "confidence": 0.82,
+          "source_reference": "data/challenge_projects/TAKEOFF-47 - Woof Gang/Project Files/Project Description.txt",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "painting",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Recovered from explicit quantity statement in project description text."
+          ]
+        },
+        {
+          "item_number": null,
+          "description": "Door paint",
+          "quantity": 167,
+          "unit": "SF",
+          "confidence": 0.82,
+          "source_reference": "data/challenge_projects/TAKEOFF-47 - Woof Gang/Project Files/Project Description.txt",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "painting",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Recovered from explicit quantity statement in project description text."
+          ]
+        },
+        {
+          "item_number": null,
+          "description": "Door frame paint",
+          "quantity": 124,
+          "unit": "SF",
+          "confidence": 0.82,
+          "source_reference": "data/challenge_projects/TAKEOFF-47 - Woof Gang/Project Files/Project Description.txt",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "painting",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Recovered from explicit quantity statement in project description text."
+          ]
+        }
+      ],
+      "evaluation_summary": {
+        "matched_items": 0,
+        "missing_items": [],
+        "extra_items": [],
+        "quantity_differences": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "overall_notes": "No gold output available for challenge projects."
+      },
+      "input_files_preview": [
+        "data/challenge_projects/TAKEOFF-47 - Woof Gang/Project Files/00 A0.00.pdf",
+        "data/challenge_projects/TAKEOFF-47 - Woof Gang/Project Files/00 A0.01.pdf",
+        "data/challenge_projects/TAKEOFF-47 - Woof Gang/Project Files/00 A0.03.pdf",
+        "data/challenge_projects/TAKEOFF-47 - Woof Gang/Project Files/00 A0.05.pdf",
+        "data/challenge_projects/TAKEOFF-47 - Woof Gang/Project Files/00 A0.10.pdf",
+        "data/challenge_projects/TAKEOFF-47 - Woof Gang/Project Files/00 A0.11.pdf",
+        "data/challenge_projects/TAKEOFF-47 - Woof Gang/Project Files/00 A0.12.pdf",
+        "data/challenge_projects/TAKEOFF-47 - Woof Gang/Project Files/01 A1.00.pdf"
+      ]
+    },
+    {
+      "takeoff_id": "TAKEOFF-48",
+      "project_name": "MATTRESS FIRM - MERCED MALL",
+      "set_name": "challenge",
+      "trade_scope": "Unknown",
+      "input_file_count": 1,
+      "gold_file_count": 0,
+      "predicted_item_count": 1,
+      "scored": false,
+      "warnings": [],
+      "artifact_paths": {
+        "manifest": "manifests/TAKEOFF-48.json",
+        "prediction": "predictions/TAKEOFF-48.json",
+        "review_packet": "review_packets/TAKEOFF-48_review.json",
+        "gold": null,
+        "evaluation": null
+      },
+      "prediction_preview": [
+        {
+          "item_number": null,
+          "description": "MATTRESS FIRM - MERCED MALL scope review allowance",
+          "quantity": 1,
+          "unit": "LS",
+          "confidence": 0.2,
+          "source_reference": "Merced Mall_ARCH_MEP_Bid Set_08.04.25.pdf",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "unknown",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Fallback line item because no reliable structured extraction was found."
+          ]
+        }
+      ],
+      "evaluation_summary": {
+        "matched_items": 0,
+        "missing_items": [],
+        "extra_items": [],
+        "quantity_differences": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "overall_notes": "No gold output available for challenge projects."
+      },
+      "input_files_preview": [
+        "data/challenge_projects/TAKEOFF-48 - MATTRESS FIRM - MERCED MALL/Project Files/Merced Mall_ARCH_MEP_Bid Set_08.04.25.pdf"
+      ]
+    },
+    {
+      "takeoff_id": "TAKEOFF-49",
+      "project_name": "Maintenance Building, Gator Blvd & Main Street",
+      "set_name": "challenge",
+      "trade_scope": "Unknown",
+      "input_file_count": 2,
+      "gold_file_count": 0,
+      "predicted_item_count": 1,
+      "scored": false,
+      "warnings": [],
+      "artifact_paths": {
+        "manifest": "manifests/TAKEOFF-49.json",
+        "prediction": "predictions/TAKEOFF-49.json",
+        "review_packet": "review_packets/TAKEOFF-49_review.json",
+        "gold": null,
+        "evaluation": null
+      },
+      "prediction_preview": [
+        {
+          "item_number": null,
+          "description": "Maintenance Building, Gator Blvd & Main Street scope review allowance",
+          "quantity": 1,
+          "unit": "LS",
+          "confidence": 0.2,
+          "source_reference": "07-2025_exhibit_a_civil_specifications.pdf, 07-2025_exhibit_b_civil-landscape_planset.pdf",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "unknown",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Fallback line item because no reliable structured extraction was found."
+          ]
+        }
+      ],
+      "evaluation_summary": {
+        "matched_items": 0,
+        "missing_items": [],
+        "extra_items": [],
+        "quantity_differences": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "overall_notes": "No gold output available for challenge projects."
+      },
+      "input_files_preview": [
+        "data/challenge_projects/TAKEOFF-49 - Maintenance Building, Gator Blvd & Main Street/Project Files/07-2025_exhibit_a_civil_specifications.pdf",
+        "data/challenge_projects/TAKEOFF-49 - Maintenance Building, Gator Blvd & Main Street/Project Files/07-2025_exhibit_b_civil-landscape_planset.pdf"
+      ]
+    },
+    {
+      "takeoff_id": "TAKEOFF-52",
+      "project_name": "LOVESAC CORNER SHOPPES AT STADIUM",
+      "set_name": "challenge",
+      "trade_scope": "Flooring",
+      "input_file_count": 2,
+      "gold_file_count": 0,
+      "predicted_item_count": 3,
+      "scored": false,
+      "warnings": [],
+      "artifact_paths": {
+        "manifest": "manifests/TAKEOFF-52.json",
+        "prediction": "predictions/TAKEOFF-52.json",
+        "review_packet": "review_packets/TAKEOFF-52_review.json",
+        "gold": null,
+        "evaluation": null
+      },
+      "prediction_preview": [
+        {
+          "item_number": null,
+          "description": "Tile flooring",
+          "quantity": 100,
+          "unit": "SF",
+          "confidence": 0.2,
+          "source_reference": "19509 Cover Letter.pdf, 25.0722_PRE-PERMIT APPROVAL_Corner Shoppes at Stadium_Kalamazoo,MI.pdf",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "flooring",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Fallback line item because no reliable structured extraction was found."
+          ]
+        },
+        {
+          "item_number": null,
+          "description": "Floor transitions",
+          "quantity": 8,
+          "unit": "FT",
+          "confidence": 0.2,
+          "source_reference": "19509 Cover Letter.pdf, 25.0722_PRE-PERMIT APPROVAL_Corner Shoppes at Stadium_Kalamazoo,MI.pdf",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "flooring",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Fallback line item because no reliable structured extraction was found."
+          ]
+        },
+        {
+          "item_number": null,
+          "description": "Wall tile",
+          "quantity": 100,
+          "unit": "SF",
+          "confidence": 0.2,
+          "source_reference": "19509 Cover Letter.pdf, 25.0722_PRE-PERMIT APPROVAL_Corner Shoppes at Stadium_Kalamazoo,MI.pdf",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "flooring",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Fallback line item because no reliable structured extraction was found."
+          ]
+        }
+      ],
+      "evaluation_summary": {
+        "matched_items": 0,
+        "missing_items": [],
+        "extra_items": [],
+        "quantity_differences": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "overall_notes": "No gold output available for challenge projects."
+      },
+      "input_files_preview": [
+        "data/challenge_projects/TAKEOFF-52 - LOVESAC CORNER SHOPPES AT STADIUM/Project Files/19509 Cover Letter.pdf",
+        "data/challenge_projects/TAKEOFF-52 - LOVESAC CORNER SHOPPES AT STADIUM/Project Files/25.0722_PRE-PERMIT APPROVAL_Corner Shoppes at Stadium_Kalamazoo,MI.pdf"
+      ]
+    },
+    {
+      "takeoff_id": "TAKEOFF-54",
+      "project_name": "TAKE 5 OIL CHANGE MASONRY",
+      "set_name": "challenge",
+      "trade_scope": "Masonry",
+      "input_file_count": 8,
+      "gold_file_count": 0,
+      "predicted_item_count": 1,
+      "scored": false,
+      "warnings": [],
+      "artifact_paths": {
+        "manifest": "manifests/TAKEOFF-54.json",
+        "prediction": "predictions/TAKEOFF-54.json",
+        "review_packet": "review_packets/TAKEOFF-54_review.json",
+        "gold": null,
+        "evaluation": null
+      },
+      "prediction_preview": [
+        {
+          "item_number": null,
+          "description": "Masonry wall system",
+          "quantity": 1682,
+          "unit": "SF",
+          "confidence": 0.2,
+          "source_reference": "25-0140_1644 GREENS PRAIRIE ROAD (ALTA)-Layout1.pdf, 3. T5O COLLEGE STATION, TX SIR.pdf, 3300rse ( Take 5 Oil Change - College Station) - Geo Report.pdf",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "masonry",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Fallback line item because no reliable structured extraction was found."
+          ]
+        }
+      ],
+      "evaluation_summary": {
+        "matched_items": 0,
+        "missing_items": [],
+        "extra_items": [],
+        "quantity_differences": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "overall_notes": "No gold output available for challenge projects."
+      },
+      "input_files_preview": [
+        "data/challenge_projects/TAKEOFF-54 - TAKE 5 OIL CHANGE MASONRY/Project Files/25-0140_1644 GREENS PRAIRIE ROAD (ALTA)-Layout1.pdf",
+        "data/challenge_projects/TAKEOFF-54 - TAKE 5 OIL CHANGE MASONRY/Project Files/3. T5O COLLEGE STATION, TX SIR.pdf",
+        "data/challenge_projects/TAKEOFF-54 - TAKE 5 OIL CHANGE MASONRY/Project Files/3300rse ( Take 5 Oil Change - College Station) - Geo Report.pdf",
+        "data/challenge_projects/TAKEOFF-54 - TAKE 5 OIL CHANGE MASONRY/Project Files/51-4694 Proposed Take 5 College Station ESA.pdf",
+        "data/challenge_projects/TAKEOFF-54 - TAKE 5 OIL CHANGE MASONRY/Project Files/DB25-002_T5O COLLEGE STATION, TX - ISSUE FOR BID _07-16-2025_.pdf",
+        "data/challenge_projects/TAKEOFF-54 - TAKE 5 OIL CHANGE MASONRY/Project Files/Low Voltage Bulletin - 11.21.23.pdf",
+        "data/challenge_projects/TAKEOFF-54 - TAKE 5 OIL CHANGE MASONRY/Project Files/Madewell RFP - Take 5 Oil Change - College Station, TX.pdf",
+        "data/challenge_projects/TAKEOFF-54 - TAKE 5 OIL CHANGE MASONRY/Project Files/T5OC - Standard 3-Bay Layout - 011224.pdf"
+      ]
+    },
+    {
+      "takeoff_id": "TAKEOFF-55",
+      "project_name": "Coach House Renovation",
+      "set_name": "challenge",
+      "trade_scope": "Roofing",
+      "input_file_count": 2,
+      "gold_file_count": 0,
+      "predicted_item_count": 1,
+      "scored": false,
+      "warnings": [],
+      "artifact_paths": {
+        "manifest": "manifests/TAKEOFF-55.json",
+        "prediction": "predictions/TAKEOFF-55.json",
+        "review_packet": "review_packets/TAKEOFF-55_review.json",
+        "gold": null,
+        "evaluation": null
+      },
+      "prediction_preview": [
+        {
+          "item_number": null,
+          "description": "Roofing system",
+          "quantity": 829,
+          "unit": "SF",
+          "confidence": 0.82,
+          "source_reference": "data/challenge_projects/TAKEOFF-55 - Coach House Renovation/Project Files/Project Description.txt",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "roofing",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Recovered from explicit quantity statement in project description text."
+          ]
+        }
+      ],
+      "evaluation_summary": {
+        "matched_items": 0,
+        "missing_items": [],
+        "extra_items": [],
+        "quantity_differences": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "overall_notes": "No gold output available for challenge projects."
+      },
+      "input_files_preview": [
+        "data/challenge_projects/TAKEOFF-55 - Coach House Renovation/Project Files/2144 N. Bell Coachhouse Set 8.12.25.pdf",
+        "data/challenge_projects/TAKEOFF-55 - Coach House Renovation/Project Files/Project Description.txt"
+      ]
+    },
+    {
+      "takeoff_id": "TAKEOFF-57",
+      "project_name": "TAKE 5 OIL CHANGE - COLLEGE STATION, TX",
+      "set_name": "challenge",
+      "trade_scope": "Unknown",
+      "input_file_count": 8,
+      "gold_file_count": 0,
+      "predicted_item_count": 1,
+      "scored": false,
+      "warnings": [],
+      "artifact_paths": {
+        "manifest": "manifests/TAKEOFF-57.json",
+        "prediction": "predictions/TAKEOFF-57.json",
+        "review_packet": "review_packets/TAKEOFF-57_review.json",
+        "gold": null,
+        "evaluation": null
+      },
+      "prediction_preview": [
+        {
+          "item_number": null,
+          "description": "TAKE 5 OIL CHANGE - COLLEGE STATION, TX scope review allowance",
+          "quantity": 1,
+          "unit": "LS",
+          "confidence": 0.2,
+          "source_reference": "25-0140_1644 GREENS PRAIRIE ROAD (ALTA)-Layout1.pdf, 3. T5O COLLEGE STATION, TX SIR.pdf, 3300rse ( Take 5 Oil Change - College Station) - Geo Report.pdf",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "unknown",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Fallback line item because no reliable structured extraction was found."
+          ]
+        }
+      ],
+      "evaluation_summary": {
+        "matched_items": 0,
+        "missing_items": [],
+        "extra_items": [],
+        "quantity_differences": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "overall_notes": "No gold output available for challenge projects."
+      },
+      "input_files_preview": [
+        "data/challenge_projects/TAKEOFF-57 - TAKE 5 OIL CHANGE - COLLEGE STATION, TX/Project Files/25-0140_1644 GREENS PRAIRIE ROAD (ALTA)-Layout1.pdf",
+        "data/challenge_projects/TAKEOFF-57 - TAKE 5 OIL CHANGE - COLLEGE STATION, TX/Project Files/3. T5O COLLEGE STATION, TX SIR.pdf",
+        "data/challenge_projects/TAKEOFF-57 - TAKE 5 OIL CHANGE - COLLEGE STATION, TX/Project Files/3300rse ( Take 5 Oil Change - College Station) - Geo Report.pdf",
+        "data/challenge_projects/TAKEOFF-57 - TAKE 5 OIL CHANGE - COLLEGE STATION, TX/Project Files/51-4694 Proposed Take 5 College Station ESA.pdf",
+        "data/challenge_projects/TAKEOFF-57 - TAKE 5 OIL CHANGE - COLLEGE STATION, TX/Project Files/DB25-002_T5O COLLEGE STATION, TX - ISSUE FOR BID _07-16-2025_.pdf",
+        "data/challenge_projects/TAKEOFF-57 - TAKE 5 OIL CHANGE - COLLEGE STATION, TX/Project Files/Low Voltage Bulletin - 11.21.23.pdf",
+        "data/challenge_projects/TAKEOFF-57 - TAKE 5 OIL CHANGE - COLLEGE STATION, TX/Project Files/Madewell RFP - Take 5 Oil Change - College Station, TX.pdf",
+        "data/challenge_projects/TAKEOFF-57 - TAKE 5 OIL CHANGE - COLLEGE STATION, TX/Project Files/T5OC - Standard 3-Bay Layout - 011224.pdf"
+      ]
+    },
+    {
+      "takeoff_id": "TAKEOFF-58",
+      "project_name": "HMSL Employee Fitness",
+      "set_name": "challenge",
+      "trade_scope": "Painting",
+      "input_file_count": 6,
+      "gold_file_count": 0,
+      "predicted_item_count": 2,
+      "scored": false,
+      "warnings": [
+        "Manifest input_file_count=4 differs from discovered input files=6."
+      ],
+      "artifact_paths": {
+        "manifest": "manifests/TAKEOFF-58.json",
+        "prediction": "predictions/TAKEOFF-58.json",
+        "review_packet": "review_packets/TAKEOFF-58_review.json",
+        "gold": null,
+        "evaluation": null
+      },
+      "prediction_preview": [
+        {
+          "item_number": null,
+          "description": "Wall paint system",
+          "quantity": 100,
+          "unit": "SF",
+          "confidence": 0.2,
+          "source_reference": "Drawings_FULL.pdf, M001 - Mechanical Schedules.pdf, M002 - Mechanical Schedules.pdf",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "painting",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Fallback line item because no reliable structured extraction was found."
+          ]
+        },
+        {
+          "item_number": null,
+          "description": "Ceiling paint system",
+          "quantity": 100,
+          "unit": "SF",
+          "confidence": 0.2,
+          "source_reference": "Drawings_FULL.pdf, M001 - Mechanical Schedules.pdf, M002 - Mechanical Schedules.pdf",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "painting",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Fallback line item because no reliable structured extraction was found."
+          ]
+        }
+      ],
+      "evaluation_summary": {
+        "matched_items": 0,
+        "missing_items": [],
+        "extra_items": [],
+        "quantity_differences": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "overall_notes": "No gold output available for challenge projects."
+      },
+      "input_files_preview": [
+        "data/challenge_projects/TAKEOFF-58 - HMSL Employee Fitness/Project Files/Drawings_FULL.pdf",
+        "data/challenge_projects/TAKEOFF-58 - HMSL Employee Fitness/Project Files/M001 - Mechanical Schedules.pdf",
+        "data/challenge_projects/TAKEOFF-58 - HMSL Employee Fitness/Project Files/M002 - Mechanical Schedules.pdf",
+        "data/challenge_projects/TAKEOFF-58 - HMSL Employee Fitness/Project Files/Specs_FULL.pdf",
+        "data/challenge_projects/TAKEOFF-58 - HMSL Employee Fitness/Project Files/addenda/M001 - Mechanical Schedules.pdf",
+        "data/challenge_projects/TAKEOFF-58 - HMSL Employee Fitness/Project Files/addenda/M002 - Mechanical Schedules.pdf"
+      ]
+    },
+    {
+      "takeoff_id": "TAKEOFF-60",
+      "project_name": "NW WTP OPERATORS BUILDING",
+      "set_name": "challenge",
+      "trade_scope": "Painting",
+      "input_file_count": 8,
+      "gold_file_count": 0,
+      "predicted_item_count": 4,
+      "scored": false,
+      "warnings": [
+        "Project was discovered in multiple dataset folders and merged into one manifest."
+      ],
+      "artifact_paths": {
+        "manifest": "manifests/TAKEOFF-60.json",
+        "prediction": "predictions/TAKEOFF-60.json",
+        "review_packet": "review_packets/TAKEOFF-60_review.json",
+        "gold": null,
+        "evaluation": null
+      },
+      "prediction_preview": [
+        {
+          "item_number": null,
+          "description": "Ceiling paint",
+          "quantity": 1500,
+          "unit": "SF",
+          "confidence": 0.55,
+          "source_reference": "data/challenge_projects/TAKEOFF-60 - NW WTP OPERATORS BUILDING/Project Files/Project Description.txt",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "painting",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Recovered from enumerated scope list in project description text; quantity is a proxy where no explicit quantity was provided."
+          ]
+        },
+        {
+          "item_number": null,
+          "description": "Interior wall paint",
+          "quantity": 1500,
+          "unit": "SF",
+          "confidence": 0.55,
+          "source_reference": "data/challenge_projects/TAKEOFF-60 - NW WTP OPERATORS BUILDING/Project Files/Project Description.txt",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "painting",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Recovered from enumerated scope list in project description text; quantity is a proxy where no explicit quantity was provided."
+          ]
+        },
+        {
+          "item_number": null,
+          "description": "Door paint",
+          "quantity": 1,
+          "unit": "EA",
+          "confidence": 0.55,
+          "source_reference": "data/challenge_projects/TAKEOFF-60 - NW WTP OPERATORS BUILDING/Project Files/Project Description.txt",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "painting",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Recovered from enumerated scope list in project description text; quantity is a proxy where no explicit quantity was provided."
+          ]
+        },
+        {
+          "item_number": null,
+          "description": "Exterior wall paint",
+          "quantity": 1500,
+          "unit": "SF",
+          "confidence": 0.55,
+          "source_reference": "data/challenge_projects/TAKEOFF-60 - NW WTP OPERATORS BUILDING/Project Files/Project Description.txt",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "painting",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Recovered from enumerated scope list in project description text; quantity is a proxy where no explicit quantity was provided."
+          ]
+        }
+      ],
+      "evaluation_summary": {
+        "matched_items": 0,
+        "missing_items": [],
+        "extra_items": [],
+        "quantity_differences": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "overall_notes": "No gold output available for challenge projects."
+      },
+      "input_files_preview": [
+        "data/challenge_projects/TAKEOFF-60 - NW WTP OPERATORS BUILDING/Project Files/2449 Exhibit B - Technical Specifications (05.15.2025).PDF",
+        "data/challenge_projects/TAKEOFF-60 - NW WTP OPERATORS BUILDING/Project Files/2449 Exhibit C - SJC DR Commercial Clearance Sheet C2024-007402 (01.03.2025).PDF",
+        "data/challenge_projects/TAKEOFF-60 - NW WTP OPERATORS BUILDING/Project Files/2449 Exhibit D - SJC OD Paving _ Drainage Construction Permit COMM 24-92 (12.31.2024).PDF",
+        "data/challenge_projects/TAKEOFF-60 - NW WTP OPERATORS BUILDING/Project Files/2449 Exhibit E - SJRWMD Permit 21489-83 (03.25.2025).PDF",
+        "data/challenge_projects/TAKEOFF-60 - NW WTP OPERATORS BUILDING/Project Files/2449 IFB Document (FINAL_07112025).PDF",
+        "data/challenge_projects/TAKEOFF-60 - NW WTP OPERATORS BUILDING/Project Files/Bid Narrative.pdf",
+        "data/challenge_projects/TAKEOFF-60 - NW WTP OPERATORS BUILDING/Project Files/Project Description.txt",
+        "data/challenge_projects_supplemental/TAKEOFF-60 - NW WTP OPERATORS BUILDING/Project Files/2449 Exhibit A - Construction Plans (06.27.2025).PDF"
+      ]
+    },
+    {
+      "takeoff_id": "TAKEOFF-61",
+      "project_name": "KEDPLASMA UNIVERSAL CITY, TX",
+      "set_name": "challenge",
+      "trade_scope": "Landscaping",
+      "input_file_count": 1,
+      "gold_file_count": 0,
+      "predicted_item_count": 2,
+      "scored": false,
+      "warnings": [],
+      "artifact_paths": {
+        "manifest": "manifests/TAKEOFF-61.json",
+        "prediction": "predictions/TAKEOFF-61.json",
+        "review_packet": "review_packets/TAKEOFF-61_review.json",
+        "gold": null,
+        "evaluation": null
+      },
+      "prediction_preview": [
+        {
+          "item_number": null,
+          "description": "Landscape planting",
+          "quantity": 1,
+          "unit": "EA",
+          "confidence": 0.2,
+          "source_reference": "07.23.25 KED Universal City TX Bid Set.pdf",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "landscaping",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Fallback line item because no reliable structured extraction was found."
+          ]
+        },
+        {
+          "item_number": null,
+          "description": "Irrigation scope",
+          "quantity": 1,
+          "unit": "LS",
+          "confidence": 0.2,
+          "source_reference": "07.23.25 KED Universal City TX Bid Set.pdf",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "landscaping",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Fallback line item because no reliable structured extraction was found."
+          ]
+        }
+      ],
+      "evaluation_summary": {
+        "matched_items": 0,
+        "missing_items": [],
+        "extra_items": [],
+        "quantity_differences": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "overall_notes": "No gold output available for challenge projects."
+      },
+      "input_files_preview": [
+        "data/challenge_projects/TAKEOFF-61 - KEDPLASMA UNIVERSAL CITY, TX/Project Files/07.23.25 KED Universal City TX Bid Set.pdf"
+      ]
+    },
+    {
+      "takeoff_id": "TAKEOFF-63",
+      "project_name": "LEHI HIPPO VET CLINIC",
+      "set_name": "challenge",
+      "trade_scope": "Landscaping",
+      "input_file_count": 3,
+      "gold_file_count": 0,
+      "predicted_item_count": 2,
+      "scored": false,
+      "warnings": [],
+      "artifact_paths": {
+        "manifest": "manifests/TAKEOFF-63.json",
+        "prediction": "predictions/TAKEOFF-63.json",
+        "review_packet": "review_packets/TAKEOFF-63_review.json",
+        "gold": null,
+        "evaluation": null
+      },
+      "prediction_preview": [
+        {
+          "item_number": null,
+          "description": "Landscape planting",
+          "quantity": 1,
+          "unit": "EA",
+          "confidence": 0.2,
+          "source_reference": "LP-100-LANDSCAPE-OVERALL-PLAN-Rev.BID.pdf, LP-101-LANDSCAPE-COVER-Rev.BID.pdf, LP-501-LANDSCAPE-DETAILS-Rev.BID.pdf",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "landscaping",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Fallback line item because no reliable structured extraction was found."
+          ]
+        },
+        {
+          "item_number": null,
+          "description": "Irrigation scope",
+          "quantity": 1,
+          "unit": "LS",
+          "confidence": 0.2,
+          "source_reference": "LP-100-LANDSCAPE-OVERALL-PLAN-Rev.BID.pdf, LP-101-LANDSCAPE-COVER-Rev.BID.pdf, LP-501-LANDSCAPE-DETAILS-Rev.BID.pdf",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "landscaping",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Fallback line item because no reliable structured extraction was found."
+          ]
+        }
+      ],
+      "evaluation_summary": {
+        "matched_items": 0,
+        "missing_items": [],
+        "extra_items": [],
+        "quantity_differences": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "overall_notes": "No gold output available for challenge projects."
+      },
+      "input_files_preview": [
+        "data/challenge_projects/TAKEOFF-63 - LEHI HIPPO VET CLINIC/Project Files/LP-100-LANDSCAPE-OVERALL-PLAN-Rev.BID.pdf",
+        "data/challenge_projects/TAKEOFF-63 - LEHI HIPPO VET CLINIC/Project Files/LP-101-LANDSCAPE-COVER-Rev.BID.pdf",
+        "data/challenge_projects/TAKEOFF-63 - LEHI HIPPO VET CLINIC/Project Files/LP-501-LANDSCAPE-DETAILS-Rev.BID.pdf"
+      ]
+    },
+    {
+      "takeoff_id": "TAKEOFF-64",
+      "project_name": "Paradies- Beltline Market _ Village Retail- ATL Airport",
+      "set_name": "challenge",
+      "trade_scope": "Plumbing",
+      "input_file_count": 2,
+      "gold_file_count": 0,
+      "predicted_item_count": 2,
+      "scored": false,
+      "warnings": [],
+      "artifact_paths": {
+        "manifest": "manifests/TAKEOFF-64.json",
+        "prediction": "predictions/TAKEOFF-64.json",
+        "review_packet": "review_packets/TAKEOFF-64_review.json",
+        "gold": null,
+        "evaluation": null
+      },
+      "prediction_preview": [
+        {
+          "item_number": null,
+          "description": "Plumbing fixtures",
+          "quantity": 1,
+          "unit": "EA",
+          "confidence": 0.2,
+          "source_reference": "ATL BeltlineFinalSub 8.7.25.pdf, ATL TheVillage Final 8.6.25.pdf",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "plumbing",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Fallback line item because no reliable structured extraction was found."
+          ]
+        },
+        {
+          "item_number": null,
+          "description": "Plumbing piping and drains",
+          "quantity": 8,
+          "unit": "FT",
+          "confidence": 0.2,
+          "source_reference": "ATL BeltlineFinalSub 8.7.25.pdf, ATL TheVillage Final 8.6.25.pdf",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "plumbing",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Fallback line item because no reliable structured extraction was found."
+          ]
+        }
+      ],
+      "evaluation_summary": {
+        "matched_items": 0,
+        "missing_items": [],
+        "extra_items": [],
+        "quantity_differences": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "overall_notes": "No gold output available for challenge projects."
+      },
+      "input_files_preview": [
+        "data/challenge_projects/TAKEOFF-64 - Paradies- Beltline Market _ Village Retail- ATL Airport/Project Files/ATL BeltlineFinalSub 8.7.25.pdf",
+        "data/challenge_projects/TAKEOFF-64 - Paradies- Beltline Market _ Village Retail- ATL Airport/Project Files/ATL TheVillage Final 8.6.25.pdf"
+      ]
+    },
+    {
+      "takeoff_id": "TAKEOFF-28",
+      "project_name": "Maryland Vision Institute",
+      "set_name": "sample",
+      "trade_scope": "Electrical; Painting; HVAC",
+      "input_file_count": 6,
+      "gold_file_count": 2,
+      "predicted_item_count": 5,
+      "scored": true,
+      "warnings": [],
+      "artifact_paths": {
+        "manifest": "manifests/TAKEOFF-28.json",
+        "prediction": "predictions/TAKEOFF-28.json",
+        "review_packet": "review_packets/TAKEOFF-28_review.json",
+        "gold": "gold_normalized/TAKEOFF-28.json",
+        "evaluation": "evaluations/TAKEOFF-28.json"
+      },
+      "prediction_preview": [
+        {
+          "item_number": null,
+          "description": "Distribution equipment",
+          "quantity": 1,
+          "unit": "EA",
+          "confidence": 0.43,
+          "source_reference": "data/sample_projects/TAKEOFF-28 - Maryland Vision Institute/Project Files/MVI Clinic_Addendum 01.pdf",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "Electrical",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Evidence matches in corpus: 1"
+          ]
+        },
+        {
+          "item_number": null,
+          "description": "Branch wiring and conduit",
+          "quantity": 100,
+          "unit": "SF",
+          "confidence": 0.43,
+          "source_reference": "data/sample_projects/TAKEOFF-28 - Maryland Vision Institute/Project Files/Maryland Vision Institute_Specifications.pdf",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "Electrical",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Evidence matches in corpus: 1"
+          ]
+        },
+        {
+          "item_number": null,
+          "description": "Sheet metal ductwork",
+          "quantity": 16,
+          "unit": "FT",
+          "confidence": 0.51,
+          "source_reference": "data/sample_projects/TAKEOFF-28 - Maryland Vision Institute/Project Files/Maryland Vision Institute_Specifications.pdf",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "Hvac",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Evidence matches in corpus: 2"
+          ]
+        },
+        {
+          "item_number": null,
+          "description": "Wall paint system",
+          "quantity": 100,
+          "unit": "SF",
+          "confidence": 0.2,
+          "source_reference": "ADC - STANDARD Contractor Rules and Regulations - 2.16.2023 4883-1236-7441 v.1.pdf, Break Out _1- Public Corridor Drawings.pdf, MVI Clinic_Addendum 01.pdf",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "painting",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Fallback line item because no reliable structured extraction was found."
+          ]
+        },
+        {
+          "item_number": null,
+          "description": "Ceiling paint system",
+          "quantity": 100,
+          "unit": "SF",
+          "confidence": 0.2,
+          "source_reference": "ADC - STANDARD Contractor Rules and Regulations - 2.16.2023 4883-1236-7441 v.1.pdf, Break Out _1- Public Corridor Drawings.pdf, MVI Clinic_Addendum 01.pdf",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "painting",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Fallback line item because no reliable structured extraction was found."
+          ]
+        }
+      ],
+      "evaluation_summary": {
+        "matched_items": 0,
+        "missing_items": [
+          "Management & Supervision (Weeks)",
+          "Documentation & Shop Drawings",
+          "PNT-01 (9'-0\" High):\n-Mfg: Sherwin Williams\n-Color: Wordly Gray #SW7043\n-Type: Eggshell",
+          "PNT-01 (9'-6\" High):\n-Mfg: Sherwin Williams\n-Color: Wordly Gray #SW7043\n-Type: Eggshell",
+          "PNT-01 (10'-0\" High):\n-Mfg: Sherwin Williams\n-Color: Wordly Gray #SW7043\n-Type: Eggshell",
+          "PNT-01 (10'-6\" High):\n-Mfg: Sherwin Williams\n-Color: Wordly Gray #SW7043\n-Type: Eggshell",
+          "PNT-02 (9'-6\" High):\n-Mfg: Sherwin Williams\n-Color: Seasalt #SW6204\n-Type: Eggshell",
+          "PNT-03 @Columns (10'-0\" High):\n-Mfg: Sherwin Williams\n-Color: Wordly Gray #SW7043\n-Type: Glossy",
+          "PNT-04 @Public Corridors (9'-0\" High):\n-Mfg: Sherwin Williams\n-Color: Prime White #SW7005\n-Type: Eggshell",
+          "CL-03 (GWB):\n-Mfg: Sherwin Williams\n-Color: Extra White #SW7006\n-Type: Flat",
+          "Remove Section of Duct for New Fire Damper",
+          "Existing Fan to be Removed",
+          "Remove Existing Fire Damper for Tenant Fitout",
+          "6\" Dia Duct",
+          "8\" Dia Duct",
+          "10\" dia Duct",
+          "6\"x6\" Duct",
+          "8\"x6\" Duct",
+          "8\"x8\" Duct",
+          "10\"x8\" Duct",
+          "10\"x10\" Duct",
+          "12\"x10 Duct",
+          "12\"x12\" Duct",
+          "14\"x12\" Duct",
+          "14\"x14\" Duct",
+          "16\"x12\" Duct",
+          "16\"x16\" Duct",
+          "20\"x14\" Duct",
+          "22\"x16\" Duct",
+          "28\"x20\" Duct",
+          "32\"x26\" Duct",
+          "6\" Flexible Duct to Diffuser",
+          "8\" Flexible Duct to Diffuser",
+          "10\" Flexible Duct to Diffuser",
+          "8\" Dia Duct Elbow",
+          "6\" Dia Duct Elbow",
+          "6\"x6\" Duct Elbow",
+          "8\"x8\" Duct Elbow",
+          "10\"x8\" Duct Elbow",
+          "10\"x10\" Duct Square Elbow",
+          "12\"x10 Duct Elbow",
+          "12\"x12\" Duct Elbow",
+          "Duct to Duct Connections",
+          "Clinch Collar w/ Clinch Lock",
+          "Exterior Ductwork Support (5/M402)",
+          "3/4\" Dia Refrigerant Lines",
+          "Cleanout",
+          "1\" Dia Refrigerant Lines",
+          "3/4\" Pipe upto Roof",
+          "1\" Pipe upto Roof",
+          "Provide Pipe Curb throughout Roof",
+          "S-1: \n-B.O.D: ANEMOSTAT / E\n-Nominal Module Size: 12\"x12\"\n-CFM: 0-95\n-Material: Aluminum",
+          "S-2 \n-B.O.D: ANEMOSTAT / E\n-Nominal Module Size: 24\"x24\"\n-CFM: 95-210\n-Material: Aluminum",
+          "S-3 \n-B.O.D: ANEMOSTAT / E\n-Nominal Module Size: 24\"x24\"\n-CFM: 211-330\n-Material: Aluminum",
+          "S-4 \n-B.O.D: ANEMOSTAT / E\n-Nominal Module Size: 24\"x24\"\n-CFM: 331-470\n-Material: Aluminum",
+          "R-1 \n-B.O.D: ANEMOSTAT / GC\n-Nominal Module Size: 24\"x12\"\n-CFM: 0-950\n-Material: Aluminum",
+          "RTU-1:\nMfg/Model: JOHNSON CONTROLS / KD28T\n-Approx. Weight: 2560 LBS\n-Filter Type: MERV-13\n-Refrigerant Type: R454B\n-Total CFM: 8300",
+          "AC-1: B.O.D Outdoor Unit : HITACHI / RAC-DJ36WHAA\nHP-1: B.O.D Indoor Unit : HITACHI / RAK-DJ36PHAA",
+          "AC-2: B.O.D Outdoor Unit : HITACHI / RAC-DJ36WHAA\nHP-2: B.O.D Indoor Unit : HITACHI / RAK-DJ36PHAA",
+          "AC-3: B.O.D Outdoor Unit : HITACHI / RAC-DJ36WHAA\nHP-3: B.O.D Indoor Unit : HITACHI / RAK-DJ36PHAA",
+          "EF-1:\n-B.O.D: Greenheck / SP-B110-VG\n-CFM: 75",
+          "EF-2:\n-B.O.D: Greenheck / SP-B110-VG\n-CFM: 75",
+          "VAV-1:\n-Mfg/Model: JCI/TSS",
+          "VAV-2:\n-Mfg/Model: JCI/TSS",
+          "VAV-3:\n-Mfg/Model: JCI/TSS",
+          "VAV-4:\n-Mfg/Model: JCI/TSS",
+          "VAV-5:\n-Mfg/Model: JCI/TSS",
+          "VAV-6:\n-Mfg/Model: JCI/TSS",
+          "VAV-7:\n-Mfg/Model: JCI/TSS",
+          "VAV-8:\n-Mfg/Model: JCI/TSS",
+          "VAV-9:\n-Mfg/Model: JCI/TSS",
+          "VAV-10:\n-Mfg/Model: JCI/TSS",
+          "VAV-11:\n-Mfg/Model: JCI/TSS",
+          "VAV-12:\n-Mfg/Model: JCI/TSS",
+          "VAV-13:\n-Mfg/Model: JCI/TSS",
+          "CUH-1: \n-B.O.D: QMARK / CDF548RE\n-BTUH: 13,700",
+          "Light A: 2\"x4\" Recessed LED Troffer\n-Mfg: Current\n-Model: CBT24-A-LSCS-EDD",
+          "Light B: 4\" Downlight\n-Mfg: Prescolite\n-Model: LFR-4RD-M-20L-40K-8-MD-DM1",
+          "Light C: 2'x2' Recessed LED Troffer\n-Mfg: Current\n-Model: CBT22-A-LSCS-EDD",
+          "Light C with Integrated Emergency Battery Backup: 2'x2' Recessed LED Troffer\n-Mfg: Current\n-Model: CBT22-A-LSCS-EDD",
+          "Light D: Decorative Pendant Hexagon Shape\n-Mfg: Pure Edge LTG\n-Model: Cirrus LED CSDHM-5W-18-35K-SA CSDM-120C",
+          "Light E: Decorative Pendant Hexagon Shape\n-Mfg: Pure Edge LTG\n-Model: Cirrus LED CSDHM-5W-24-35K-SA CSDM-120C",
+          "Light F: Cove Linear Strip\n-Mfg: Lumini Kendo 45M\n-Model: K45M-X-72SO-35K-C-CB-WH-X-X",
+          "Light X: Exit Sign, Edge-Lit Acrylic\n-Mfg: Compass\n-Model: CELR1RNE",
+          "Lithonia 2AVL2 40LSE ADP EZ1 LP840, 120/277V, Integral LED",
+          "Lithonia 2AVL2 40LSE ADP EZ1 LP840, 120/277V, Integral LED with Emergency Backup",
+          "Undercounter Light",
+          "Vaccancy Sensor",
+          "Occupancy Sensor",
+          "Daylight Sensor",
+          "Single Pole Switch",
+          "Manual On, Auto Off Dual Technology Vacancy Sensor",
+          "Dimmer Switch",
+          "Three Way Switch",
+          "NEMA-5 20R Duplex Receptacle",
+          "Automatic Door Opener with Junction Box. Provide Power, coordinate with Door contractor",
+          "Fire Alarm Manual Pull Station",
+          "Quadruplex Receptacle",
+          "Data Outlet",
+          "Ceiling Mounted Fire Alarm",
+          "Ceiling Mounted Data Outlet",
+          "Ceiling Mounted Receptacle",
+          "NEMA 5-20R GFCI Receptacle",
+          "Door Access Card Reader, Provide Empty Single Gang Box and 3/4\" Empty Conduit (w/ Pull String)",
+          "Wall Mounted Fire Alarm",
+          "Special Purpose Receptacle",
+          "USB Receptacle",
+          "Automatic Control Receptacle",
+          "Junction Box",
+          "Fire Alarm Duct Detector. Provide with Remote Indicator Light Mounted in Ceiling.",
+          "Panel VP1, Mains: 400A, Voltage: 480/277V - 3\u00d8-4W, Total Connected KVA: 185605VA, Total Demand KVA: 175280VA, Total Demand Amperes: 210.83",
+          "Panel VH1, Mains: 150A, Voltage: 208/120V - 3\u00d8-4W, Total Connected KVA: 59740VA, Total Demand KVA: 49415VA, Total Demand Amperes: 137.16",
+          "Light Control Panel",
+          "400A-3P Circuit Breaker within Existing Switchboard",
+          "Provide a New E-Mon Class 3400 kWH Meter #E34-480400-MKT on Existing Honeywell Meter Unit. Wire as required.",
+          "45kVA XFMR 480V-208/120V",
+          "Light and Power Wiring",
+          "VP1 to Transformer Wiring: (4) #1/0, (1) #6 GND in 2\"C",
+          "Transformer to Panel VH1 Wiring: (3) #4, (1) #8 GND in 1\"C",
+          "Panel VH1 to New Breaker Wiring: (4) #500 KCMIL, (1) #3 GND in a 4\" Conduit",
+          "Sawcut Existing Concrete Slab for Conduit Installation"
+        ],
+        "extra_items": [
+          "Distribution equipment",
+          "Branch wiring and conduit",
+          "Sheet metal ductwork",
+          "Wall paint system",
+          "Ceiling paint system"
+        ],
+        "quantity_differences": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "overall_notes": "Exact description matching with quantity comparison tolerance of 5%."
+      },
+      "input_files_preview": [
+        "data/sample_projects/TAKEOFF-28 - Maryland Vision Institute/Project Files/ADC - STANDARD Contractor Rules and Regulations - 2.16.2023 4883-1236-7441 v.1.pdf",
+        "data/sample_projects/TAKEOFF-28 - Maryland Vision Institute/Project Files/Break Out _1- Public Corridor Drawings.pdf",
+        "data/sample_projects/TAKEOFF-28 - Maryland Vision Institute/Project Files/MVI Clinic_Addendum 01.pdf",
+        "data/sample_projects/TAKEOFF-28 - Maryland Vision Institute/Project Files/Maryland Vision Institute_Drawings.pdf",
+        "data/sample_projects/TAKEOFF-28 - Maryland Vision Institute/Project Files/Maryland Vision Institute_Specifications.pdf",
+        "data/sample_projects/TAKEOFF-28 - Maryland Vision Institute/Project Files/Scope of Work.pdf"
+      ]
+    },
+    {
+      "takeoff_id": "TAKEOFF-50",
+      "project_name": "Portland VA Surgical Center Rehabilitation",
+      "set_name": "sample",
+      "trade_scope": "Ceramic; Tile",
+      "input_file_count": 32,
+      "gold_file_count": 2,
+      "predicted_item_count": 3,
+      "scored": true,
+      "warnings": [
+        "Manifest input_file_count=18 differs from discovered input files=32."
+      ],
+      "artifact_paths": {
+        "manifest": "manifests/TAKEOFF-50.json",
+        "prediction": "predictions/TAKEOFF-50.json",
+        "review_packet": "review_packets/TAKEOFF-50_review.json",
+        "gold": "gold_normalized/TAKEOFF-50.json",
+        "evaluation": "evaluations/TAKEOFF-50.json"
+      },
+      "prediction_preview": [
+        {
+          "item_number": null,
+          "description": "Tile flooring",
+          "quantity": 100,
+          "unit": "SF",
+          "confidence": 0.2,
+          "source_reference": "Amendment 1 - 36C77625B0017 0001 7-10-25.pdf, Amendment 2 - 36C77625B0017 0001 7-21-25.pdf, Amendment 3 - 36C77625B0017 0001 7-30-25.pdf",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "flooring",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Fallback line item because no reliable structured extraction was found."
+          ]
+        },
+        {
+          "item_number": null,
+          "description": "Floor transitions",
+          "quantity": 8,
+          "unit": "FT",
+          "confidence": 0.2,
+          "source_reference": "Amendment 1 - 36C77625B0017 0001 7-10-25.pdf, Amendment 2 - 36C77625B0017 0001 7-21-25.pdf, Amendment 3 - 36C77625B0017 0001 7-30-25.pdf",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "flooring",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Fallback line item because no reliable structured extraction was found."
+          ]
+        },
+        {
+          "item_number": null,
+          "description": "Wall tile",
+          "quantity": 100,
+          "unit": "SF",
+          "confidence": 0.2,
+          "source_reference": "Amendment 1 - 36C77625B0017 0001 7-10-25.pdf, Amendment 2 - 36C77625B0017 0001 7-21-25.pdf, Amendment 3 - 36C77625B0017 0001 7-30-25.pdf",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "flooring",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Fallback line item because no reliable structured extraction was found."
+          ]
+        }
+      ],
+      "evaluation_summary": {
+        "matched_items": 0,
+        "missing_items": [
+          "Management & Supervision (Weeks)",
+          "Documentation & Shop Drawings",
+          "QT-01: Quarry Tile\n-Mfg: Daltile\n-Collection: Quarry Tile\n-Product: Paver\n-Color: OQ-92\n-Name: Gray\n-Size: 6\"x6\"",
+          "PT-01: Porcelain Tile\n-Mfg: Daltile\n-Collection: Volume 1.0\n-Product: Glazed Porcelain w/ Stepwise Technology\n-Color: VL74\n-Size: 6\"x6\"",
+          "Vinyl to Quarry Tile Transition",
+          "Vinyl to Porcelain Transition",
+          "PT-02: Porcelain Wall Tile (8'-0\" High)\n-Mfg: Daltile\n-Collection: Colored Wheel\n-Product: Classic Color\n-Color: 0790\n-Name: Matte Arctic White\n-Size/Profile: 6\"x6\"\n-Color: VL74\n-Size: 6\"x6\""
+        ],
+        "extra_items": [
+          "Tile flooring",
+          "Floor transitions",
+          "Wall tile"
+        ],
+        "quantity_differences": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "overall_notes": "Exact description matching with quantity comparison tolerance of 5%."
+      },
+      "input_files_preview": [
+        "data/sample_projects/TAKEOFF-50 - Portland VA Surgical Center Rehabilitation/Project Files/Addendums/Amendment 1 - 36C77625B0017 0001 7-10-25.pdf",
+        "data/sample_projects/TAKEOFF-50 - Portland VA Surgical Center Rehabilitation/Project Files/Addendums/Amendment 2 - 36C77625B0017 0001 7-21-25.pdf",
+        "data/sample_projects/TAKEOFF-50 - Portland VA Surgical Center Rehabilitation/Project Files/Addendums/Amendment 3 - 36C77625B0017 0001 7-30-25.pdf",
+        "data/sample_projects/TAKEOFF-50 - Portland VA Surgical Center Rehabilitation/Project Files/Addendums/Amendment 4 - 36C77625B0017 0001 8-7-25.pdf",
+        "data/sample_projects/TAKEOFF-50 - Portland VA Surgical Center Rehabilitation/Project Files/Addendums/Amendment 5 - 36C77625B0017 0001 8-11-25.pdf",
+        "data/sample_projects/TAKEOFF-50 - Portland VA Surgical Center Rehabilitation/Project Files/Addendums/Amendment 6 - 36C77625B0017 0001 8-12-25.pdf",
+        "data/sample_projects/TAKEOFF-50 - Portland VA Surgical Center Rehabilitation/Project Files/Amendment 1 - 36C77625B0017 0001 7-10-25.pdf",
+        "data/sample_projects/TAKEOFF-50 - Portland VA Surgical Center Rehabilitation/Project Files/Amendment 2 - 36C77625B0017 0001 7-21-25.pdf"
+      ]
+    },
+    {
+      "takeoff_id": "TAKEOFF-56",
+      "project_name": "JACK & JONES STATEN ISLAND, NY",
+      "set_name": "sample",
+      "trade_scope": "Carpentry/Gabinets",
+      "input_file_count": 115,
+      "gold_file_count": 2,
+      "predicted_item_count": 2,
+      "scored": true,
+      "warnings": [
+        "Manifest input_file_count=14 differs from discovered input files=115."
+      ],
+      "artifact_paths": {
+        "manifest": "manifests/TAKEOFF-56.json",
+        "prediction": "predictions/TAKEOFF-56.json",
+        "review_packet": "review_packets/TAKEOFF-56_review.json",
+        "gold": "gold_normalized/TAKEOFF-56.json",
+        "evaluation": "evaluations/TAKEOFF-56.json"
+      },
+      "prediction_preview": [
+        {
+          "item_number": null,
+          "description": "Millwork and wood trim",
+          "quantity": 8,
+          "unit": "FT",
+          "confidence": 0.2,
+          "source_reference": "10110807_10110807_T_DETAIL_PDF_VRS01.pdf, 10110807_10110807_T_MAIN_PROJECT_PDF_VRS01.pdf, 10110807_D_GR_JJ_NY_Staten_Island_PDF_VRS07.pdf",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "carpentry/gabinets",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Fallback line item because no reliable structured extraction was found."
+          ]
+        },
+        {
+          "item_number": null,
+          "description": "Doors and hardware",
+          "quantity": 1,
+          "unit": "EA",
+          "confidence": 0.2,
+          "source_reference": "10110807_10110807_T_DETAIL_PDF_VRS01.pdf, 10110807_10110807_T_MAIN_PROJECT_PDF_VRS01.pdf, 10110807_D_GR_JJ_NY_Staten_Island_PDF_VRS07.pdf",
+          "drawing_reference": null,
+          "section_reference": null,
+          "division": null,
+          "category": "carpentry/gabinets",
+          "raw_quantity": null,
+          "wastage": null,
+          "quantity_with_wastage": null,
+          "notes": [
+            "Fallback line item because no reliable structured extraction was found."
+          ]
+        }
+      ],
+      "evaluation_summary": {
+        "matched_items": 0,
+        "missing_items": [
+          "Management & Supervision (Weeks)",
+          "Documentation & Shop Drawings",
+          "M56: Wood Cladding (Supplied by Client Vendor, Installed by GC)_x000D_\n-1\" Thick (10 1/4\" x 12'-0\") Wood Cladding - Douglas Fir Hiram Habitat - Solid Boards, Country House Style Sawn Plansk, Mfg: RIIS",
+          "Hook & Bench Panel (Supplied by Client, Installed by GC)",
+          "Hook & Bench Panel @Fitting Rooms (Supplied by Client, Installed by GC)_x000D_\n-Wide: 3'-11\", Deep: 1'-4\"",
+          "Cash Backwrap, 1'-8\" Deep (Supplied by Client, Installed by GC)",
+          "Cash Counter Installation (Supplied by GC)",
+          "Door 003: Stock Room \n-Solid Core Wood Door, Size: 3'-0\"x6'-8\"\n-2\" Wide Metal Frame",
+          "Existing Door 001:\n-\u201cDETEX\u201d ECL-600, Exit Control Lock.\n-Change-out locking mechanism with \u201cMedeco\u201d lock core.\n-Door operation shall be exclusively through \u201cDetex\u201d unit.\n-Door closer \u201cCanaropa\u201d, Series 50, #53, aluminum finish, mounted store side (if not existing).\n-Kickplate, \u201cYves\u201d Series 8400, 10\" [254] H x full width of door, brushed aluminum, mounted 1\" from door\u2019s bottom, both sides.\n-Threshold medium/heavy duty aluminum threshold, full width of door opening (if not existing).\n-Tenant identification signage, as per landlord requirements (exterior side).\n-Peep/door viewer \u2013 Rockwood Model 622 5/8\"[16], 180\u00b0 wide-angle door viewer (or equal; chrome finish).\n-Door buzzer \u2013 \u201cEdwards\u201d #17886-B button, #590 series transformer #662 buzzer w/ louvered coverplate & transformer mounting plate.\n-Door shall not be operable from exterior; door operation shall be exclusively through Detex unit at interior/store side of door.",
+          "Existing Door 002:\n-1 part \u201cStanley\u201d spring type hinge #2060R (steel) 4\" [102] x 4\" [102], satin chrome finish (US26D).\n-1 pair \u201cStanley\u201d hinge #741 (steel), 4\" [102] x 4\" [102], satin chrome finish (US26D).\n-Privacy lockset, \u201cSchlage\u201d S-Series (S40-D), Saturn lever, satin chrome finish (US26D).\n-(3) Door silencers, \u201cBaldwin\u201d #4036.\n-Kickplate, \u201cYves\u201d Series 8400, 10\" [254] H x full width of door, brushed aluminum, mounted 1\" from door\u2019s bottom, both sides.\n-Floor door stop, \u201cYves\u201d #436, aluminum finish (use #438 if door has a threshold).",
+          "New Door 003:\n-Automatic door closer No.525M by Canaropa or equivalent c/w door stopper at a 90\u00b0 angle. Supplied and installed by G.C.\n-4\" x 16\" stainless steel push plate by \u201cRichelieu\u201d or equivalent.\n-12\" C/C pull handle w/ flat face #9030C32D by C.B.H. (pull handle to be installed first to ensure bolts are concealed).\n-12\" stainless steel kick plate on sales floor side.\n-White vinyl sign \u201cStaff Only\u201d or \u201cPrivet\u201d.\n-Flip down door holder."
+        ],
+        "extra_items": [
+          "Millwork and wood trim",
+          "Doors and hardware"
+        ],
+        "quantity_differences": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "overall_notes": "Exact description matching with quantity comparison tolerance of 5%."
+      },
+      "input_files_preview": [
+        "data/sample_projects/TAKEOFF-56 - JACK & JONES STATEN ISLAND, NY/Project Files/10110807_10110807_T_DETAIL_PDF_VRS01.pdf",
+        "data/sample_projects/TAKEOFF-56 - JACK & JONES STATEN ISLAND, NY/Project Files/10110807_10110807_T_MAIN_PROJECT_PDF_VRS01.pdf",
+        "data/sample_projects/TAKEOFF-56 - JACK & JONES STATEN ISLAND, NY/Project Files/10110807_D_GR_JJ_NY_Staten_Island_PDF_VRS07.pdf",
+        "data/sample_projects/TAKEOFF-56 - JACK & JONES STATEN ISLAND, NY/Project Files/1465 Gap Kids (2007).pdf",
+        "data/sample_projects/TAKEOFF-56 - JACK & JONES STATEN ISLAND, NY/Project Files/1465 Gap Kids (CR 6-19-07)/1465 Gap Kids (2007).pdf",
+        "data/sample_projects/TAKEOFF-56 - JACK & JONES STATEN ISLAND, NY/Project Files/1465 Gap Kids (CR 6-19-07)/1465 Gap Kids (CR 6-19-07)/1465 Gap Kids (2007).pdf",
+        "data/sample_projects/TAKEOFF-56 - JACK & JONES STATEN ISLAND, NY/Project Files/1465 Gap Kids (CR 6-19-07)/1465 Gap Kids (CR 6-19-07)/A0-1.1.TIF",
+        "data/sample_projects/TAKEOFF-56 - JACK & JONES STATEN ISLAND, NY/Project Files/1465 Gap Kids (CR 6-19-07)/1465 Gap Kids (CR 6-19-07)/A0-1.2.TIF"
+      ]
+    }
+  ]
+}

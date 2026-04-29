@@ -1,0 +1,60 @@
+{
+  "profile": "samples",
+  "profile_label": "Samples only",
+  "built_at_utc": "2026-04-29T21:18:31.236924+00:00",
+  "project_count": 3,
+  "sample_project_count": 3,
+  "challenge_project_count": 0,
+  "processed_projects": [
+    {
+      "takeoff_id": "TAKEOFF-28",
+      "project_name": "Maryland Vision Institute",
+      "set_name": "sample",
+      "input_file_count": 6,
+      "gold_file_count": 2,
+      "predicted_item_count": 5,
+      "scored": true
+    },
+    {
+      "takeoff_id": "TAKEOFF-50",
+      "project_name": "Portland VA Surgical Center Rehabilitation",
+      "set_name": "sample",
+      "input_file_count": 32,
+      "gold_file_count": 2,
+      "predicted_item_count": 3,
+      "scored": true
+    },
+    {
+      "takeoff_id": "TAKEOFF-56",
+      "project_name": "JACK & JONES STATEN ISLAND, NY",
+      "set_name": "sample",
+      "input_file_count": 115,
+      "gold_file_count": 2,
+      "predicted_item_count": 2,
+      "scored": true
+    }
+  ],
+  "available_profiles": {
+    "full": {
+      "label": "Full dataset",
+      "description": "Process all 3 sample projects and all 25 challenge projects.",
+      "challenge_takeoff_ids": null
+    },
+    "minimum": {
+      "label": "Minimum acceptable submission",
+      "description": "Process all 3 sample projects and 5 challenge projects end-to-end.",
+      "challenge_takeoff_ids": [
+        "TAKEOFF-30",
+        "TAKEOFF-36",
+        "TAKEOFF-39",
+        "TAKEOFF-47",
+        "TAKEOFF-55"
+      ]
+    },
+    "samples": {
+      "label": "Samples only",
+      "description": "Process only the 3 sample projects with visible gold outputs.",
+      "challenge_takeoff_ids": []
+    }
+  }
+}

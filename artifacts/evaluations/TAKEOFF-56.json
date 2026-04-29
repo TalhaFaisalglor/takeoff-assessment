@@ -1,0 +1,24 @@
+{
+  "matched_items": 0,
+  "missing_items": [
+    "Management & Supervision (Weeks)",
+    "Documentation & Shop Drawings",
+    "M56: Wood Cladding (Supplied by Client Vendor, Installed by GC)_x000D_\n-1\" Thick (10 1/4\" x 12'-0\") Wood Cladding - Douglas Fir Hiram Habitat - Solid Boards, Country House Style Sawn Plansk, Mfg: RIIS",
+    "Hook & Bench Panel (Supplied by Client, Installed by GC)",
+    "Hook & Bench Panel @Fitting Rooms (Supplied by Client, Installed by GC)_x000D_\n-Wide: 3'-11\", Deep: 1'-4\"",
+    "Cash Backwrap, 1'-8\" Deep (Supplied by Client, Installed by GC)",
+    "Cash Counter Installation (Supplied by GC)",
+    "Door 003: Stock Room \n-Solid Core Wood Door, Size: 3'-0\"x6'-8\"\n-2\" Wide Metal Frame",
+    "Existing Door 001:\n-\u201cDETEX\u201d ECL-600, Exit Control Lock.\n-Change-out locking mechanism with \u201cMedeco\u201d lock core.\n-Door operation shall be exclusively through \u201cDetex\u201d unit.\n-Door closer \u201cCanaropa\u201d, Series 50, #53, aluminum finish, mounted store side (if not existing).\n-Kickplate, \u201cYves\u201d Series 8400, 10\" [254] H x full width of door, brushed aluminum, mounted 1\" from door\u2019s bottom, both sides.\n-Threshold medium/heavy duty aluminum threshold, full width of door opening (if not existing).\n-Tenant identification signage, as per landlord requirements (exterior side).\n-Peep/door viewer \u2013 Rockwood Model 622 5/8\"[16], 180\u00b0 wide-angle door viewer (or equal; chrome finish).\n-Door buzzer \u2013 \u201cEdwards\u201d #17886-B button, #590 series transformer #662 buzzer w/ louvered coverplate & transformer mounting plate.\n-Door shall not be operable from exterior; door operation shall be exclusively through Detex unit at interior/store side of door.",
+    "Existing Door 002:\n-1 part \u201cStanley\u201d spring type hinge #2060R (steel) 4\" [102] x 4\" [102], satin chrome finish (US26D).\n-1 pair \u201cStanley\u201d hinge #741 (steel), 4\" [102] x 4\" [102], satin chrome finish (US26D).\n-Privacy lockset, \u201cSchlage\u201d S-Series (S40-D), Saturn lever, satin chrome finish (US26D).\n-(3) Door silencers, \u201cBaldwin\u201d #4036.\n-Kickplate, \u201cYves\u201d Series 8400, 10\" [254] H x full width of door, brushed aluminum, mounted 1\" from door\u2019s bottom, both sides.\n-Floor door stop, \u201cYves\u201d #436, aluminum finish (use #438 if door has a threshold).",
+    "New Door 003:\n-Automatic door closer No.525M by Canaropa or equivalent c/w door stopper at a 90\u00b0 angle. Supplied and installed by G.C.\n-4\" x 16\" stainless steel push plate by \u201cRichelieu\u201d or equivalent.\n-12\" C/C pull handle w/ flat face #9030C32D by C.B.H. (pull handle to be installed first to ensure bolts are concealed).\n-12\" stainless steel kick plate on sales floor side.\n-White vinyl sign \u201cStaff Only\u201d or \u201cPrivet\u201d.\n-Flip down door holder."
+  ],
+  "extra_items": [
+    "Millwork and wood trim",
+    "Doors and hardware"
+  ],
+  "quantity_differences": [],
+  "precision": 0.0,
+  "recall": 0.0,
+  "overall_notes": "Exact description matching with quantity comparison tolerance of 5%."
+}

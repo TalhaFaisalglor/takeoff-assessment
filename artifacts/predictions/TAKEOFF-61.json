@@ -1,0 +1,99 @@
+{
+  "project_id": "TAKEOFF-61",
+  "project_name": "KEDPLASMA UNIVERSAL CITY, TX",
+  "set_name": "challenge",
+  "trade_scope": "Landscaping",
+  "input_files_used": [
+    "data/challenge_projects/TAKEOFF-61 - KEDPLASMA UNIVERSAL CITY, TX/Project Files/07.23.25 KED Universal City TX Bid Set.pdf"
+  ],
+  "ai_run": {
+    "run_id": "takeoff-61-baseline-v1",
+    "detected_trade_scope": "Landscaping",
+    "tools_or_models_used": [
+      "Python 3.13 stdlib CLI",
+      "Custom XML parsers for XLSX/DOCX",
+      "Lightweight PDF text extractor (no OCR, no external model)"
+    ],
+    "assumptions": [
+      "Some line items are trade-template fallbacks because the lightweight parser could not recover enough measurable text."
+    ],
+    "warnings": [
+      "No project area was detected in AI-visible files."
+    ],
+    "input_summary": {
+      "text_corpus_length": 4000,
+      "files_seen": 1
+    }
+  },
+  "line_items": [
+    {
+      "item_number": null,
+      "description": "Landscape planting",
+      "quantity": 1,
+      "unit": "EA",
+      "confidence": 0.2,
+      "source_reference": "07.23.25 KED Universal City TX Bid Set.pdf",
+      "drawing_reference": null,
+      "section_reference": null,
+      "division": null,
+      "category": "landscaping",
+      "raw_quantity": null,
+      "wastage": null,
+      "quantity_with_wastage": null,
+      "notes": [
+        "Fallback line item because no reliable structured extraction was found."
+      ]
+    },
+    {
+      "item_number": null,
+      "description": "Irrigation scope",
+      "quantity": 1,
+      "unit": "LS",
+      "confidence": 0.2,
+      "source_reference": "07.23.25 KED Universal City TX Bid Set.pdf",
+      "drawing_reference": null,
+      "section_reference": null,
+      "division": null,
+      "category": "landscaping",
+      "raw_quantity": null,
+      "wastage": null,
+      "quantity_with_wastage": null,
+      "notes": [
+        "Fallback line item because no reliable structured extraction was found."
+      ]
+    }
+  ],
+  "evaluation_when_gold_available": {
+    "matched_items": 0,
+    "missing_items": [],
+    "extra_items": [],
+    "quantity_differences": [],
+    "precision": 0.0,
+    "recall": 0.0,
+    "overall_notes": "No gold output available for challenge projects."
+  },
+  "human_review_stub": {
+    "status": "needs_review",
+    "reviewer_actions": [
+      "Confirm scope and trade split against drawings/specs",
+      "Replace proxy quantities with measured quantities",
+      "Mark missing items and delete false positives"
+    ],
+    "proposed_corrections_file": "review_packets/TAKEOFF-61_review.json",
+    "line_items_to_review": [
+      {
+        "description": "Landscape planting",
+        "predicted_quantity": 1,
+        "unit": "EA",
+        "confidence": 0.2
+      },
+      {
+        "description": "Irrigation scope",
+        "predicted_quantity": 1,
+        "unit": "LS",
+        "confidence": 0.2
+      }
+    ]
+  },
+  "project_manifest_path": "manifests/TAKEOFF-61.json"
+}

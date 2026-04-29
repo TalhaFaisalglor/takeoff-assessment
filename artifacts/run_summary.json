@@ -1,0 +1,285 @@
+{
+  "profile": "full",
+  "profile_label": "Full dataset",
+  "built_at_utc": "2026-04-29T21:14:03.004077+00:00",
+  "project_count": 28,
+  "sample_project_count": 3,
+  "challenge_project_count": 25,
+  "processed_projects": [
+    {
+      "takeoff_id": "TAKEOFF-16",
+      "project_name": "Sephora (Surprise, AZ)",
+      "set_name": "challenge",
+      "input_file_count": 1,
+      "gold_file_count": 0,
+      "predicted_item_count": 4,
+      "scored": false
+    },
+    {
+      "takeoff_id": "TAKEOFF-22",
+      "project_name": "AUTOZONE #10016",
+      "set_name": "challenge",
+      "input_file_count": 10,
+      "gold_file_count": 0,
+      "predicted_item_count": 1,
+      "scored": false
+    },
+    {
+      "takeoff_id": "TAKEOFF-30",
+      "project_name": "FRESENIUS NORTH DALLAS",
+      "set_name": "challenge",
+      "input_file_count": 3,
+      "gold_file_count": 0,
+      "predicted_item_count": 3,
+      "scored": false
+    },
+    {
+      "takeoff_id": "TAKEOFF-31",
+      "project_name": "WALMART 1783",
+      "set_name": "challenge",
+      "input_file_count": 236,
+      "gold_file_count": 0,
+      "predicted_item_count": 3,
+      "scored": false
+    },
+    {
+      "takeoff_id": "TAKEOFF-32",
+      "project_name": "APU Military and Veterans  Azusa",
+      "set_name": "challenge",
+      "input_file_count": 17,
+      "gold_file_count": 0,
+      "predicted_item_count": 2,
+      "scored": false
+    },
+    {
+      "takeoff_id": "TAKEOFF-33",
+      "project_name": "Foot Locker - Vintage Fair Mall Modesto",
+      "set_name": "challenge",
+      "input_file_count": 1,
+      "gold_file_count": 0,
+      "predicted_item_count": 1,
+      "scored": false
+    },
+    {
+      "takeoff_id": "TAKEOFF-35",
+      "project_name": "RACETRAC Palm Coast",
+      "set_name": "challenge",
+      "input_file_count": 3,
+      "gold_file_count": 0,
+      "predicted_item_count": 4,
+      "scored": false
+    },
+    {
+      "takeoff_id": "TAKEOFF-36",
+      "project_name": "Gucci Perm - Cherry Creek Shopping Center",
+      "set_name": "challenge",
+      "input_file_count": 150,
+      "gold_file_count": 0,
+      "predicted_item_count": 4,
+      "scored": false
+    },
+    {
+      "takeoff_id": "TAKEOFF-37",
+      "project_name": "TAKE 5 OIL CHANGE, SHEFFIELD OH",
+      "set_name": "challenge",
+      "input_file_count": 4,
+      "gold_file_count": 0,
+      "predicted_item_count": 1,
+      "scored": false
+    },
+    {
+      "takeoff_id": "TAKEOFF-39",
+      "project_name": "Nuuvi Modern Med Spa - Wayne, PA",
+      "set_name": "challenge",
+      "input_file_count": 132,
+      "gold_file_count": 0,
+      "predicted_item_count": 5,
+      "scored": false
+    },
+    {
+      "takeoff_id": "TAKEOFF-40",
+      "project_name": "TPS Rm 203 ETVS Renovation",
+      "set_name": "challenge",
+      "input_file_count": 4,
+      "gold_file_count": 0,
+      "predicted_item_count": 1,
+      "scored": false
+    },
+    {
+      "takeoff_id": "TAKEOFF-42",
+      "project_name": "Lake Placid Police Station",
+      "set_name": "challenge",
+      "input_file_count": 3,
+      "gold_file_count": 0,
+      "predicted_item_count": 2,
+      "scored": false
+    },
+    {
+      "takeoff_id": "TAKEOFF-45",
+      "project_name": "Ground Up Maverik Fuel Center Calexico",
+      "set_name": "challenge",
+      "input_file_count": 6,
+      "gold_file_count": 0,
+      "predicted_item_count": 1,
+      "scored": false
+    },
+    {
+      "takeoff_id": "TAKEOFF-47",
+      "project_name": "Woof Gang",
+      "set_name": "challenge",
+      "input_file_count": 109,
+      "gold_file_count": 0,
+      "predicted_item_count": 3,
+      "scored": false
+    },
+    {
+      "takeoff_id": "TAKEOFF-48",
+      "project_name": "MATTRESS FIRM - MERCED MALL",
+      "set_name": "challenge",
+      "input_file_count": 1,
+      "gold_file_count": 0,
+      "predicted_item_count": 1,
+      "scored": false
+    },
+    {
+      "takeoff_id": "TAKEOFF-49",
+      "project_name": "Maintenance Building, Gator Blvd & Main Street",
+      "set_name": "challenge",
+      "input_file_count": 2,
+      "gold_file_count": 0,
+      "predicted_item_count": 1,
+      "scored": false
+    },
+    {
+      "takeoff_id": "TAKEOFF-52",
+      "project_name": "LOVESAC CORNER SHOPPES AT STADIUM",
+      "set_name": "challenge",
+      "input_file_count": 2,
+      "gold_file_count": 0,
+      "predicted_item_count": 3,
+      "scored": false
+    },
+    {
+      "takeoff_id": "TAKEOFF-54",
+      "project_name": "TAKE 5 OIL CHANGE MASONRY",
+      "set_name": "challenge",
+      "input_file_count": 8,
+      "gold_file_count": 0,
+      "predicted_item_count": 1,
+      "scored": false
+    },
+    {
+      "takeoff_id": "TAKEOFF-55",
+      "project_name": "Coach House Renovation",
+      "set_name": "challenge",
+      "input_file_count": 2,
+      "gold_file_count": 0,
+      "predicted_item_count": 1,
+      "scored": false
+    },
+    {
+      "takeoff_id": "TAKEOFF-57",
+      "project_name": "TAKE 5 OIL CHANGE - COLLEGE STATION, TX",
+      "set_name": "challenge",
+      "input_file_count": 8,
+      "gold_file_count": 0,
+      "predicted_item_count": 1,
+      "scored": false
+    },
+    {
+      "takeoff_id": "TAKEOFF-58",
+      "project_name": "HMSL Employee Fitness",
+      "set_name": "challenge",
+      "input_file_count": 6,
+      "gold_file_count": 0,
+      "predicted_item_count": 2,
+      "scored": false
+    },
+    {
+      "takeoff_id": "TAKEOFF-60",
+      "project_name": "NW WTP OPERATORS BUILDING",
+      "set_name": "challenge",
+      "input_file_count": 8,
+      "gold_file_count": 0,
+      "predicted_item_count": 4,
+      "scored": false
+    },
+    {
+      "takeoff_id": "TAKEOFF-61",
+      "project_name": "KEDPLASMA UNIVERSAL CITY, TX",
+      "set_name": "challenge",
+      "input_file_count": 1,
+      "gold_file_count": 0,
+      "predicted_item_count": 2,
+      "scored": false
+    },
+    {
+      "takeoff_id": "TAKEOFF-63",
+      "project_name": "LEHI HIPPO VET CLINIC",
+      "set_name": "challenge",
+      "input_file_count": 3,
+      "gold_file_count": 0,
+      "predicted_item_count": 2,
+      "scored": false
+    },
+    {
+      "takeoff_id": "TAKEOFF-64",
+      "project_name": "Paradies- Beltline Market _ Village Retail- ATL Airport",
+      "set_name": "challenge",
+      "input_file_count": 2,
+      "gold_file_count": 0,
+      "predicted_item_count": 2,
+      "scored": false
+    },
+    {
+      "takeoff_id": "TAKEOFF-28",
+      "project_name": "Maryland Vision Institute",
+      "set_name": "sample",
+      "input_file_count": 6,
+      "gold_file_count": 2,
+      "predicted_item_count": 5,
+      "scored": true
+    },
+    {
+      "takeoff_id": "TAKEOFF-50",
+      "project_name": "Portland VA Surgical Center Rehabilitation",
+      "set_name": "sample",
+      "input_file_count": 32,
+      "gold_file_count": 2,
+      "predicted_item_count": 3,
+      "scored": true
+    },
+    {
+      "takeoff_id": "TAKEOFF-56",
+      "project_name": "JACK & JONES STATEN ISLAND, NY",
+      "set_name": "sample",
+      "input_file_count": 115,
+      "gold_file_count": 2,
+      "predicted_item_count": 2,
+      "scored": true
+    }
+  ],
+  "available_profiles": {
+    "full": {
+      "label": "Full dataset",
+      "description": "Process all 3 sample projects and all 25 challenge projects.",
+      "challenge_takeoff_ids": null
+    },
+    "minimum": {
+      "label": "Minimum acceptable submission",
+      "description": "Process all 3 sample projects and 5 challenge projects end-to-end.",
+      "challenge_takeoff_ids": [
+        "TAKEOFF-30",
+        "TAKEOFF-36",
+        "TAKEOFF-39",
+        "TAKEOFF-47",
+        "TAKEOFF-55"
+      ]
+    },
+    "samples": {
+      "label": "Samples only",
+      "description": "Process only the 3 sample projects with visible gold outputs.",
+      "challenge_takeoff_ids": []
+    }
+  }
+}

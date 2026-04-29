@@ -1,0 +1,155 @@
+{
+  "project_id": "TAKEOFF-60",
+  "project_name": "NW WTP OPERATORS BUILDING",
+  "set_name": "challenge",
+  "trade_scope": "Painting",
+  "input_files_used": [
+    "data/challenge_projects/TAKEOFF-60 - NW WTP OPERATORS BUILDING/Project Files/2449 Exhibit B - Technical Specifications (05.15.2025).PDF",
+    "data/challenge_projects/TAKEOFF-60 - NW WTP OPERATORS BUILDING/Project Files/2449 Exhibit C - SJC DR Commercial Clearance Sheet C2024-007402 (01.03.2025).PDF",
+    "data/challenge_projects/TAKEOFF-60 - NW WTP OPERATORS BUILDING/Project Files/2449 Exhibit D - SJC OD Paving _ Drainage Construction Permit COMM 24-92 (12.31.2024).PDF",
+    "data/challenge_projects/TAKEOFF-60 - NW WTP OPERATORS BUILDING/Project Files/2449 Exhibit E - SJRWMD Permit 21489-83 (03.25.2025).PDF",
+    "data/challenge_projects/TAKEOFF-60 - NW WTP OPERATORS BUILDING/Project Files/2449 IFB Document (FINAL_07112025).PDF",
+    "data/challenge_projects/TAKEOFF-60 - NW WTP OPERATORS BUILDING/Project Files/Bid Narrative.pdf",
+    "data/challenge_projects/TAKEOFF-60 - NW WTP OPERATORS BUILDING/Project Files/Project Description.txt",
+    "data/challenge_projects_supplemental/TAKEOFF-60 - NW WTP OPERATORS BUILDING/Project Files/2449 Exhibit A - Construction Plans (06.27.2025).PDF"
+  ],
+  "ai_run": {
+    "run_id": "takeoff-60-baseline-v1",
+    "detected_trade_scope": "Painting",
+    "tools_or_models_used": [
+      "Python 3.13 stdlib CLI",
+      "Custom XML parsers for XLSX/DOCX",
+      "Lightweight PDF text extractor (no OCR, no external model)"
+    ],
+    "assumptions": [
+      "Detected project area from source material: 1500 SF.",
+      "Used explicit quantity statements recovered from project description text where available."
+    ],
+    "warnings": [
+      "Project was discovered in multiple dataset folders and merged into one manifest."
+    ],
+    "input_summary": {
+      "text_corpus_length": 16547,
+      "files_seen": 8
+    }
+  },
+  "line_items": [
+    {
+      "item_number": null,
+      "description": "Ceiling paint",
+      "quantity": 1500,
+      "unit": "SF",
+      "confidence": 0.55,
+      "source_reference": "data/challenge_projects/TAKEOFF-60 - NW WTP OPERATORS BUILDING/Project Files/Project Description.txt",
+      "drawing_reference": null,
+      "section_reference": null,
+      "division": null,
+      "category": "painting",
+      "raw_quantity": null,
+      "wastage": null,
+      "quantity_with_wastage": null,
+      "notes": [
+        "Recovered from enumerated scope list in project description text; quantity is a proxy where no explicit quantity was provided."
+      ]
+    },
+    {
+      "item_number": null,
+      "description": "Interior wall paint",
+      "quantity": 1500,
+      "unit": "SF",
+      "confidence": 0.55,
+      "source_reference": "data/challenge_projects/TAKEOFF-60 - NW WTP OPERATORS BUILDING/Project Files/Project Description.txt",
+      "drawing_reference": null,
+      "section_reference": null,
+      "division": null,
+      "category": "painting",
+      "raw_quantity": null,
+      "wastage": null,
+      "quantity_with_wastage": null,
+      "notes": [
+        "Recovered from enumerated scope list in project description text; quantity is a proxy where no explicit quantity was provided."
+      ]
+    },
+    {
+      "item_number": null,
+      "description": "Door paint",
+      "quantity": 1,
+      "unit": "EA",
+      "confidence": 0.55,
+      "source_reference": "data/challenge_projects/TAKEOFF-60 - NW WTP OPERATORS BUILDING/Project Files/Project Description.txt",
+      "drawing_reference": null,
+      "section_reference": null,
+      "division": null,
+      "category": "painting",
+      "raw_quantity": null,
+      "wastage": null,
+      "quantity_with_wastage": null,
+      "notes": [
+        "Recovered from enumerated scope list in project description text; quantity is a proxy where no explicit quantity was provided."
+      ]
+    },
+    {
+      "item_number": null,
+      "description": "Exterior wall paint",
+      "quantity": 1500,
+      "unit": "SF",
+      "confidence": 0.55,
+      "source_reference": "data/challenge_projects/TAKEOFF-60 - NW WTP OPERATORS BUILDING/Project Files/Project Description.txt",
+      "drawing_reference": null,
+      "section_reference": null,
+      "division": null,
+      "category": "painting",
+      "raw_quantity": null,
+      "wastage": null,
+      "quantity_with_wastage": null,
+      "notes": [
+        "Recovered from enumerated scope list in project description text; quantity is a proxy where no explicit quantity was provided."
+      ]
+    }
+  ],
+  "evaluation_when_gold_available": {
+    "matched_items": 0,
+    "missing_items": [],
+    "extra_items": [],
+    "quantity_differences": [],
+    "precision": 0.0,
+    "recall": 0.0,
+    "overall_notes": "No gold output available for challenge projects."
+  },
+  "human_review_stub": {
+    "status": "needs_review",
+    "reviewer_actions": [
+      "Confirm scope and trade split against drawings/specs",
+      "Replace proxy quantities with measured quantities",
+      "Mark missing items and delete false positives"
+    ],
+    "proposed_corrections_file": "review_packets/TAKEOFF-60_review.json",
+    "line_items_to_review": [
+      {
+        "description": "Ceiling paint",
+        "predicted_quantity": 1500,
+        "unit": "SF",
+        "confidence": 0.55
+      },
+      {
+        "description": "Interior wall paint",
+        "predicted_quantity": 1500,
+        "unit": "SF",
+        "confidence": 0.55
+      },
+      {
+        "description": "Door paint",
+        "predicted_quantity": 1,
+        "unit": "EA",
+        "confidence": 0.55
+      },
+      {
+        "description": "Exterior wall paint",
+        "predicted_quantity": 1500,
+        "unit": "SF",
+        "confidence": 0.55
+      }
+    ]
+  },
+  "project_manifest_path": "manifests/TAKEOFF-60.json"
+}

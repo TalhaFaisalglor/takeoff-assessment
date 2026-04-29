@@ -1,0 +1,147 @@
+{
+  "project_id": "TAKEOFF-16",
+  "project_name": "Sephora (Surprise, AZ)",
+  "set_name": "challenge",
+  "trade_scope": "Painting; Plumbing",
+  "input_files_used": [
+    "data/challenge_projects/TAKEOFF-16 - Sephora (Surprise, AZ)/Project Files/PRASADA NORTH_2412_NEW_250624_PERMIT.pdf"
+  ],
+  "ai_run": {
+    "run_id": "takeoff-16-baseline-v1",
+    "detected_trade_scope": "Painting; Plumbing",
+    "tools_or_models_used": [
+      "Python 3.13 stdlib CLI",
+      "Custom XML parsers for XLSX/DOCX",
+      "Lightweight PDF text extractor (no OCR, no external model)"
+    ],
+    "assumptions": [
+      "Some line items are trade-template fallbacks because the lightweight parser could not recover enough measurable text."
+    ],
+    "warnings": [
+      "No project area was detected in AI-visible files."
+    ],
+    "input_summary": {
+      "text_corpus_length": 4000,
+      "files_seen": 1
+    }
+  },
+  "line_items": [
+    {
+      "item_number": null,
+      "description": "Wall paint system",
+      "quantity": 100,
+      "unit": "SF",
+      "confidence": 0.2,
+      "source_reference": "PRASADA NORTH_2412_NEW_250624_PERMIT.pdf",
+      "drawing_reference": null,
+      "section_reference": null,
+      "division": null,
+      "category": "painting",
+      "raw_quantity": null,
+      "wastage": null,
+      "quantity_with_wastage": null,
+      "notes": [
+        "Fallback line item because no reliable structured extraction was found."
+      ]
+    },
+    {
+      "item_number": null,
+      "description": "Ceiling paint system",
+      "quantity": 100,
+      "unit": "SF",
+      "confidence": 0.2,
+      "source_reference": "PRASADA NORTH_2412_NEW_250624_PERMIT.pdf",
+      "drawing_reference": null,
+      "section_reference": null,
+      "division": null,
+      "category": "painting",
+      "raw_quantity": null,
+      "wastage": null,
+      "quantity_with_wastage": null,
+      "notes": [
+        "Fallback line item because no reliable structured extraction was found."
+      ]
+    },
+    {
+      "item_number": null,
+      "description": "Plumbing fixtures",
+      "quantity": 1,
+      "unit": "EA",
+      "confidence": 0.2,
+      "source_reference": "PRASADA NORTH_2412_NEW_250624_PERMIT.pdf",
+      "drawing_reference": null,
+      "section_reference": null,
+      "division": null,
+      "category": "plumbing",
+      "raw_quantity": null,
+      "wastage": null,
+      "quantity_with_wastage": null,
+      "notes": [
+        "Fallback line item because no reliable structured extraction was found."
+      ]
+    },
+    {
+      "item_number": null,
+      "description": "Plumbing piping and drains",
+      "quantity": 8,
+      "unit": "FT",
+      "confidence": 0.2,
+      "source_reference": "PRASADA NORTH_2412_NEW_250624_PERMIT.pdf",
+      "drawing_reference": null,
+      "section_reference": null,
+      "division": null,
+      "category": "plumbing",
+      "raw_quantity": null,
+      "wastage": null,
+      "quantity_with_wastage": null,
+      "notes": [
+        "Fallback line item because no reliable structured extraction was found."
+      ]
+    }
+  ],
+  "evaluation_when_gold_available": {
+    "matched_items": 0,
+    "missing_items": [],
+    "extra_items": [],
+    "quantity_differences": [],
+    "precision": 0.0,
+    "recall": 0.0,
+    "overall_notes": "No gold output available for challenge projects."
+  },
+  "human_review_stub": {
+    "status": "needs_review",
+    "reviewer_actions": [
+      "Confirm scope and trade split against drawings/specs",
+      "Replace proxy quantities with measured quantities",
+      "Mark missing items and delete false positives"
+    ],
+    "proposed_corrections_file": "review_packets/TAKEOFF-16_review.json",
+    "line_items_to_review": [
+      {
+        "description": "Wall paint system",
+        "predicted_quantity": 100,
+        "unit": "SF",
+        "confidence": 0.2
+      },
+      {
+        "description": "Ceiling paint system",
+        "predicted_quantity": 100,
+        "unit": "SF",
+        "confidence": 0.2
+      },
+      {
+        "description": "Plumbing fixtures",
+        "predicted_quantity": 1,
+        "unit": "EA",
+        "confidence": 0.2
+      },
+      {
+        "description": "Plumbing piping and drains",
+        "predicted_quantity": 8,
+        "unit": "FT",
+        "confidence": 0.2
+      }
+    ]
+  },
+  "project_manifest_path": "manifests/TAKEOFF-16.json"
+}

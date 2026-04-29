@@ -1,0 +1,29 @@
+{
+  "status": "needs_review",
+  "reviewer_actions": [
+    "Confirm scope and trade split against drawings/specs",
+    "Replace proxy quantities with measured quantities",
+    "Mark missing items and delete false positives"
+  ],
+  "proposed_corrections_file": "review_packets/TAKEOFF-31_review.json",
+  "line_items_to_review": [
+    {
+      "description": "Interior Walls",
+      "predicted_quantity": 927,
+      "unit": "SF",
+      "confidence": 0.82
+    },
+    {
+      "description": "Restroom Ceilings",
+      "predicted_quantity": 117,
+      "unit": "SF",
+      "confidence": 0.82
+    },
+    {
+      "description": "Exposed Equipment & Storage Room Deck And Structure",
+      "predicted_quantity": 1060,
+      "unit": "SF",
+      "confidence": 0.82
+    }
+  ]
+}

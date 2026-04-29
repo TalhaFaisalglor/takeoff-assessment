@@ -1,0 +1,35 @@
+{
+  "status": "needs_review",
+  "reviewer_actions": [
+    "Confirm scope and trade split against drawings/specs",
+    "Replace proxy quantities with measured quantities",
+    "Mark missing items and delete false positives"
+  ],
+  "proposed_corrections_file": "review_packets/TAKEOFF-60_review.json",
+  "line_items_to_review": [
+    {
+      "description": "Ceiling paint",
+      "predicted_quantity": 1500,
+      "unit": "SF",
+      "confidence": 0.55
+    },
+    {
+      "description": "Interior wall paint",
+      "predicted_quantity": 1500,
+      "unit": "SF",
+      "confidence": 0.55
+    },
+    {
+      "description": "Door paint",
+      "predicted_quantity": 1,
+      "unit": "EA",
+      "confidence": 0.55
+    },
+    {
+      "description": "Exterior wall paint",
+      "predicted_quantity": 1500,
+      "unit": "SF",
+      "confidence": 0.55
+    }
+  ]
+}
